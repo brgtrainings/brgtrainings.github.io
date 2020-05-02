@@ -17,7 +17,12 @@ permalink: /blogs/:year/:month/:day/:title/
 
 google_analytics: # add your google analytics id
 
+paginate: 6
+paginate_path: "/blogs/page:num"
+permalink: /blogs/:year/:month/:day/:title/
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate

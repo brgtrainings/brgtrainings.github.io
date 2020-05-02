@@ -5,16 +5,23 @@
 
   <body>
 
-    <header>
-      {% include navbar.html %}
-    </header>
+    <div id="pagetop"></div>
+
+    {%- include navbar.html -%}
 
     <main>
       {{ content }}
     </main>
 
-    {%- include footer.html -%}
+    {% include footer.html %}
+
+    <a href="#pagetop" class="scroll" id="toTop">
+      <img src="/assets/img/top.png" id="toTopHover" style="opacity: 1;" />
+    </a>
+
     {% include javascripts.html %}
+
+    {% include youtube-video-modal.html %}
   </body>
 
 </html>
