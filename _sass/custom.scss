@@ -1,33 +1,41 @@
 /* Custom SCSS */
 $color1: #fff;
-$color2: #222a75;
-$color3: #0f2dff;
-$color4: red;
+$color2: #003d70;
 
 body {
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 14px;
-  margin-top: 100px;
 }
 
-// h1, h2, h3, h4, h5, h6 {
-//   font-family: "Montserrat", Arial, sans-serif;
-// }
-
+.social-links {
+  font-size: 1.8em;
+}
 .fa-twitter {
   color: #38A1F3;
-}
-.fa-youtube {
-  color: red;
 }
 .fa-facebook-f {
   color: #4267b2;
 }
 .fa-github {
-  color: #ccc;
+  color: #eee;
+}
+.fa-github.light {
+  color: #ddd;
 }
 .fa-linkedin-in {
-  color: #0077B5;
+  color: #0077B5
+}
+.fa-envelope {
+  color: #777;
+}
+.fa-instagram {
+  color: #E1306C;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-rss-square {
+  color: #ee802f;
 }
 
 .p-6 {
@@ -72,6 +80,23 @@ body {
 
 .img-full-width {
   width: 100%;
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.jacques-francois-font {
+  font-family: 'Jacques Francois Shadow', cursive;
+}
+
+.cover-image {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 // Page Top

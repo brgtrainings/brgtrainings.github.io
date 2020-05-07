@@ -1,21 +1,20 @@
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: BRG Trainings
+email: contact@brgtrainings.com
+description: >-
+  Training resource materials of BRG
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-image_base_url: /assets/img # ending without forward slash
+url: "https://brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
+image_base_url: /assets # local images: ending without forward slash
+# image_base_url: https://brgtrainings.sirv.com/Images/brgtrainings.com/mainsite # cdn images: ending without forward slash
 thumbnail_path: "profile_pic.png"
 
-twitter_username: jekyllrb
-github_username:  jekyll
+author: BRG
+author_url: https://freelancerbrg.com
 
 future: true # Show blog post of future date
 permalink: /blogs/:year/:month/:day/:title/
 
-google_analytics: # add your google analytics id
+google_analytics: UA-164576022-5
 
 paginate: 6
 paginate_path: "/blogs/page:num"

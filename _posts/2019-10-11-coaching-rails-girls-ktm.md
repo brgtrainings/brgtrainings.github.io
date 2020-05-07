@@ -16,6 +16,7 @@ published: true
 author: BRG
 thumbnail_path: blog/rails-girls-ktm.jpg
 cover_img: blog/railsgirlsktm/banner.jpg
+source: https://freelancerbrg.com/blogs/2019/10/11/coaching-rails-girls-ktm/
 ---
 
 {% include blogs/opening-para.html
@@ -35,11 +36,11 @@ Note: Click here for [Ruby Nepal Community website](http://rubynepal.org){:targe
 
 ### Event Day 1 - Installation
 
-The venue was chosen very far from my dwelling place. It was inside the [Banba Group](https://www.banbagroup.com/), a company that 
+The venue was chosen very far from my dwelling place. It was inside the [Banba Group](https://www.banbagroup.com/), a company that
 is solving hard problems on the cutting edge of technology. The host, [Jonathan Clarke](https://www.linkedin.com/in/
 jonathanclarkeireireland/){:target="_blank"} was cool and humble. Interestingly, he is from Ireland, married a Nepalese girl and kind of settled here.
 
-Day 1 in Rails Girls event is mostly dedicated to getting familiar with your participants and making sure that they are ready for Day 2, the actual workshop. During this day, the organizers or coaches help with the installation of all the pre-requisites required for the workshop. It mostly includes Git, Ruby, and Ruby on Rails. 
+Day 1 in Rails Girls event is mostly dedicated to getting familiar with your participants and making sure that they are ready for Day 2, the actual workshop. During this day, the organizers or coaches help with the installation of all the pre-requisites required for the workshop. It mostly includes Git, Ruby, and Ruby on Rails.
 
 ### Event Day 2 - Workshop
 
@@ -80,7 +81,7 @@ I was quite surprised with a few of the participants who really deployed their f
 After around two o'clock, lunch was served. It was in a package made in an Aluminium and had "MoMo" with french fries and potatoes.
 We had Pizzas too. It was the local ones. Overall, the lunch was light and delicious. Forgive me for not clicking it pics and sharing it with you.
 
-Post lunch, we continued with the workshop and focussed on `Pushing to GitHub` and `Hosting to Heroku` sections. The majority of the participants were able to finish the basic drill of the workshop. 
+Post lunch, we continued with the workshop and focussed on `Pushing to GitHub` and `Hosting to Heroku` sections. The majority of the participants were able to finish the basic drill of the workshop.
 
 We all coaches were happy to see with the proceeding.
 
@@ -88,7 +89,7 @@ The event was officially ended with a group photo.
 
 ### Ending Keynote
 
-My overall experience of coaching was wonderful at this event. I observed that the girls in Nepal have the potential too to meet with the industry expectations. Although the numbers were less for the first edition of Rails Girls Kathmandu as compare to the Pune edition, I have a feeling that it will grow as we organize such events in future.   
+My overall experience of coaching was wonderful at this event. I observed that the girls in Nepal have the potential too to meet with the industry expectations. Although the numbers were less for the first edition of Rails Girls Kathmandu as compare to the Pune edition, I have a feeling that it will grow as we organize such events in future.
 
 {% include blogs/ending-note.html
            para="Looking forward to the next edition of Rails Girls Kathmandu with our more girls."

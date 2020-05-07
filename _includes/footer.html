@@ -1,30 +1,29 @@
-<hr>
-<footer class="footer-section">
-  <div class="container pt-4">
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
+<footer class="footer-section bg-dark py-5">
+  <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
+      <div class="col-6 col-md-4 text-xs-center order-sm-2">
+        <div class="footer-logo text-center">
+          <p class="mb-1">
+            <a class="footer-text" href="/">{{ site.title }}</a>
+          </p>
+          <p class="footer-tagline text-center">
+            {{ site.data.siteinfo.tagline }}
+          </p>
+        </div>
       </div>
-
-      <div class="col-md-4">
-        {%- include social.html -%}
+      <div class="col-6 col-md-4 footer-social text-right text-xs-center order-sm-3">
+        {% for contacts_hash in site.data.siteinfo.contacts %}
+          {% assign contact = contacts_hash[1] %}
+          <a href="{{ contact.url }}" class="mr-2" target="_blank" alt="{{ contact.label }}">
+            <i class="{{ contact.class }}"></i>
+          </a>
+        {% endfor %}
       </div>
-
-      <div class="col-md-4">
-        <p>{{- site.description | escape -}}</p>
+      <div class="col-12 col-md-4 text-center py-2 order-sm-2">
+        <small class="text-white">
+          &copy; {{ site.year }} {{ site.title }}. All rights reserved.
+          Developed by <a href="{{ site.author_url }}">{{ site.author }}.</a>
+        </small>
       </div>
     </div>
   </div>

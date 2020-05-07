@@ -8,7 +8,7 @@ $(function(){
 
   $(document).scroll(function () {
     var $nav = $(".navbar.fixed-top");
-    if ($(this).scrollTop() > $nav.height() + 300 ) {
+    if ($(this).scrollTop() > $nav.height() + 100 ) {
       $('#toTop').css('display', 'block');
     } else {
       $('#toTop').css('display', '');

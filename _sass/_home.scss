@@ -4,70 +4,232 @@ body .container {
 body .footer-section .container {
   width: 65%;
 }
+main {
+  margin-top: 70px;
+}
 
 // Header SCSS
 .navbar {
-  height: 70px;
-  padding: 0;
-  background: #fff;
-  box-shadow: 4px 5px 30px rgba(0,0,0,0.1);
+  min-height: 70px;
+  background: $color2;
+
+  .navbar-brand {
+    .title {
+      color: yellow;
+      line-height: 1;
+      font-size: 25px;
+      font-family: 'Jacques Francois Shadow', cursive;
+    }
+  }
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  font-weight: 600;
 }
 .navbar-nav .nav-item.active .nav-link {
-  color: #111;
+  color: #fff;
   font-weight: 800;
-}
-.navbar-brand {
-  height: inherit;
-  margin-top: 20px;
-  padding-bottom: 0px;
-}
-.navbar-brand img {
-  height: 90%;
-  margin-left: 20%;
 }
 .navbar-nav {
   margin-left: 30%;
 }
-.navbar-toggler {
-  margin-right: 10px;
+.banner-section {
+  background: url($image_base_url + "/img/bg.jpg") no-repeat;
+  background-size: cover !important;
+  height: 550px;
 }
-.navbar-collapse .navbar-nav a {
-  color: black;
-  font-size: 16px;
+
+.section-padding {
+  padding: 70px 0px;
 }
-.navbar-collapse .nav-item {
-  margin-right: 10px;
+
+.td-navbar {
+  background: #003d70;
 }
-.navbar-collapse .nav-link {
-  padding: 5px;
-  font-weight: 500;
-  text-transform: uppercase;
+
+.navbar {
+  .navbar-brand {
+    .title {
+      color: yellow;
+      line-height: 1;
+      font-size: 25px;
+      font-family: 'Jacques Francois Shadow', cursive;
+    }
+  }
 }
-.navbar .dropdown {
-  margin-top: 3px;
-}
-.navbar .dropdown .dropdown-menu {
-  width: 200px;
-}
-.navbar .dropdown .dropdown-menu li:hover {
-  background: #eaeaea;
-}
+// Header SCSS
+// .navbar {
+//   height: 70px;
+//   padding: 0;
+//   background: transparent;
+// }
+// nav.navbar.fixed-top.scrolled {
+//   box-shadow: -21.213px 21.213px 30px 0 rgba(158, 158, 158, 0.3);
+//   background: #404044;
+//   transition: all 0.5s;
+// }
+// .navbar-nav .nav-item.active .nav-link {
+//   color: #fff;
+//   font-weight: 800;
+// }
+// .navbar-brand {
+//   height: inherit;
+//   padding-bottom: 0px;
+//   font-family: 'Niconne', cursive;
+//   font-size: 45px;
+//   color: yellow;
+
+//   &:hover {
+//     color: yellow;
+//   }
+// }
+// .navbar-brand img {
+//   height: 90%;
+//   margin-left: 20%;
+// }
+// .navbar-nav {
+//   margin-left: 30%;
+// }
+// .navbar-toggler {
+//   margin-right: 10px;
+// }
+// .navbar-collapse .navbar-nav a {
+//   color: #fff;
+//   font-size: 14px;
+// }
+// .navbar-collapse .nav-item {
+//   margin-right: 10px;
+// }
+// .navbar-collapse .nav-link {
+//   padding: 5px;
+//   font-weight: 500;
+//   text-transform: uppercase;
+// }
+// .navbar .dropdown {
+//   margin-top: 3px;
+// }
+// .navbar .dropdown .dropdown-menu {
+//   width: 200px;
+// }
+// .navbar .dropdown .dropdown-menu li:hover {
+//   background: #eaeaea;
+// }
 .btn.active:focus {
   box-shadow: none !important;
 }
 
-// Code Highlighting
-pre, code {
-  font-size: 15px;
-  border-radius: 3px;
-  background-color: #eef;
+.staticbanner {
+  background-color: rgba(0,0,0,0.4);
+  position: relative;
+  color: white;
+  height: 100%;
+
+  .inner {
+    padding-top: 170px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .hero-text-box {
+    padding: 3em 2em;
+    margin-top: 4%;
+    width: 60%;
+    margin-left: 20%;
+    background: rgba(0,0,0,0.5);
+
+    h1 {
+      display: block;
+      color: #fff;
+      line-height: 1;
+      font-size: 50px;
+      font-weight: 600;
+      font-family: 'Jacques Francois Shadow', cursive;
+    }
+    h2 {
+      display: block;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 25px;
+      margin-top: 10px;
+    }
+    .tagline {
+      color: yellow;
+      font-size: 20px;
+      font-weight: 500;
+      font-style: italic;
+      margin-top: 25px;
+      font-family: 'Gotu', sans-serif;
+    }
+  }
 }
-code {
-  padding: 1px 5px;
+
+.section-heading {
+  font-size: 25px;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-weight: 600;
 }
-pre {
-  padding: 8px 12px;
-  overflow-x: auto;
+
+.about-section {
+  .about_text {
+    .primary-text {
+      color: #333;
+      font-size: 18px;
+    }
+  }
+  .about_image {
+    padding-top: 20px;
+
+    img {
+      height: 350px;
+      width: auto;
+    }
+  }
+}
+
+.elevator-pitch {
+  .container {
+    width: 55%;
+  }
+  .pitch-text {
+    background: #fff;
+    color: #777;
+    margin-top: -45px;
+    border-radius: 100px;
+    padding: 30px 4em;
+    position: relative;
+    z-index: 20;
+    box-shadow: 0px 20px 50px rgba(153, 153, 153, 0.2);
+    border: 1px solid rgba(214, 214, 214, 0.11);
+
+    .fas {
+      font-size: 15px;
+    }
+    .quote-text {
+      font-size: 1.3em;
+    }
+  }
+}
+
+.learn-section {
+  .card {
+    border: none;
+  }
+  img {
+    margin: auto;
+  }
+  .lang-img {
+    height: 150px;
+    width: 170px;
+  }
 }
 
 .home-section {
@@ -76,15 +238,156 @@ pre {
   }
 }
 
+.blogs-highlights {
+  background: #eee;
+
+  .h4 {
+    font-size: 1.2em;
+  }
+  .h6 {
+    font-size: 14px;
+  }
+  .excerpt {
+    font-size: 13px;
+  }
+  .top-first-image {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 // footer css
 .footer-section {
+  background: #595959;
 
-  .footer-heading {
-    font-size: 18px;
-    margin-bottom: 15px;
-    margin-left: 2.1em;
+  .footer-text {
+    font-size: 30px;
+    color: #fff;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: 'Jacques Francois Shadow', cursive;
+    text-decoration: none;
   }
-  .contact-list, .social-media-list {
-    list-style: none;
+  .footer-tagline {
+    color: yellow;
+    font-size: 13px;
+    font-style: italic;
+    font-family: 'Gotu', sans-serif;
+  }
+  .footer-social {
+    a {
+      font-size: 18px;
+    }
+  }
+}
+
+.copyright {
+  background: #333;
+  color: #fff;
+  padding: 5px 0;
+
+  h4 {
+    margin-bottom: 0;
+    font-size: 11px;
+
+    a {
+      text-decoration: none;
+      color: yellow;
+    }
+  }
+}
+
+.block-to-contact {
+  a {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+  .fab {
+    font-size: 1.2em;
+  }
+}
+
+// Contact
+.contact-section {
+  margin-top: 65px;
+}
+.contact-section, .subscribe-section {
+  .container {
+    width: 60%;
+  }
+
+  .contact-info {
+    color: #666;
+    // border-radius: 0.5rem;
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .fas, .fab {
+      font-size: 2em;
+    }
+  }
+  .form-control {
+    font-size: 13px;
+    border-radius: 0;
+  }
+}
+// Subscribe
+.subscribe-section {
+  background: #888;
+
+  .contact-info {
+    h2 {
+      margin-top: 2em;
+      color: #fff;
+    }
+  }
+
+  #mc_embed_signup {
+    background: #888;
+
+    .mc-field-group {
+      width: 100%;
+    }
+
+    input {
+      border-radius: 0;
+    }
+
+    form {
+      padding: 0;
+    }
+
+    #mce-success-response {
+      color: #fff;
+    }
+    #mce-error-response {
+      color: darkred;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    div#mce-responses {
+      padding: 0;
+      margin: 0;
+    }
+
+    div.response {
+      margin: 0 0 1em 0;
+    }
+
+    .button {
+      margin-bottom: 0;
+    }
+
+    .indicates-required, label {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 300;
+    }
   }
 }

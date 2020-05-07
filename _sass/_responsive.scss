@@ -1,5 +1,16 @@
 @media (max-width: 992px) {
 }
+@media (min-width: 992px) {
+  .blog-post-page .container {
+    width: 65%;
+  }
+}
+@media (min-width: 1200px) {
+  .px-xl-6 {
+    padding-left: 5em !important;
+    padding-right: 5em !important;
+  }
+}
 
 @media (min-width: 768px) {
 }
@@ -8,17 +19,113 @@
   body .container, body .footer-section .container {
     width: 80%;
   }
-  .navbar-collapse {
-    background: #ddd;
-    z-index: 100;
-    padding: 2em 0;
-    margin-top: -10px;
-  }
   .navbar-toggler {
-    margin-top: -10px;
+    border-color: #fff;
+
+    .fa-bars {
+      color: #fff;
+    }
   }
-  .navbar-brand {
-    margin-top: 10px !important;
+  .navbar-nav {
+    margin-left: 0;
+
+    .nav-item .nav-link {
+      text-align: center;
+    }
+  }
+
+  .banner-section {
+    background: url($image_base_url + "/img/bg-md.jpg") no-repeat;
+    height: 430px;
+  }
+  .staticbanner {
+    padding-top: 80px;
+
+    .inner {
+      padding-top: 120px;
+    }
+
+    .hero-text-box {
+      margin-top: 10%;
+      width: 80%;
+      margin-left: 10%;
+      padding: 2em;
+
+      h1 {
+        font-size: 30px;
+      }
+      h2 {
+        font-size: 13px;
+        .mr-3 {
+          margin-right: 0.7rem !important;
+        }
+        .ml-3 {
+          margin-left: 0.7rem !important;
+        }
+        .mx-3 {
+          margin: 0 0.7rem !important;
+        }
+      }
+      .highlight {
+        font-size: 15px;
+      }
+    }
+  }
+  .contact-section {
+    .contact-info {
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+  .elevator-pitch {
+    .container {
+      width: 90%;
+    }
+    .pitch-text {
+      padding: 30px;
+
+      .quote-text {
+        font-size: 20px;
+      }
+    }
+  }
+  .contact-section, .subscribe-section {
+    .container {
+      width: 70%;
+    }
+  }
+  .block-to-contact {
+    h1 {
+      font-size: 1.8em;
+    }
+    a {
+      font-size: 1.2em;
+    }
+    .fab {
+      font-size: 1em;
+    }
+  }
+  .blog-post {
+    .container {
+      width: 90%;
+    }
+    .post-container {
+      padding: 2em 4em;
+    }
+  }
+  .blogs-highlights {
+    .container {
+      width: 90%;
+    }
+    .top-first-image {
+      height: 200px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .display-non-md {
+      display: none;
+    }
   }
 }
 
@@ -29,9 +136,139 @@
   .navbar-brand {
     margin-left: 1em !important;
   }
+  .display-non-mb {
+    display: none;
+  }
+  .sm-block {
+    display: block;
+  }
+  .banner-section {
+    background: url($image_base_url + "/img/bg-sm.jpg") no-repeat;
+    height: 400px;
+  }
+  .posts-page, .blog-post-page {
+    margin-top: 30px;
+
+    .cover-image {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .post-container {
+      padding: 2em 1em;
+    }
+  }
+
+  .posts-page {
+    .blog-card {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  .staticbanner {
+    .hero-text-box {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 8%;
+      padding: 1.5em;
+
+      .tagline {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 25px;
+      }
+      h2 {
+        font-size: 13px;
+        .mr-3 {
+          margin-right: 0.7rem !important;
+        }
+        .ml-3 {
+          margin-left: 0.7rem !important;
+        }
+        .mx-3 {
+          margin: 0 0.7rem !important;
+        }
+      }
+      .highlight {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .footer-section {
+    .footer-text {
+      font-size: 25px;
+    }
+  }
+
+  .elevator-pitch {
+    .container {
+      width: 100%;
+    }
+
+    .pitch-text {
+      padding: 20px;
+
+      .quote-text {
+        font-size: 18px;
+      }
+
+      .quote {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .contact-section {
+    margin-top: 0;
+  }
+  .contact-section, .subscribe-section {
+    .container {
+      width: 95%;
+    }
+  }
+  .subscribe-section .contact-info h2 {
+    margin-top: 0;
+  }
+  .text-xs-center {
+    text-align: center;
+  }
+  .block-to-contact h1 {
+    font-size: 1.3em;
+  }
+  .blog-post {
+    .container {
+      width: 100%;
+    }
+    .post-container {
+      padding: 2em 2em;
+    }
+  }
+
+  .blogs-highlights {
+    .post-title {
+      a {
+        font-size: 13px;
+      }
+    }
+    .blogs-highlight-right {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }
 
 @media(max-width: 360px) {
+  .elevator-pitch {
+    .pitch-text .quote-text {
+      font-size: 13px;
+    }
+    .pitch-text .quote .fas {
+      font-size: 10px;
+    }
+  }
 }
 
 // desktop
