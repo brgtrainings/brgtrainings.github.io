@@ -14,7 +14,7 @@ author_url: https://freelancerbrg.com
 future: true # Show blog post of future date
 permalink: /blogs/:year/:month/:day/:title/
 
-google_analytics: UA-164576022-5
+google_analytics: UA-164576022-1
 
 paginate: 6
 paginate_path: "/blogs/page:num"
