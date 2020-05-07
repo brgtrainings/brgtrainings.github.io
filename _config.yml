@@ -4,8 +4,8 @@ description: >-
   Training resource materials of BRG
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
-image_base_url: /assets # local images: ending without forward slash
-# image_base_url: https://brgtrainings.sirv.com/Images/brgtrainings.com/mainsite # cdn images: ending without forward slash
+# image_base_url: /assets # local images: ending without forward slash
+image_base_url: https://brgtrainings.sirv.com/brgtrainings.com/mainsite # cdn images: ending without forward slash
 thumbnail_path: "profile_pic.png"
 
 author: BRG
