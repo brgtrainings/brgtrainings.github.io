@@ -127,6 +127,15 @@
       display: none;
     }
   }
+  .about-section {
+    .profile-pic {
+      text-align: center;
+      img {
+        height: 220px;
+        width: auto;
+      }
+    }
+  }
 }
 
 @media (max-width: 550px) {

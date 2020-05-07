@@ -1,3 +1,38 @@
 .about-section {
   margin-top: 70px;
+
+  .primary-text {
+    font-size: 18px;
+  }
+  .secondary-text {
+    font-size: 15px;
+  }
+  .learning-approach {
+    background: #eee;
+
+    .card {
+      background: transparent;
+      border: 0;
+
+      .card-subtitle {
+        font-size: 13px;
+      }
+      .card-text {
+        font-size: 16px;
+      }
+      .features {
+        margin-bottom: 0;
+        list-style: none;
+        margin-left: -2em;
+
+        li {
+          line-height: 25px;
+        }
+        .fas {
+          color: green;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
 }
