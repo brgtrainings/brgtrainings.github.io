@@ -33,6 +33,9 @@
       text-align: center;
     }
   }
+  .navbar-brand {
+    font-size: 35px;
+  }
 
   .banner-section {
     background: url($image_base_url + "/img/bg-md.jpg") no-repeat;
@@ -140,10 +143,7 @@
 
 @media (max-width: 550px) {
   body .container, body .footer-section .container {
-    width: 90%;
-  }
-  .navbar-brand {
-    margin-left: 1em !important;
+    width: 95%;
   }
   .display-non-mb {
     display: none;
@@ -271,6 +271,19 @@
   h2 {
     font-size: 1.5em;
   }
+
+  .devtools {
+    .card-img-top {
+      margin: auto;
+      width: 70%;
+    }
+  }
+  .devtool {
+    p {
+      font-size: 14px;
+    }
+  }
+
 }
 
 @media(max-width: 360px) {
