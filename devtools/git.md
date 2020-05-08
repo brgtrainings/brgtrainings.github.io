@@ -35,6 +35,9 @@ A distributed system means that different users maintain their own repositories 
 from one central repository. Users automatically have full file tracking abilities and the project’s complete
 version history without needing access to a central server or network.
 
+__NOTE:__ There is another variety of version control system, _Centralized Version Control_.
+[Check this blog](https://medium.com/faun/centralized-vs-distributed-version-control-systems-a135091299f0){:target="_blank"} to read the basic difference between both.
+
 ## Install Git
 
 Every operating system has its own way of installing softwares. The recommended way is to install via system's package
