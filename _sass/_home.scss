@@ -38,7 +38,7 @@ main {
 .banner-section {
   background: url($image_base_url + "/img/bg.jpg") no-repeat;
   background-size: cover !important;
-  height: 550px;
+  height: 480px;
 }
 
 .section-padding {
@@ -59,63 +59,7 @@ main {
     }
   }
 }
-// Header SCSS
-// .navbar {
-//   height: 70px;
-//   padding: 0;
-//   background: transparent;
-// }
-// nav.navbar.fixed-top.scrolled {
-//   box-shadow: -21.213px 21.213px 30px 0 rgba(158, 158, 158, 0.3);
-//   background: #404044;
-//   transition: all 0.5s;
-// }
-// .navbar-nav .nav-item.active .nav-link {
-//   color: #fff;
-//   font-weight: 800;
-// }
-// .navbar-brand {
-//   height: inherit;
-//   padding-bottom: 0px;
-//   font-family: 'Niconne', cursive;
-//   font-size: 45px;
-//   color: yellow;
 
-//   &:hover {
-//     color: yellow;
-//   }
-// }
-// .navbar-brand img {
-//   height: 90%;
-//   margin-left: 20%;
-// }
-// .navbar-nav {
-//   margin-left: 30%;
-// }
-// .navbar-toggler {
-//   margin-right: 10px;
-// }
-// .navbar-collapse .navbar-nav a {
-//   color: #fff;
-//   font-size: 14px;
-// }
-// .navbar-collapse .nav-item {
-//   margin-right: 10px;
-// }
-// .navbar-collapse .nav-link {
-//   padding: 5px;
-//   font-weight: 500;
-//   text-transform: uppercase;
-// }
-// .navbar .dropdown {
-//   margin-top: 3px;
-// }
-// .navbar .dropdown .dropdown-menu {
-//   width: 200px;
-// }
-// .navbar .dropdown .dropdown-menu li:hover {
-//   background: #eaeaea;
-// }
 .btn.active:focus {
   box-shadow: none !important;
 }
@@ -127,7 +71,7 @@ main {
   height: 100%;
 
   .inner {
-    padding-top: 170px;
+    padding-top: 130px;
     position: absolute;
     z-index: 10;
     left: 0;
@@ -164,8 +108,11 @@ main {
       font-size: 20px;
       font-weight: 500;
       font-style: italic;
-      margin-top: 25px;
+      margin: 20px 0;
       font-family: 'Gotu', sans-serif;
+    }
+    .motto {
+      font-size: 1rem;
     }
   }
 }
