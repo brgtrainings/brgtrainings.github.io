@@ -1,0 +1,52 @@
+.courses {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif !important;
+  }
+  h2, h3, h4, h5, h6 {
+    color: #555;
+  }
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+
+  iframe {
+    height: 600px;
+    width: 100%;
+    border: 0;
+    box-shadow: 0 6px 22px 0 rgba(0, 0, 0, 0.1);
+  }
+  .quote-text {
+    font-size: 18px;
+  }
+  .key-points {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .course-key-points {
+    padding-left: 1rem;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .tab-content {
+    background-color: #f2f2f2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .nav-pills .nav-link  {
+    color: #333;
+
+    &:hover {
+      background-color: #777;
+      color: #fff;
+    }
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #777;
+    color: #fff;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 20px !important;
+  }
+}

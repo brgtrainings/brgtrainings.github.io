@@ -38,7 +38,7 @@ main {
 .banner-section {
   background: url($image_base_url + "/img/bg.jpg") no-repeat;
   background-size: cover !important;
-  height: 480px;
+  height: 550px;
 }
 
 .section-padding {
@@ -64,6 +64,47 @@ main {
   box-shadow: none !important;
 }
 
+.bg-dark {
+  background-color: #222;
+}
+
+.bg-white-shadow {
+  background-color: #fff;
+  box-shadow: 0 6px 22px 0 rgba(0,0,0,0.08);
+}
+
+.no-list-style {
+  list-style: none;
+}
+
+.text-light-dark {
+  color: #666;
+}
+
+.upcoming-course {
+  margin-top: -8rem;
+  position: relative;
+
+  .bg-white-shadow {
+    border-radius: 10px;
+  }
+
+  .row {
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+  }
+
+  .course-key-points {
+    padding-left: 1rem;
+    margin-bottom: 0;
+
+    li {
+      @extend .text-light-dark;
+      font-size: 16px;
+    }
+  }
+}
+
 .staticbanner {
   background-color: rgba(0,0,0,0.4);
   position: relative;
@@ -82,7 +123,7 @@ main {
 
   .hero-text-box {
     padding: 3em 2em;
-    margin-top: 4%;
+    margin-top: 2%;
     width: 60%;
     margin-left: 20%;
     background: rgba(0,0,0,0.5);

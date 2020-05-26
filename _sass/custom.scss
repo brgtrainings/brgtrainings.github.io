@@ -99,6 +99,16 @@ a {
   padding-left: 0;
 }
 
+.text-blue {
+  color: #013d6f;
+}
+.line-height-30 {
+  line-height: 30px;
+}
+.text-ccc {
+  color: #ccc !important;
+}
+
 // Page Top
 #toTop {
   display: none;
@@ -129,4 +139,5 @@ a {
 @import "blogs";
 @import "about";
 @import "util";
+@import "courses";
 @import "responsive";

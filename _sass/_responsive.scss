@@ -45,7 +45,7 @@
     padding-top: 80px;
 
     .inner {
-      padding-top: 120px;
+      padding-top: 60px;
     }
 
     .hero-text-box {
@@ -138,6 +138,21 @@
         width: auto;
       }
     }
+  }
+  .upcoming-course {
+    margin-top: -2rem;
+
+    .row {
+      padding: 2rem 1rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+    }
+    .course-key-points li {
+      font-size: 14px;
+    }
+
   }
 }
 
@@ -269,7 +284,7 @@
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .devtools {
@@ -281,6 +296,14 @@
   .devtool {
     p {
       font-size: 14px;
+    }
+  }
+
+  .upcoming-course {
+    margin-top: -2rem;
+
+    .col-md-6:nth-child(2) {
+      margin-top: 2rem;
     }
   }
 

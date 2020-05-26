@@ -16,6 +16,10 @@ permalink: /blogs/:year/:month/:day/:title/
 
 google_analytics: UA-164576022-1
 
+collections:
+  experiences:
+    output: true
+
 paginate: 6
 paginate_path: "/blogs/page:num"
 permalink: /blogs/:year/:month/:day/:title/
