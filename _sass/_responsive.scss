@@ -154,6 +154,7 @@
     }
 
   }
+
 }
 
 @media (max-width: 550px) {
@@ -162,6 +163,9 @@
   }
   .display-non-mb {
     display: none;
+  }
+  .profile-image-wrapper  {
+    padding: 3rem;
   }
   .sm-block {
     display: block;

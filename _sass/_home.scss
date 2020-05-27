@@ -8,6 +8,16 @@ main {
   margin-top: 70px;
 }
 
+
+.profile-image-wrapper  {
+  padding: 2rem 2rem 0 2rem;
+
+  img {
+    border: 1px solid #eee;
+    box-shadow: 0 6px 30px 0 rgba(0,0,0,0.15);
+  }
+}
+
 // Header SCSS
 .navbar {
   min-height: 70px;
@@ -90,7 +100,7 @@ main {
   }
 
   .row {
-    padding: 1.5rem 3rem;
+    padding: 5rem;
     border-radius: 5px;
   }
 
@@ -240,8 +250,8 @@ main {
     margin: auto;
   }
   .lang-img {
-    height: 150px;
-    width: 170px;
+    height: 110px;
+    width: 120px;
   }
 }
 
