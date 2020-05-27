@@ -105,6 +105,31 @@ main {
   }
 }
 
+.features {
+  .feature-item {
+    transition: 0.5s ease;
+
+    i {
+      color: #1e7bc9;
+    }
+    h5 {
+      font-weight: 400;
+      font-size: 1.1rem;
+    }
+
+    &:hover {
+      animation: shake 0.2s;
+      animation-iteration-count: 1;
+    }
+  }
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 .staticbanner {
   background-color: rgba(0,0,0,0.4);
   position: relative;
@@ -227,8 +252,6 @@ main {
 }
 
 .blogs-highlights {
-  background: #eee;
-
   .h4 {
     font-size: 1.2em;
   }
