@@ -20,10 +20,10 @@
     width: 80%;
   }
   .navbar-toggler {
-    border-color: #fff;
+    border-color: #333;
 
     .fa-bars {
-      color: #fff;
+      color: #666;
     }
   }
   .navbar-nav {
@@ -38,14 +38,11 @@
   }
 
   .banner-section {
-    background: url($image_base_url + "/img/bg-md.jpg") no-repeat;
     height: 430px;
   }
   .staticbanner {
-    padding-top: 80px;
-
     .inner {
-      padding-top: 60px;
+      padding-top: 40px;
     }
 
     .hero-text-box {
@@ -140,7 +137,7 @@
     }
   }
   .upcoming-course {
-    margin-top: -2rem;
+    margin-top: -8rem;
 
     .row {
       padding: 2rem 1rem;
@@ -171,7 +168,7 @@
     display: block;
   }
   .banner-section {
-    background: url($image_base_url + "/img/bg-sm.jpg") no-repeat;
+    // background: url($image_base_url + "/img/bg-sm.jpg") no-repeat;
     height: 400px;
   }
   .posts-page, .blog-post-page {
@@ -304,7 +301,7 @@
   }
 
   .upcoming-course {
-    margin-top: -2rem;
+    margin-top: -6rem;
 
     .col-md-6:nth-child(2) {
       margin-top: 2rem;

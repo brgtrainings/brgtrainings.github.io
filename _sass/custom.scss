@@ -3,8 +3,8 @@ $color1: #fff;
 $color2: #003d70;
 
 body {
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Nunito", Montserrat, Arial, sans-serif;
+  font-size: 16px;
 }
 
 .social-links {
@@ -199,10 +199,6 @@ a {
   text-decoration: none !important;
 }
 
-.jacques-francois-font {
-  font-family: 'Jacques Francois Shadow', cursive;
-}
-
 .cover-image {
   padding-right: 0;
   padding-left: 0;
@@ -222,6 +218,19 @@ a {
 }
 .bg-eee {
   background-color: #eee !important;
+}
+.bg-light {
+  background-color: rgb(249, 248, 252);
+}
+.text-light {
+  color: rgb(249, 248, 252);
+}
+
+.gradient-text {
+  font-size: 25px;
+  background: -webkit-linear-gradient(#888, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 // Page Top

@@ -3,26 +3,25 @@
     <a class="navbar-brand" href="/">
       <span class="title font-weight-bold">{{ site.title }}</span>
   	</a>
-     <a class="navbar-brand ml-5" href="/"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" data-wow-delay=".5s" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto mr-5">
         <li class="nav-item {% if page.page_name == 'home' %}active{% endif %}">
           <a class="nav-link" href="/">Home</a>
         </li>
-        <li class="nav-item {% if page.page_name == 'about' %}active{% endif %}">
+        <li class="nav-item ml-3 {% if page.page_name == 'about' %}active{% endif %}">
           <a class="nav-link" href="/about/">About</a>
         </li>
-        <li class="nav-item {% if page.page_name == 'devtools' %}active{% endif %}">
+        <li class="nav-item ml-3 {% if page.page_name == 'devtools' %}active{% endif %}">
           <a class="nav-link" href="/devtools/">Devtools</a>
         </li>
-        <li class="nav-item {% if page.page_name == 'blogs' %}active{% endif %}">
+        <li class="nav-item ml-3 {% if page.page_name == 'blogs' %}active{% endif %}">
           <a class="nav-link" href="/blogs/">Blogs</a>
         </li>
-        <li class="nav-item {% if page.page_name == 'contact' %}active{% endif %}">
+        <li class="nav-item ml-3 {% if page.page_name == 'contact' %}active{% endif %}">
           <a class="nav-link" href="/contact/">Contact</a>
         </li>
       </ul>

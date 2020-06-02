@@ -3,6 +3,11 @@ $(function(){
   // Activate wow.js
   new WOW().init();
 
+  // particles
+  particlesJS.load('particles-js', 'assets/js/particles.json', function () {
+    console.log('callback - particles.js config loaded');
+  });
+
   // Smooth-scroll initialization
   var scroll = new SmoothScroll('a[href*="#"]', { speed: 700, speedAsDuration: true });
 

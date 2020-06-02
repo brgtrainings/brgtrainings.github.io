@@ -1,13 +1,9 @@
 .courses {
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif !important;
-  }
+  line-height: 26px !important;
+
   h2, h3, h4, h5, h6 {
     color: #555;
   }
-
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
 
   iframe {
     height: 600px;
@@ -20,12 +16,10 @@
   }
   .key-points {
     font-size: 16px;
-    line-height: 25px;
   }
   .course-key-points {
     padding-left: 1rem;
     font-size: 16px;
-    line-height: 25px;
   }
   .tab-content {
     background-color: #f2f2f2;

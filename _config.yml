@@ -17,7 +17,7 @@ permalink: /blogs/:year/:month/:day/:title/
 google_analytics: UA-164576022-1
 
 collections:
-  experiences:
+  courses:
     output: true
 
 paginate: 6

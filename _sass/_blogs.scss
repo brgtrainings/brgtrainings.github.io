@@ -22,7 +22,7 @@
   color: #777;
 }
 .post-body {
-  font-size: 15px;
+  font-size: 16px;
 
   h1,
   h2,
@@ -37,11 +37,11 @@
   }
   p {
     color: #666;
+    line-height: 26px;
   }
   blockquote p {
     font-style: italic;
     padding: 0 2em;
-    line-height: 1.8em;
     color: #555;
   }
   blockquote .quote-bar {
@@ -57,7 +57,6 @@
     font-size: 18px;
     color: #333;
     font-style: italic;
-    font-family: "Oswald", sans-serif;
   }
 
   .image-wrapper .image-caption {

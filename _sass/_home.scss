@@ -1,9 +1,3 @@
-body .container {
-  width: 70%;
-}
-body .footer-section .container {
-  width: 65%;
-}
 main {
   margin-top: 70px;
 }
@@ -20,34 +14,37 @@ main {
 
 // Header SCSS
 .navbar {
-  min-height: 70px;
-  background: $color2;
+  padding: 1rem;
+  background: $color1;
 
   .navbar-brand {
     .title {
-      color: yellow;
+      color: #333;
       line-height: 1;
       font-size: 25px;
-      font-family: 'Jacques Francois Shadow', cursive;
     }
   }
 }
 .navbar-nav .nav-item .nav-link {
-  color: #fff;
+  color: #7b8b8e;
 }
 .navbar-nav .nav-item .nav-link:hover {
   font-weight: 600;
 }
 .navbar-nav .nav-item.active .nav-link {
-  color: #fff;
+  color: #7b8b8e;
   font-weight: 800;
 }
 .navbar-nav {
   margin-left: 30%;
 }
 .banner-section {
-  background: url($image_base_url + "/img/bg.jpg") no-repeat;
-  background-size: cover !important;
+  // background: rgb(185,31,106);
+  // background: linear-gradient(90deg, rgba(185,31,106,1) 0%, rgba(0,32,126,1) 100%, rgba(0,53,136,1) 100%);
+  // background: linear-gradient(90deg,#b4267c,#632695 80%);
+  background-color: #dd3d31;
+  background-image: url($image_base_url + "/img/overlay.svg"),linear-gradient(90deg, #b42680, #632695 80%);
+  background-size: cover;
   height: 550px;
 }
 
@@ -60,12 +57,13 @@ main {
 }
 
 .navbar {
+  box-shadow: 0 1px rgba(0,65,94,0.2);
+
   .navbar-brand {
     .title {
-      color: yellow;
+      color: #333;
       line-height: 1;
       font-size: 25px;
-      font-family: 'Jacques Francois Shadow', cursive;
     }
   }
 }
@@ -92,7 +90,7 @@ main {
 }
 
 .upcoming-course {
-  margin-top: -8rem;
+  margin-top: -10rem;
   position: relative;
 
   .bg-white-shadow {
@@ -141,13 +139,13 @@ main {
 }
 
 .staticbanner {
-  background-color: rgba(0,0,0,0.4);
+  // background-color: rgba(0,0,0,0.4);
   position: relative;
   color: white;
   height: 100%;
 
   .inner {
-    padding-top: 130px;
+    padding-top: 3rem;
     position: absolute;
     z-index: 10;
     left: 0;
@@ -161,7 +159,7 @@ main {
     margin-top: 2%;
     width: 60%;
     margin-left: 20%;
-    background: rgba(0,0,0,0.5);
+    // background: rgba(0,0,0,0.5);
 
     h1 {
       display: block;
@@ -169,7 +167,6 @@ main {
       line-height: 1;
       font-size: 50px;
       font-weight: 600;
-      font-family: 'Jacques Francois Shadow', cursive;
     }
     h2 {
       display: block;
@@ -185,7 +182,6 @@ main {
       font-weight: 500;
       font-style: italic;
       margin: 20px 0;
-      font-family: 'Gotu', sans-serif;
     }
     .motto {
       font-size: 1rem;
@@ -287,14 +283,12 @@ main {
     color: #fff;
     line-height: 25px;
     font-weight: 600;
-    font-family: 'Jacques Francois Shadow', cursive;
     text-decoration: none;
   }
   .footer-tagline {
     color: yellow;
     font-size: 13px;
     font-style: italic;
-    font-family: 'Gotu', sans-serif;
   }
   .footer-social {
     a {
@@ -423,9 +417,6 @@ main {
   }
 }
 .devtool {
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Open Sans", sans-serif;
-  }
   h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     margin-top: 2rem;
