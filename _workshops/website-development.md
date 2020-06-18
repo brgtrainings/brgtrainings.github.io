@@ -8,6 +8,7 @@ description: |-
 permalink: /workshops/website-development/
 duration: Two-Three Hours
 thumbnail: workshops/website-development.jpg
+video_url: https://www.youtube.com/embed/bSR-UqFLg3Q
 ---
 
 ## Overview
@@ -28,6 +29,16 @@ development process from scratch.
 {% include util/note.html
     note="Responsive website refer to the website which can be accessed properly in any platform like Desktop, Tablet or Mobile."
 %}
+
+#### What are going to build
+
+<div class="container py-0">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-md-12">
+      {% include util/embed-youtube.html url="https://www.youtube.com/embed/bSR-UqFLg3Q" %}
+    </div>
+  </div>
+</div>
 
 ## Mandatory Prerequisites
 
@@ -77,3 +88,5 @@ The workshop is divided into three stages.
 - What are type of Websites
 - Career in Web Development
 - What to do NEXT?
+
+### See you and keep up the learning spirit!
