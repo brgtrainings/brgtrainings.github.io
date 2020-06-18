@@ -21,6 +21,8 @@ collections:
     output: true
   devtools:
     output: true
+  workshops:
+    output: true
 
 paginate: 6
 paginate_path: "/blogs/page:num"
@@ -31,3 +33,4 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jemoji

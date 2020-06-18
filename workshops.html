@@ -1,0 +1,20 @@
+---
+layout: default
+title: Workshops
+permalink: /workshops/
+page_name: workshops
+---
+
+<section class="workshops-section py-6">
+  <div class="container">
+    <h1 class="text-center mb-1">Workshops</h1>
+    <h6 class="text-center text-muted mb-5">{ Hands-on Group Learning }</h6>
+    <div class="row justify-content-center">
+      {% for workshop in site.workshops %}
+        <div class="col-md-6 mb-5">
+          {% include workshop-card.html data=workshop %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
