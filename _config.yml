@@ -19,6 +19,8 @@ google_analytics: UA-164576022-1
 collections:
   courses:
     output: true
+  devtools:
+    output: true
 
 paginate: 6
 paginate_path: "/blogs/page:num"

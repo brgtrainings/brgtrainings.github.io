@@ -1,11 +1,10 @@
 ---
 layout: devtool
 title: Git
+date: 2020-05-13
 page_name: devtools
 permalink: /devtools/git/
 ---
-
-# Git
 
 Git is an __open source distributed version control system__ created in 2005 by Linus Torvalds and others from the Linux
 development community. Git can work with many types of projects, but it’s most commonly used for software source code.
