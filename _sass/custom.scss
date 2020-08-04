@@ -2,8 +2,12 @@
 $color1: #fff;
 $color2: #003d70;
 
+html, body {
+  height: 100%;
+}
+
 body {
-  font-family: "Nunito", Montserrat, Arial, sans-serif;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
 

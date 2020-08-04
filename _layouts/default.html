@@ -3,13 +3,10 @@
 
   {%- include head.html -%}
 
-  <body>
-
-    <div id="pagetop"></div>
-
-    {%- include navbar.html -%}
-
+  <body id="pagetop" class="d-flex flex-column">
     <main>
+      {%- include navbar.html -%}
+
       {{ content }}
     </main>
 
