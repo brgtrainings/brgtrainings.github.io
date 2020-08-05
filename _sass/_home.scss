@@ -1,6 +1,6 @@
-main {
+#page-content {
   flex: 1 0 auto;
-  margin-top: 70px;
+  margin-top: 57px;
 }
 
 
@@ -15,8 +15,8 @@ main {
 
 // Header SCSS
 .navbar {
-  padding: 1rem;
-  background: $color1;
+  padding: 0.5rem;
+  background: #f4f6ff;
 
   .navbar-brand {
     .title {
@@ -33,12 +33,33 @@ main {
   font-weight: 600;
 }
 .navbar-nav .nav-item.active .nav-link {
-  color: #7b8b8e;
+  border-bottom: 1px solid #111;
   font-weight: 800;
 }
 .navbar-nav {
   margin-left: 30%;
 }
+
+.navbar.ruby-course {
+  background-color: #a61717;
+  color: #fff;
+
+  .navbar-brand .title {
+    color: #fff;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #eee;
+
+    &:hover {
+      font-weight: 600;
+    }
+  }
+  .navbar-nav .nav-item.active .nav-link {
+    border-bottom: 1px solid #eee;
+    font-weight: 800;
+  }
+}
+
 .banner-section {
   // background: rgb(185,31,106);
   // background: linear-gradient(90deg, rgba(185,31,106,1) 0%, rgba(0,32,126,1) 100%, rgba(0,53,136,1) 100%);
@@ -51,10 +72,6 @@ main {
 
 .section-padding {
   padding: 70px 0px;
-}
-
-.td-navbar {
-  background: #003d70;
 }
 
 .navbar {

@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="container-fluid td-outer">
+  <div class="td-main">
+    <div class="row flex-xl-nowrap">
+      <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+        {% include course/sidebar.html %}
+      </div>
+
+      {% if page.layout == 'syllabus_page' %}
+        <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+          <p class="h5 mb-2">Quick Links</p>
+          <nav id="TableOfContents">
+            <ul>
+              <li>
+                <ul id="TOC">
+                  <!-- Links will be appended here-->
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      {% endif %}
+      <main class="col-12 col-md-9 col-xl-8 px-md-5" role="main">
+        <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
+          <ol class="breadcrumb spb-1">
+            <li class="breadcrumb-item active" aria-current="page">
+              {% if page.parent %}
+                <a href="{{ site.url }}{{ site.baseurl }}{{ page.parent }}">
+                  {{ page.parent  | remove: "/ruby" | remove: "/" | replace: "-", " " | capitalize }}
+                </a>
+                <i class="fas fa-chevron-right mx-2"></i>
+              {% endif %}
+              <a href="{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index' }}">
+                {{ page.title }}
+              </a>
+            </li>
+          </ol>
+        </nav>
+        <div class="td-content">
+
+          {{ content }}
+
+          <div class="mt-5">
+            {% if page.prev_link %}
+              <a href="{{ page.prev_link }}" class="btn btn-primary px-4 mr-5" role="button"><i class="fas mr-2 fa-backward"></i>Previous</a>
+            {% endif %}
+            {% if page.next_link %}
+              <a href="{{ page.next_link }}" class="btn btn-primary px-4" role="button">Next <i class="fas ml-1 fa-forward"></i></a>
+            {% endif %}
+          </div>
+
+          {% if site.disqus.shortname and page.comments == true  %}
+            <div id="comments" class="mt-3">
+              <h3>Help me to improve <span class="site-color font-weight-bold">{{ site.title }}</span>.</h3>
+              {% include disqus_comments.html %}
+            </div>
+          {% endif %}
+        </div>
+      </main>
+    </div>
+  </div>
+
+  {% include footer.html %}
+</div>

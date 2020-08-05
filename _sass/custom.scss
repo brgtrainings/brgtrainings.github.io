@@ -1,6 +1,7 @@
 /* Custom SCSS */
 $color1: #fff;
 $color2: #003d70;
+$site-color: #555;
 
 html, body {
   height: 100%;
@@ -237,6 +238,14 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.highlighter-rouge pre.highlight {
+  font-size: 0.85rem !important;
+  color: #333;
+}
+.highlight code {
+  color: #333;
+}
+
 // Page Top
 #toTop {
   display: none;
@@ -262,6 +271,8 @@ a {
   filter: alpha(opacity=0);
 }
 
+@import "docsy-jekyll";
+@import "syntax-highlighting";
 @import "animate.min";
 @import "home";
 @import "blogs";

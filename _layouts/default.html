@@ -4,13 +4,15 @@
   {%- include head.html -%}
 
   <body id="pagetop" class="d-flex flex-column">
-    <main>
+    <main id="page-content">
       {%- include navbar.html -%}
 
       {{ content }}
     </main>
 
-    {% include footer.html %}
+    {% if page.layout != "syllabus_page" and page.layout != "course" %}
+      {% include footer.html %}
+    {% endif %}
 
     <a href="#pagetop" class="scroll" id="toTop">
       <img src="/assets/img/top.png" id="toTopHover" style="opacity: 1;" />

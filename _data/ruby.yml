@@ -1,0 +1,65 @@
+- title: Ruby Basics
+  url: ruby
+  links:
+    - title: Section One
+      url: ruby/section-one
+      children:
+        - title: Getting Started
+          url: ruby/section-one/getting-started
+        - title: Introduction
+          url: ruby/section-one/intro
+        - title: History
+          url: ruby/section-one/history
+        - title: Features of Ruby
+          url: ruby/section-one/features
+        - title: Hello World
+          url: ruby/section-one/hello-world
+        - title: Interactive Ruby(IRB)
+          url: ruby/section-one/irb
+    - title: Section Two
+      url: ruby/section-two
+      children:
+        - title: Data Types
+          url: ruby/section-two/datatypes
+        - title: Variables and Constants
+          url: ruby/section-two/variables-constants
+        - title: Operators
+          url: ruby/section-two/operators
+        - title: Control Flow
+          url: ruby/section-two/control-flow
+        - title: Getting Input
+          url: ruby/section-two/getting-input
+        - title: Method
+          url: ruby/section-two/method
+        - title: Scope
+          url: ruby/section-two/scope
+        - title: Naming Conventions
+          url: ruby/section-two/naming-conventions
+        - title: Command Line Arguments
+          url: ruby/section-two/cmd-args
+    # - title: Section Three
+    #   url: ruby/section-three
+    #   children:
+    #     - title: Class and Object
+    #       url: ruby/section-three/class-object
+    #     - title: Module
+    #       url: ruby/section-three/module
+    #     - title: Package
+    #       url: ruby/section-three/package
+    #     - title: File Handling
+    #       url: ruby/section-three/file-handling
+    #     - title: Exceptions
+    #       url: ruby/section-three/exceptions
+    #     - title: Advanced Data Structures
+    #       url: ruby/section-three/adv-data-structures
+    # - title: Section Four
+    #   url: ruby/section-four
+    #   children:
+    #     - title: Style Guide
+    #       url: ruby/section-four/style-guide
+    #     - title: Standard Library
+    #       url: ruby/section-four/std-lib
+    #     - title: Python Package Index
+    #       url: ruby/section-four/package-index
+    #     - title: Popular Python Packages
+    #       url: ruby/section-four/popular-packages
