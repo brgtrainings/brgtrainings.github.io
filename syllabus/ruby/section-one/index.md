@@ -8,7 +8,11 @@ permalink: /ruby/section-one/
 navbar_class: ruby-course
 ---
 
-# Welcome to Section One (getting familiar with language)
+# Welcome to Section One
+
+{% include util/notice.html
+    primary="In this phase, we will try to get familiar with the language."
+%}
 
 __Hello!__
 

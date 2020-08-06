@@ -149,15 +149,15 @@ In Ruby there are three main boolean operators:
   For an `&&` ("and") to evaluate to `true`, both operand values must evaluate to `true`. For example:
 
   ```ruby
-  true && true # output: true
-  true && false # output: false
+  puts true && true # output: true
+  puts true && false # output: false
   ```
 
 - `||` which represents "OR"
   For an `||` ("or") to evaluate to `true`, only one operand value must evaluate to `true`. For example:
 
   ```ruby
-  false || true # output: true
+  puts false || true # output: true
   ```
 
 - `!`(pronounced as _bang_ operator) which represents "NOT".
@@ -165,24 +165,24 @@ In Ruby there are three main boolean operators:
   make it `false`; if it is `false`, then `!` will make it `true`. For example:
 
   ```ruby
-  !true # output: false
-  !false # output: true
+  puts !true # output: false
+  puts !false # output: true
   ```
 
 ### More Example
 
-  ```ruby
-  x = 10
-  y = 20
-  puts x == 10 && y == 20
-  puts x == 3 || y == 20
-  puts x == 3 && y == 20
-  puts x == 3 || y == 2
-  puts !x # output: false as using ! operator to non-zero result to false
-  ```
+```ruby
+x = 10
+y = 20
+puts x == 10 && y == 20
+puts x == 3 || y == 20
+puts x == 3 && y == 20
+puts x == 3 || y == 2
+puts !x # output: false as using ! operator to non-zero result to false
+```
 
-  {% include util/show-output.html id="and_or_not" caption="Output" %}
-  {% include util/output.html id="and_or_not" output="true\ntrue\nfalse\nfalse\nfalse" lang="ruby" %}
+{% include util/show-output.html id="and_or_not" caption="Output" %}
+{% include util/output.html id="and_or_not" output="true\ntrue\nfalse\nfalse\nfalse" lang="ruby" %}
 
 ### Best Practice
 
@@ -190,7 +190,7 @@ Use `&&/||` for boolean expressions, `and/or` for control flow. [(source)](https
 
 ```ruby
 # boolean expression
-if some_condition && some_other_condition
+if codition1 && condition2
   do_something
 end
 
