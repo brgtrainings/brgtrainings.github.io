@@ -1,15 +1,10 @@
 .highlight { background: #fff; }
-
-figure.highlight {
-  max-width: 100% !important;
+code.highlighter-rouge {
+  padding: 2px 5px !important;
 }
-.highlighter-rouge {
-  margin-bottom: 1rem;
-}
-.highlighter-rouge, figure.highlight {
-  padding: 1rem;
-  border: 1px solid rgba(0, 0, 0, .125);
-  background: #eee;
+.highlighter-rouge code {
+  color: #333;
+  // font-family: 'Inconsolata', monospace;
 }
 .highlighter-rouge .highlight { background: #eee; }
 

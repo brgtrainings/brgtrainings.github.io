@@ -238,12 +238,16 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.highlighter-rouge pre.highlight {
-  font-size: 0.85rem !important;
-  color: #333;
+.td-content figure.highlight {
+  max-width: 100% !important;
 }
-.highlight code {
-  color: #333;
+.td-content .highlighter-rouge {
+  margin-bottom: 1rem;
+}
+.td-content .highlighter-rouge, .td-content figure.highlight {
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, .125);
+  background: #eee;
 }
 
 // Page Top
