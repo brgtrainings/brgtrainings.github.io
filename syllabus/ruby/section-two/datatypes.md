@@ -145,7 +145,7 @@ In Ruby the boolean data type can have one of the two values: `true` or `false`.
 
 In Ruby there are three main boolean operators:
 
-- `&&` which represents "AND"
+- `&&` which represents `AND`
   For an `&&` ("and") to evaluate to `true`, both operand values must evaluate to `true`. For example:
 
   ```ruby
@@ -153,14 +153,14 @@ In Ruby there are three main boolean operators:
   puts true && false # output: false
   ```
 
-- `||` which represents "OR"
+- `||` which represents `OR`
   For an `||` ("or") to evaluate to `true`, only one operand value must evaluate to `true`. For example:
 
   ```ruby
   puts false || true # output: true
   ```
 
-- `!`(pronounced as _bang_ operator) which represents "NOT".
+- `!`(pronounced as _bang_ operator) which represents `NOT`.
   A `!` ("not") reverses the logical state of its operand i.e if a condition is `true`, then `!` will
   make it `false`; if it is `false`, then `!` will make it `true`. For example:
 
