@@ -33,7 +33,6 @@ Ruby supports a rich set of built-in operators.
 - Ternary operator
 - Range operators
 - Bitwise operators
-- Unary operators
 
 Let's learn about each type of operators in brief.
 
