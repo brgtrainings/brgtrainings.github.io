@@ -8,7 +8,7 @@ tags:
 description: Operators in Python
 permalink: /ruby/section-two/operators/
 prev_link: /ruby/section-two/variables-constants/
-next_link: /ruby/section-two/control-flow/
+next_link: /ruby/section-two/conditionals/
 navbar_class: ruby-course
 ---
 
