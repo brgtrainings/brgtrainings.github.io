@@ -103,6 +103,20 @@ A string is a sequence of letters/characters that represent a word or a sentence
 Strings are defined by enclosing a text within a single (`'`) or double (`"`) quotes.
 You can use both double quotes and single quotes to create strings. Strings are objects of class String.
 
+### String Interpolation
+
+It is the way to evaluate piece of Ruby code between the opening `#{` and closing `}` bits and the result will be embedded into the string surrounding it. It is also used to concatenate string.
+
+```ruby
+# String concatenation
+name = "Ruby"
+puts "Hello, " + name   # output: Hello, Ruby
+
+# String concatenation using String interpolation
+name = "Ruby"
+puts "Hello, #{name}"   # output: Hello, Ruby
+```
+
 ### Double vs Single quote string
 
 - Double quoted string allow substitution or string interpolation while single quote doesn't
