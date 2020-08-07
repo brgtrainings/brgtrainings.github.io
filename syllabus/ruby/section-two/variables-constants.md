@@ -67,7 +67,7 @@ An instance variable begins with `@` sign. It belongs to one instance of the cla
 from any methods of that instance. Uninitialized instance variables have the value `nil`.
 
 ```ruby
-class RubyGuruStudent
+class RubyStudent
   def initialize(id, name, addr)
     @student_id = id
     @student_name = name
@@ -82,8 +82,8 @@ class RubyGuruStudent
 end
 
 # Create Students
-stud1 = RubyGuruStudent.new(1001, "Foo", "Some Address One")
-stud2 = RubyGuruStudent.new(1002, "Bar", "Some Address Two")
+stud1 = RubyStudent.new(1001, "Foo", "Some Address One")
+stud2 = RubyStudent.new(1002, "Bar", "Some Address Two")
 
 stud1.display_details()
 stud2.display_details()
@@ -107,7 +107,7 @@ A class variable is shared by all the descendents of the class. An uninitialized
 an error.
 
 ```ruby
-class RubyGuruStudent
+class RubyStudent
   @@no_of_students = 0
 
   def initialize(name)
@@ -123,9 +123,9 @@ class RubyGuruStudent
 end
 
 # Create Students
-stud1 = RubyGuruStudent.new("Foo")
-stud2 = RubyGuruStudent.new("Bar")
-stud3 = RubyGuruStudent.new("Baz")
+stud1 = RubyStudent.new("Foo")
+stud2 = RubyStudent.new("Bar")
+stud3 = RubyStudent.new("Baz")
 
 stud1.total_students()
 stud2.total_students()
@@ -148,7 +148,7 @@ in a program. An uninitialized global variable will have a `nil` value.
 %}
 
 ```ruby
-$global_guru = "GyanGuru"
+$global_guru = "Guru"
 
 class RubyGuru
   def print_global
@@ -156,20 +156,20 @@ class RubyGuru
   end
 end
 
-class RubyGuruStudent
+class RubyStudent
   def print_global
-    puts "Global guru in RubyGuruStudent class is #{$global_guru}"
+    puts "Global guru in RubyStudent class is #{$global_guru}"
   end
 end
 
 teacher = RubyGuru.new
 teacher.print_global
-student = RubyGuruStudent.new
+student = RubyStudent.new
 student.print_global
 
 # Output
-Global guru in RubyGuru class is GyanGuru
-Global guru in RubyGuruStudent class is GyanGuru
+Global guru in RubyGuru class is Guru
+Global guru in RubyStudent class is Guru
 ```
 
 # Constant in Ruby
