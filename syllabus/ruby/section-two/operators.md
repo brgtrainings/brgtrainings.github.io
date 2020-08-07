@@ -117,11 +117,11 @@ They first convert their operands to boolean values and then perform the respect
 | &#124;&#124; | OR operator. If any of the two operands are non zero, then the condition becomes true. `or` is its alternative operator. | `(false or true)` is true |
 | ! | NOT operator. Use to reverses the logical state of its operand. `not` is its alternative operator. | `!(false && true)` is true |
 
-These are also called Boolean operators which work on Boolean datatype. See [Boolean Dataype](../datatypes#boolean).
+These are also called Boolean operators which work on Boolean datatype. See [Boolean Dataype](../datatypes#boolean){:target="_blank"}.
 
 ### Best Practice
 
-Use `&&/||` for boolean expressions, `and/or` for control flow. [(source)](https://github.com/rubocop-hq/ruby-style-guide#andor)
+Use `&&/||` for boolean expressions, `and/or` for control flow. [(source)](https://github.com/rubocop-hq/ruby-style-guide#andor){:target="_blank"}.
 
 ```ruby
 # boolean expression

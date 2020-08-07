@@ -35,8 +35,6 @@
           url: ruby/section-two/getting-input
         - title: Method
           url: ruby/section-two/method
-        - title: Scope
-          url: ruby/section-two/scope
         - title: Naming Conventions
           url: ruby/section-two/naming-conventions
         - title: Command Line Arguments
