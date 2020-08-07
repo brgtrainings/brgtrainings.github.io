@@ -1,0 +1,28 @@
+.td-main {
+  .td-content {
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 1rem;
+
+      thead tr th {
+        padding: 8px;
+        background-color: #555;
+        color: white;
+        border: 1px solid #ddd;
+      }
+      tbody tr td {
+        border: 1px solid #ddd;
+        padding: 5px 8px;
+      }
+      tr:nth-child(even){background-color: #f2f2f2;}
+      tr:hover {background-color: #ddd;}
+    }
+
+    .util-note {
+      table tbody tr td {
+        border: 0;
+      }
+    }
+  }
+}
