@@ -27,8 +27,10 @@
           url: ruby/section-two/operators
         - title: Conditionals
           url: ruby/section-two/conditionals
-        - title: Looping
+        - title: Loops
           url: ruby/section-two/loops
+        - title: Iterators
+          url: ruby/section-two/iterators
         - title: Getting Input
           url: ruby/section-two/getting-input
         - title: Method
