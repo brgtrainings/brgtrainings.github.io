@@ -180,7 +180,7 @@ The `::` operator is used to access the constants, instance methods and class me
 
 {% include util/note.html
     note="In Ruby, classes and methods may be considered constants too."
-    type="caution"
+    type="important"
 %}
 
 ```ruby

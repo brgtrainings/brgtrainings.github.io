@@ -7,8 +7,8 @@ tags:
   - input
 description: Getting input from user
 permalink: /ruby/section-two/getting-input/
-prev_link: /ruby/section-two/control-flow/
-next_link: /ruby/section-two/function/
+prev_link: /ruby/section-two/loops-and-iterators/
+next_link: /ruby/section-two/method/
 navbar_class: ruby-course
 # comments: true
 ---

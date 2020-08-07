@@ -6,7 +6,7 @@ parent: /ruby/section-two/
 tags:
   - method
 description: Method in Ruby
-permalink: /ruby/section-two/function/
+permalink: /ruby/section-two/method/
 prev_link: /ruby/section-two/getting-input/
 next_link: /ruby/section-two/scope/
 navbar_class: ruby-course
