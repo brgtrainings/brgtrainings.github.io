@@ -30,11 +30,6 @@ Where
     note="This concept forms the basis in writing Command Line Interface(CLI) applications."
 %}
 
-Ruby command line argument has following different parts.
-
-- Varying the number of arguments (`ARGV` Array)
-- Accessing the arguments
-
 ## Varying the number of arguments (`ARGV` Array)
 
 `ARGV` stands for ARGument Vector which is a one-dimensional Array.
@@ -44,11 +39,20 @@ It contains the full list of arguments in the order as passed as arguments.
     note="All the arguments are in the string form. If you are passing numeric value then it need to be converted."
 %}
 
+## Key points to remember
+
+- `ARGV` is an array which contains all the argument passed while running Ruby program.
+- You can use `ARGV.length` method to find the total arguments passed.
+- You can use `ARGV.each` method to iterate over the list of arguments and then perform operation on each argument.
+- You can use `__FILE__` pseudo variable to access the file name from Ruby program.
+  See [Ruby Pseudo Variables](../variables-constants#ruby-pseudo-variables){:target="_blank"}.
+
 ### Example
 
-Create a file named `languages.rb` and write following lines.
+Create a file named `languages.rb` and type following lines.
 
 ```ruby
+puts "File name is: #{__FILE__}"
 puts "Total arguments length: #{ARGV.length}"
 puts "Arguments are:"
 
@@ -63,6 +67,7 @@ And, run `languages.rb` as
 ruby cmd.rb Ruby C Python JavaScript
 
 # output:
+# File name is: languages.rb
 # Total arguments length: 4
 # Arguments are:
 # Ruby
