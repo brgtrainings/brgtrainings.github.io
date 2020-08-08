@@ -171,7 +171,7 @@ Above example can be translated as
 
 ```ruby
 num = 5
-if num === 5
+if num < 5
   puts "Number is less than 5"
 elsif num == 5
   puts "Number equals to 5"
