@@ -197,7 +197,20 @@ puts A_CONST
 
 So, in above case, the value of constant `A_CONST` changes after second assignment with only warning.
 
-## NOTES
+# Ruby Pseudo Variables
+
+These are special type of variables but behave like constants as we cannot assign any value to these variables.
+
+Ruby has following Pseudo variables:
+
+- `self`: The receiver object of the current method.
+- `true`: Representing `true` value
+- `false`: Representing `false` value
+- `nil`: Representing nothing
+- `__FILE__`: The name of the current Ruby program.
+- `__LINE__`: The current line number in the Ruby program.
+
+## Key points to remember
 
 - Constants defined within a class or module may be accessed anywhere within the class or module.
 - Outside the class or module, they may be accessed using the scope operator, `::` prefixed by an expression
