@@ -22,7 +22,7 @@ a file as
 puts 'Hello World'
 ```
 
-## Do it yourself
+## Run the Ruby program
 
 Create a file name as `hello.rb` in your favorite editor or through command line editor like `vim`.
 
@@ -34,6 +34,8 @@ Then, type following line in the file:
 ```ruby
 puts 'Hello World' # or puts "Hello World"
 ```
+
+{% include util/note.html note="Ruby uses '#' symbol as single line comment." %}
 
 Run the program in the terminal or shell as:
 
@@ -52,6 +54,5 @@ ruby hello.rb
 
 - File extension of Ruby program is `.rb`
 - To print strings into the standard output (i.e terminal), you can use `puts`,
-  a portmanteau of "put string".
+  which means "put string".
 - `#` is used as comment operator
-- Single and double quotes can be used to define String.
