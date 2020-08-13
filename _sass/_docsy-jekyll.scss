@@ -2750,10 +2750,6 @@ html body .md-typeset .headerlink {
     padding-left: 0
 }
 
-.btn {
-    border-radius: 1rem
-}
-
 .btn-lg,
 .btn-group-lg>.btn {
     border-radius: 2rem
@@ -3088,16 +3084,6 @@ html body .md-typeset .headerlink {
 .pageinfo-dark {
   border-style: solid;
   border-color: #403f4c
-}
-
-footer {
-  min-height: 150px
-}
-
-@media(max-width:991.98px) {
-  footer {
-    min-height: 200px
-  }
 }
 
 @media(min-width:768px) {

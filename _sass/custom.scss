@@ -1,6 +1,10 @@
 /* Custom SCSS */
+// https://colorhunt.co/palette/167893
 $color1: #fff;
-$color2: #003d70;
+$color2: #111;
+$color3: #142850;
+$color4: #365586;
+$color5: #7bff98;
 $site-color: #555;
 
 html, body {
@@ -10,6 +14,12 @@ html, body {
 body {
   font-family: "Nunito", Helvetica, Arial, sans-serif;
   font-size: 16px;
+  background-color: $color3;
+  scroll-behavior: smooth;
+}
+
+.secondary-color {
+  color: $color5;
 }
 
 .social-links {
@@ -196,10 +206,6 @@ body {
   width: 100%;
 }
 
-.btn {
-  border-radius: 0 !important;
-}
-
 a {
   text-decoration: none !important;
 }
@@ -230,7 +236,9 @@ a {
 .text-light {
   color: rgb(249, 248, 252);
 }
-
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
 .gradient-text {
   font-size: 25px;
   background: -webkit-linear-gradient(#888, #333);
