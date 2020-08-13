@@ -14,8 +14,13 @@ html, body {
 body {
   font-family: "Nunito", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  background-color: $color3;
   scroll-behavior: smooth;
+}
+body.home_body {
+  background-color: $color3;
+}
+body.default_body {
+  margin-top: 60px;
 }
 
 .secondary-color {

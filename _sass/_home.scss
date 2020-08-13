@@ -1,11 +1,15 @@
 #page-content {
   flex: 1 0 auto;
-  // margin-top: 57px;
 }
 
-header {
+header.home_header {
   background: linear-gradient(180deg, $color4, $color3);
   height: 550px;
+}
+header.default_header {
+  .navbar {
+    background: $color4;
+  }
 }
 
 .profile-image-wrapper  {
@@ -37,7 +41,7 @@ header {
   }
 }
 .navbar-nav .nav-item .nav-link {
-  color: #ddd;
+  color: #eee !important;
 }
 .navbar-nav .nav-item .nav-link:hover {
   font-weight: 600;

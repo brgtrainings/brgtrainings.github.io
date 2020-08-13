@@ -3,9 +3,24 @@
 
   {%- include head.html -%}
 
-  <body id="pagetop" class="d-flex flex-column">
-    <div id="page-content">
-      <header>
+  <body id="pagetop" class="d-flex flex-column {% if page.page_name == 'home' %}home{% else %}default{% endif %}_body">
+    {% if page.layout != "syllabus_page" and page.layout != "course" %}
+      <div id="page-content">
+        <header class="{% if page.page_name == 'home' %}home{% else %}default{% endif %}_header">
+          {%- include navbar.html -%}
+
+          {% if page.page_name == "home" %}
+            {% include staticbanner.html %}
+          {% endif %}
+        </header>
+        <main>
+          {{ content }}
+        </main>
+      </div>
+
+      {% include footer.html %}
+    {% else %}
+      <header class="{% if page.page_name == 'home' %}home{% else %}default{% endif %}_header">
         {%- include navbar.html -%}
 
         {% if page.page_name == "home" %}
@@ -15,10 +30,6 @@
       <main>
         {{ content }}
       </main>
-    </div>
-
-    {% if page.layout != "syllabus_page" and page.layout != "course" %}
-      {% include footer.html %}
     {% endif %}
 
     <a href="#pagetop" class="scroll" id="toTop">

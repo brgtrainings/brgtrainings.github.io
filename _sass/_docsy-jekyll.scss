@@ -3131,3 +3131,11 @@ html body .md-typeset .headerlink {
 .td-content blockquote p {
   font-style: italic;
 }
+.td-toc {
+  background-color: rgba(48, 99, 142, 0.03);
+
+  .md-nav .md-nav__item:nth-child(odd) {
+    background: #ededed;
+    color: #111;
+  }
+}

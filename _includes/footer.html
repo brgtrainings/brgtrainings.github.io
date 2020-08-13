@@ -1,4 +1,5 @@
-<footer class="footer-section pt-6 pb-3">
+
+<footer class="footer-section {% if page.page_name == 'home' %}pt-6 pb-3{% else %}py-4{% endif %}{% if page.layout != 'non-course' and page.layout != 'default' %} row{% endif %}">
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-4 text-xs-center order-md-1">
