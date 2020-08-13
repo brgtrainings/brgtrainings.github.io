@@ -11,46 +11,31 @@
         {% include staticbanner.html %}
       {% endif %}
     </header>
-    <main>
+    <main class="tutorial-body">
       <div class="container-fluid td-outer">
         <div class="td-main">
-          <div class="row flex-xl-nowrap">
-            <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
-              {% include course/sidebar.html %}
+          <div class="row justify-content-center flex-xl-nowrap">
+            <div class="d-none d-xl-block col-md-3 col-xl-3 td-toc d-print-none">
+              <nav id="TableOfContents">
+                <p class="h4 mb-2 text-muted">Table of Contents</p>
+                <ul>
+                  <li>
+                    <ul id="TOC">
+                      <!-- Links will be appended here-->
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
             </div>
 
-            {% if page.layout == 'syllabus_page' %}
-              <div class="d-none d-xl-block col-xl-3 td-toc d-print-none">
-                <p class="h5 mb-2">Quick Links</p>
-                <nav id="TableOfContents">
-                  <ul>
-                    <li>
-                      <ul id="TOC">
-                        <!-- Links will be appended here-->
-                      </ul>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            {% endif %}
-            <main class="col-12 col-md-9 col-xl-7 px-md-5" role="main">
-              <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
-                <ol class="breadcrumb spb-1">
-                  <li class="breadcrumb-item active" aria-current="page">
-                    {% if page.parent %}
-                      <a href="{{ site.url }}{{ site.baseurl }}{{ page.parent }}">
-                        {{ page.parent  | remove: "/ruby" | remove: "/" | replace: "-", " " | capitalize }}
-                      </a>
-                      <i class="fas fa-chevron-right mx-2"></i>
-                    {% endif %}
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index' }}">
-                      {{ page.title }}
-                    </a>
-                  </li>
-                </ol>
-              </nav>
+            <main class="col-12 col-md-9 col-xl-6 px-md-2 pr-md-4" role="main">
               <div class="td-content">
+                <h1 id="{{ page.description | downcase | split: ' ' | join: '-' }}">{{ page.description }}</h1>
 
+                {% if page.tags %}
+                  <div class="tags mb-4"></div>
+                {% endif %}
+                <hr>
                 {{ content }}
 
                 <div class="mt-5">
@@ -76,6 +61,10 @@
         {% include footer.html %}
       </div>
     </main>
+
+    {% include course/toc.html %}
+    {% include course/tags.html %}
+
 
     <a href="#pagetop" class="scroll" id="toTop">
       <img src="/assets/img/top.png" id="toTopHover" style="opacity: 1;" />

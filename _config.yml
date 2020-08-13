@@ -50,6 +50,9 @@ contacts:
 collections:
   courses:
     output: true
+  tutorials:
+    permalink: /collections/:title/
+    output: true
   devtools:
     output: true
   workshops:

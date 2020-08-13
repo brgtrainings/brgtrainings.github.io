@@ -1,5 +1,42 @@
 .td-main {
   .td-content {
+    h1,h2,h3,h4,h5,h6,p,ul,div {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    p, ul, div {
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: 400;
+    }
+    p, ul {
+      color: #444;
+    }
+    h1 {
+      font-weight: bold;
+    }
+    h2 {
+      margin-top: 2.5rem;
+      font-weight: bold;
+
+      &:before {
+        height: 0;
+        margin-top: 0;
+      }
+    }
+    h3 {
+      margin-top: 2.25rem;
+      margin-bottom: 0.6rem;
+      font-weight: 600;
+
+      &:before {
+        height: 0;
+        margin-top: 0;
+      }
+    }
+    .td-content > ul {
+      max-width: 100%;
+    }
     table {
       border-collapse: collapse;
       width: 100%;
@@ -23,6 +60,23 @@
       table tbody tr td {
         border: 0;
       }
+    }
+  }
+
+  #TableOfContents {
+    .md-nav__item a.md-nav__link:hover {
+      background-color: #eee;
+      font-weight: 600;
+    }
+  }
+
+  #td-sidebar-menu .td-sidebar-link {
+    padding: 2px 1px 2px 5px;
+
+    &:hover {
+      background-color: #eee;
+      color: #333;
+      font-weight: 600;
     }
   }
 }

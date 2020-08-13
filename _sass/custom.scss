@@ -23,6 +23,10 @@ body.default_body {
   margin-top: 60px;
 }
 
+b, strong {
+  font-weight: bold;
+}
+
 .secondary-color {
   color: $color5;
 }
@@ -259,8 +263,8 @@ a {
 }
 .td-content .highlighter-rouge, .td-content figure.highlight {
   padding: 1rem;
-  border: 1px solid rgba(0, 0, 0, .125);
   background: #eee;
+  border-radius: 5px;
 }
 
 // Page Top
@@ -291,6 +295,7 @@ a {
 @import "docsy-jekyll";
 @import "syntax-highlighting";
 @import "animate.min";
+@import "bootstrap-overrides";
 @import "home";
 @import "blogs";
 @import "about";
