@@ -20,10 +20,10 @@
     width: 80%;
   }
   .navbar-toggler {
-    border-color: #333;
+    border-color: #eee !important;
 
     .fa-bars {
-      color: #666;
+      color: #eee;
     }
   }
   .navbar-nav {
@@ -158,6 +158,9 @@
   body .container, body .footer-section .container {
     width: 95%;
   }
+  header.home_header {
+    height: 550px;
+  }
   .display-non-mb {
     display: none;
   }
@@ -172,34 +175,13 @@
     height: 500px;
   }
 
-  .staticbanner {
-    .hero-text-box {
-      width: 80%;
-      margin-left: 10%;
-      margin-top: 8%;
-      padding: 1.5em;
-
-      .tagline {
-        font-size: 16px;
-      }
-      h1 {
-        font-size: 25px;
-      }
-      h2 {
-        font-size: 13px;
-        .mr-3 {
-          margin-right: 0.7rem !important;
-        }
-        .ml-3 {
-          margin-left: 0.7rem !important;
-        }
-        .mx-3 {
-          margin: 0 0.7rem !important;
-        }
-      }
-      .highlight {
-        font-size: 15px;
-      }
+  .masthead {
+    h1 {
+      font-size: 2.5rem;
+      padding: 1rem;
+    }
+    h3 {
+      font-size: 1.5rem;
     }
   }
 

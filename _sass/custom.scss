@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 16px;
   scroll-behavior: smooth;
 }
@@ -21,10 +21,6 @@ body.home_body {
 }
 body.default_body {
   margin-top: 60px;
-}
-
-b, strong {
-  font-weight: bold;
 }
 
 .secondary-color {
@@ -247,6 +243,9 @@ a {
 }
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+.text-white-80 {
+  color: rgba(255, 255, 255, 0.80);
 }
 .gradient-text {
   font-size: 25px;
