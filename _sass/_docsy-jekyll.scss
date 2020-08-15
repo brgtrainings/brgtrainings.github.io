@@ -3174,3 +3174,35 @@ html body .md-typeset .headerlink {
     }
   }
 }
+.course-body {
+  .td-sidebar {
+    background: none;
+    border-right: 0;
+
+    #td-sidebar-menu {
+      padding: 1rem 0.8rem;
+      background-color: #f6f6f6;
+      border-radius: 5px;
+
+      ul {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .td-toc {
+    background: none;
+    border-left: 0;
+
+    #TableOfContents {
+      padding: 1rem 0.8rem;
+      background-color: #f6f6f6;
+      border-radius: 5px;
+
+      ul {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+

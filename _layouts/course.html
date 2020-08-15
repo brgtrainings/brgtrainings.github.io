@@ -11,18 +11,18 @@
         {% include staticbanner.html %}
       {% endif %}
     </header>
-    <main>
+    <main class="course-body">
       <div class="container-fluid td-outer">
         <div class="td-main">
           <div class="row flex-xl-nowrap">
-            <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none pr-0">
               {% include course/sidebar.html %}
             </div>
 
             {% if page.layout == 'syllabus_page' %}
-              <div class="d-none d-xl-block col-xl-3 td-toc d-print-none">
-                <p class="h5 mb-2">Quick Links</p>
+              <div class="d-none d-xl-block col-md-3 col-xl-3 td-toc d-print-none pl-0">
                 <nav id="TableOfContents">
+                  <p class="h4 mb-2 text-muted">Quick Links</p>
                   <ul>
                     <li>
                       <ul id="TOC">
@@ -50,7 +50,6 @@
                 </ol>
               </nav>
               <div class="td-content">
-
                 {{ content }}
 
                 <div class="mt-5">
