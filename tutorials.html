@@ -9,9 +9,13 @@ page_name: tutorials
 <div class="about-section pt-5">
   <h2 class="text-center">Tutorials</h2>
 
-  <div class="row justify-content-center">
-    {% for tutorial in site.tutorials %}
-      <a href="{{ tutorial.url }}"><h1>{{ tutorial.title }}</h1></a>
-    {% endfor %}
+  <div class="container">
+    <div class="row justify-content-center">
+      {% for tutorial in site.tutorials %}
+        {% if tutorial.tutorial %}
+          <div class="col-md-3"> <a href="{{ tutorial.url }}"><h1>{{ tutorial.title }}</h1></a></div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
