@@ -11,15 +11,11 @@
         {% include staticbanner.html %}
       {% endif %}
     </header>
-    <main>
+    <main class="tutorial-series-body">
       <div class="container-fluid td-outer">
         <div class="td-main">
           <div class="row justify-content-center flex-xl-nowrap">
-            <div class="col-12 col-md-3 col-xl-3 td-sidebar d-print-none">
-              {% include tutorial/sidebar.html %}
-            </div>
-
-            <main class="col-12 col-md-9 col-xl-7 px-md-5" role="main">
+            <main class="col-12 col-md-9 col-xl-6 px-md-2 pr-md-4" role="main">
               <div class="td-content">
 
                 {{ content }}
@@ -41,6 +37,10 @@
                 {% endif %}
               </div>
             </main>
+
+            <div class="col-12 col-md-3 col-xl-3 td-sidebar d-print-none">
+              {% include tutorial/sidebar.html %}
+            </div>
           </div>
         </div>
 

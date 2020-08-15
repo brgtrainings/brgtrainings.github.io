@@ -14,7 +14,7 @@
             $(toc).append(content);
 
             // Add section code to subnavigation
-            var children = $('<ul class="md-nav"></ul>')
+            var children = $('<nav class="md-nav"><ul class="md-nav__list"></nav></ul>')
             var contenders = $("#" + div_id).nextUntil("h1");
             $.each(contenders, function(idx, contender){
               if($(contender).is('h2') || $(contender).is('h3')) {

@@ -3160,3 +3160,17 @@ html body .md-typeset .headerlink {
     }
   }
 }
+.tutorial-series-body .td-sidebar {
+  background: none;
+  border-right: 0;
+
+  #td-sidebar-menu .td-sidebar-nav__section {
+    padding: 1rem 0.8rem;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+
+    ul {
+      margin-bottom: 0;
+    }
+  }
+}
