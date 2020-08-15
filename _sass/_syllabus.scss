@@ -1,6 +1,6 @@
 .td-main {
   .td-content {
-    h1,h2,h3,h4,h5,h6,p,ul,div {
+    h1,h2,h3,h4,h5,h6,p,ul {
       font-family: 'Source Sans Pro', sans-serif;
     }
 
@@ -60,6 +60,13 @@
       table tbody tr td {
         border: 0;
       }
+    }
+    div.highlight {
+      line-height: 24px;
+    }
+    pre > code, .highlight > code {
+      font-size: 16px;
+      font-family: 'Inconsolata', monospace;
     }
   }
 

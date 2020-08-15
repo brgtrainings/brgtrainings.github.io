@@ -16,8 +16,8 @@
 }
 
 @media (max-width: 768px) {
-  body .container, body .footer-section .container {
-    width: 80%;
+  header.home_header {
+    height: 550px;
   }
   .navbar-toggler {
     border-color: #eee !important;
@@ -40,42 +40,16 @@
   .banner-section {
     height: 430px;
   }
-  .staticbanner {
-    .inner {
-      padding-top: 40px;
-    }
-
-    .hero-text-box {
-      margin-top: 5%;
-      width: 80%;
-      margin-left: 10%;
-      padding: 2em;
-
-      h1 {
-        font-size: 30px;
-      }
-      h2 {
-        font-size: 13px;
-        .mr-3 {
-          margin-right: 0.7rem !important;
-        }
-        .ml-3 {
-          margin-left: 0.7rem !important;
-        }
-        .mx-3 {
-          margin: 0 0.7rem !important;
-        }
-      }
-      .highlight {
-        font-size: 15px;
-      }
-    }
-  }
   .contact-section {
     .contact-info {
       h2 {
         font-size: 20px;
       }
+    }
+  }
+  .features {
+    .col-md-6.col-md-6:nth-child(1) {
+      padding: 3rem 0;
     }
   }
   .elevator-pitch {
@@ -158,9 +132,6 @@
   body .container, body .footer-section .container {
     width: 95%;
   }
-  header.home_header {
-    height: 550px;
-  }
   .display-non-mb {
     display: none;
   }
@@ -177,11 +148,20 @@
 
   .masthead {
     h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       padding: 1rem;
     }
     h3 {
       font-size: 1.5rem;
+    }
+    .salutation {
+      img {
+        height: 50px;
+      }
+      h1 {
+        font-size: 2rem;
+        padding: 0;
+      }
     }
   }
 

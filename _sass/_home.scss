@@ -4,7 +4,7 @@
 
 header.home_header {
   background: linear-gradient(180deg, $color4, $color3);
-  height: 450px;
+  height: 480px;
 }
 header.default_header {
   .navbar {
@@ -130,6 +130,9 @@ header.default_header {
   .sub-section-text {
     width: 70%;
   }
+  .col-md-6.col-md-6:nth-child(1) {
+    padding: 4rem 0;
+  }
 }
 
 .masthead {
@@ -143,6 +146,15 @@ header.default_header {
     max-width: 3.25rem;
     border-width: 0.2rem;
     border-color: #f4623a;
+  }
+  .salutation {
+    img {
+      height: 55px;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
   }
 }
 
