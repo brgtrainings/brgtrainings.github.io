@@ -1,12 +1,12 @@
 ---
 layout: tutorial
-title: Getting taste of HTML
+title: Getting taste of CSS
 date: 13th August, 2020 02:00:00
 tags:
- - html
+ - css
  - web-development
-description: Get familiar with HTML, structure your Web pages
-permalink: /getting-tastes/html/
+description: Get familiar with CSS, style your Web pages
+permalink: /getting-tastes/css/
 ---
 
 As the name says itself `Command line arguments`, you can assume pretty correct that these might be the arguments you pass

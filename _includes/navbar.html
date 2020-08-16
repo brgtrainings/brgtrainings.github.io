@@ -16,12 +16,17 @@
           <a class="nav-link" href="/about/">About</a>
         </li>
         {% if jekyll.environment != "production" %}
+          <li class="nav-item ml-3{% if page.collection == 'getting_tastes' %} active{% endif %}">
+            {% include getting-tastes-nav-items.html %}
+          </li>
+        {% endif %}
+        {% if jekyll.environment != "production" %}
           <li class="nav-item ml-3{% if page.layout == 'course' or page.layout == 'syllabus_page' %} active{% endif %}">
             {% include courses-nav-items.html %}
           </li>
         {% endif %}
         {% if jekyll.environment != "production" %}
-          <li class="nav-item ml-3{% if page.layout == 'tutorial' %} active{% endif %}">
+          <li class="nav-item ml-3{% if page.layout == 'tutorial' and page.collection != 'getting_tastes' %} active{% endif %}">
             {% include tutorials-nav-items.html %}
           </li>
         {% endif %}
