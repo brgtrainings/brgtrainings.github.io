@@ -3,6 +3,17 @@
     h1,h2,h3,h4,h5,h6,p,ul {
       font-family: 'Source Sans Pro', sans-serif;
     }
+    h1 {
+      color: #222;
+    }
+    h2 {
+      color: #444;
+    }
+    .emoji {
+      height: 30px;
+      width: 30px;
+      margin-bottom: 5px;
+    }
 
     p, ul, div {
       font-size: 18px;
@@ -10,7 +21,7 @@
       font-weight: 400;
     }
     p, ul {
-      color: #444;
+      color: #555;
     }
     h1 {
       font-weight: bold;
@@ -34,9 +45,7 @@
         margin-top: 0;
       }
     }
-    .td-content > ul {
-      max-width: 100%;
-    }
+
     table {
       border-collapse: collapse;
       width: 100%;
@@ -55,7 +64,6 @@
       tr:nth-child(even){background-color: #f2f2f2;}
       tr:hover {background-color: #ddd;}
     }
-
     .util-note {
       table tbody tr td {
         border: 0;

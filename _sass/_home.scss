@@ -28,7 +28,7 @@ header.default_header {
 
   .navbar-nav .active >.nav-link {
     color: $color1;
-    font-weight: bold;
+    font-weight: 600;
   }
 
   .navbar-brand {
@@ -48,7 +48,7 @@ header.default_header {
 }
 .navbar-nav .nav-item.active .nav-link {
   border-bottom: 1px solid #fff;
-  font-weight: 800;
+  font-weight: 600;
 }
 .navbar-nav {
   margin-left: 30%;
