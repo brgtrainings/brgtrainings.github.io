@@ -1,13 +1,13 @@
 ---
 layout: tutorial
 tutorial: true
-title: Getting started with Jekyll 4
+title: Getting taste of HTML
 date: 13th August, 2020 02:00:00
 tags:
- - jekyll
- - getting-start
-description: Getting started with Jekyll 4, a popular open source static site generator
-permalink: /tutorials/getting-start-with-tutorial/
+ - html
+ - web-development
+description: Get familiar with HTML, the main building block of any Web Development
+permalink: /tutorials/getting-taste-of-html/
 ---
 
 # Command Line Arguments in Ruby

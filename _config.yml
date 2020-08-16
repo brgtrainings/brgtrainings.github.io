@@ -51,11 +51,8 @@ collections:
   courses:
     output: true
   tutorials:
-    permalink: /collections/:title/
     output: true
-  devtools:
-    output: true
-  workshops:
+  getting_tastes:
     output: true
 
 paginate: 6

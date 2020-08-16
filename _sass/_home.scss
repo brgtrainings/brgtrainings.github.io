@@ -291,15 +291,10 @@ header.default_header {
   }
 }
 
-// Contact
-.contact-section {
-  margin-top: 65px;
+#page-content main {
+  margin-top: 60px;
 }
-.contact-section, .subscribe-section {
-  .container {
-    width: 60%;
-  }
-
+.contact-section {
   .contact-info {
     color: #666;
     // border-radius: 0.5rem;

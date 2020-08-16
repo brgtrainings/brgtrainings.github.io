@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body id="pagetop" class="d-flex flex-column {% if page.page_name == 'home' %}home{% else %}default{% endif %}_body">
+  <body id="pagetop" class="d-flex flex-column{% if page.page_name == 'home' %} home_body{% endif %}">
     <div id="page-content">
       <header class="{% if page.page_name == 'home' %}home{% else %}default{% endif %}_header">
         {%- include navbar.html -%}
@@ -12,7 +12,7 @@
           {% include staticbanner.html %}
         {% endif %}
       </header>
-      <main>
+      <main class="{{ page.page_name }}-body">
         {{ content }}
       </main>
     </div>
