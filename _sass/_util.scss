@@ -4,7 +4,10 @@
     content: "\f05a";
     color: #19407c;
   }
-
+  .icon .icon-question::before {
+    content: "\f059";
+    color: #bf0000;
+  }
   .icon .icon-important::before {
     content: "\f06a";
     color: #bf0000;
@@ -40,6 +43,16 @@
     border-radius: 0.25rem 0 0 0.25rem;
     padding: .8rem 1rem !important;
   }
+  table td.icon.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+  }
+  table td.icon.question {
+    color: #a41a1a;
+    background-color: #fce6ec;
+    border-color: #ffcad7;
+  }
 
   table td.content {
     padding: 0.8rem 1rem !important;
@@ -55,6 +68,16 @@
     a {
       color: #333;
     }
+  }
+  table td.content.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba !important;
+  }
+  table td.content.question {
+    color: #a41a1a;
+    background-color: #fce6ec;
+    border-color: #ffcad7 !important;
   }
 }
 .util-quote {
