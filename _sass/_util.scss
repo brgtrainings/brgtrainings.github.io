@@ -48,6 +48,10 @@
     background-color: #fff3cd;
     border-color: #ffeeba;
   }
+  table td.icon.important {
+    color: #8a0c0c;
+    background-color: #fee6e6;
+  }
   table td.icon.question {
     color: #a41a1a;
     background-color: #fce6ec;
@@ -78,6 +82,10 @@
     color: #a41a1a;
     background-color: #fce6ec;
     border-color: #ffcad7 !important;
+  }
+  table td.content.important {
+    color: #8a0c0c;
+    background-color: #fee6e6;
   }
 }
 .util-quote {
