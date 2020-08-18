@@ -78,6 +78,11 @@
     }
   }
 
+  .td-toc {
+    li li {
+      margin-left: 0;
+    }
+  }
   #TableOfContents {
     .md-nav__item a.md-nav__link:hover {
       background-color: #eee;

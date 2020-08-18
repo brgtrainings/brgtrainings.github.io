@@ -132,4 +132,9 @@
 .util-notice {
   background-color: $site-color;
   color: #fff;
+
+  h1, h2, h3 {
+    margin: 0 !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
 }
