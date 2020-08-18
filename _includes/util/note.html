@@ -2,7 +2,7 @@
   <table>
     <tbody>
       <tr>
-        <td class="icon">
+        <td class="icon {{ include.type }}">
           {% if include.type == "warning" %}
             <i class="fa icon-warning" title="Warning"></i>
           {% elsif include.type == "tip" %}
@@ -11,11 +11,13 @@
             <i class="fa icon-warning" title="Important"></i>
           {% elsif include.type == "caution" %}
             <i class="fa icon-caution" title="Caution"></i>
+          {% elsif include.type == "question" %}
+            <i class="fa icon-question" title="Question"></i>
           {% else %}
             <i class="fa icon-note" title="Note"></i>
           {% endif %}
         </td>
-        <td class="content">
+        <td class="content {{ include.type }}">
           {{ include.note }}
           {% if include.source %}
             <a href="{{ include.source }}" target="_blank">(source)</a>
