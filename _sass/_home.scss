@@ -372,3 +372,19 @@ header.default_header {
     }
   }
 }
+
+// share page
+.sidebar-share-page {
+  .badge {
+    display: inline-block;
+  }
+  .twitter-share {
+    background-color: #55acee;
+  }
+  .facebook-share {
+    background-color: #3b5998;
+  }
+  .linkedin-share {
+    background-color: #0077B5;
+  }
+}
