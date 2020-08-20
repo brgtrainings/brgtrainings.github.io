@@ -142,10 +142,6 @@
     display: block;
   }
 
-  header {
-    height: 500px;
-  }
-
   .masthead {
     h1 {
       font-size: 2rem;
@@ -195,6 +191,10 @@
         font-size: 12px;
       }
     }
+  }
+
+  .about-section .learning-approach .card-body {
+    padding: 0;
   }
 
   .contact-section {

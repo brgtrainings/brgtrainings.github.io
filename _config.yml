@@ -17,10 +17,6 @@ permalink: /blogs/:year/:month/:day/:title/
 google_analytics: UA-164576022-1
 
 contacts:
-  website:
-    url: https://freelancerbrg.com
-    label: Website
-    class: fas fa-link
   facebook:
     url: https://www.facebook.com/cooolbrg
     label: Facebook
