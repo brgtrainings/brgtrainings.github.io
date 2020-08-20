@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: Getting taste of HTML and CSS
+title: Getting tastes of HTML and CSS
 date: 13th August, 2020 02:00:00
 tags:
  - html
