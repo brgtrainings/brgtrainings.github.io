@@ -90,7 +90,7 @@ Workflow of tutorial is quite simple as:
 
 You should be able to see the following:
 
-<img src="/assets/img/getting-tastes/student-portfolio-starter.jpg" class="img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/student-portfolio-starter.jpg" class="lozad img-fluid shadow" />
 
 ### Code overview
 
@@ -201,7 +201,7 @@ __NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/studen
 
 ### Navbar Preview
 
-<img src="/assets/img/getting-tastes/student-portfolio-navbar.jpg" class="img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/student-portfolio-navbar.jpg" class="lozad img-fluid shadow" />
 
 {% include util/note.html
     note="<strong>HTML Intro</strong><br>HTML stands for <em>HyperText Markup Language</em> and also known as the language for Web.
@@ -263,7 +263,7 @@ And, update `css/style.css` with following CSS for introduction.
 
 ### Intro Preview
 
-<img src="/assets/img/getting-tastes/student-portfolio-intro.jpg" class="img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/student-portfolio-intro.jpg" class="lozad img-fluid shadow" />
 
 ## Step 3: Adding Icon library [Bonus]
 
@@ -394,7 +394,7 @@ And CSS as:
 
 You should be able to see following:
 
-<img src="/assets/img/getting-tastes/student-portfolio-about-left.jpg" class="img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/student-portfolio-about-left.jpg" class="lozad img-fluid shadow" />
 
 ### About right column
 
@@ -452,7 +452,7 @@ And CSS as:
 
 Now, about section should be updated as following:
 
-<img src="/assets/img/getting-tastes/student-portfolio-about.jpg" class="img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/student-portfolio-about.jpg" class="lozad img-fluid shadow" />
 
 ## Step 5: Blogs Section
 
@@ -560,7 +560,7 @@ And, add its CSS as:
 
 You should be able to see the first blog item as:
 
-<img src="/assets/img/getting-tastes/student-portfolio-blog-item.jpg" class="img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/student-portfolio-blog-item.jpg" class="lozad img-fluid shadow" />
 
 ### Other blog items
 
@@ -568,7 +568,7 @@ Now, repeat the HTML content of above for other two blog items. CSS need not to 
 
 The final blogs section should be visible as below:
 
-<img src="/assets/img/getting-tastes/student-portfolio-blogs.jpg" class="img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/student-portfolio-blogs.jpg" class="lozad img-fluid shadow" />
 
 {% include util/note.html
     note="All the images for this tutorial have been taken from from <a href='https://unsplash.com/'>https://unsplash.com/</a>."
@@ -599,7 +599,7 @@ footer {
 
 The footer should be visible as:
 
-<img src="/assets/img/getting-tastes/student-portfolio-footer.jpg" class="img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/student-portfolio-footer.jpg" class="lozad img-fluid shadow" />
 
 {% include util/note.html
     note="The website we have created will not be responsive i.e it might look ugly in mobile or other devices. To achieve that we need to add 'media queries'."
@@ -647,7 +647,7 @@ __NOTE:__ I will leave up to you to add the different color for the different so
 
 The introduction section should be updated as following:
 
-<img src="/assets/img/getting-tastes/student-portfolio-social.jpg" class="img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/student-portfolio-social.jpg" class="lozad img-fluid shadow" />
 
 {% include util/highlight.html
     text="Obviously, this is not the final website. There are lot of improvements that can be done. I hope you will enhance at your own level."
