@@ -15,8 +15,11 @@
       <hr class="divider my-4">
     </div>
     <div class="col-lg-8 align-self-baseline">
-      <a href="/courses/" role="button" class="btn btn-light px-3 py-2">Courses</a>
-      <a href="/tutorials/" role="button" class="btn btn-secondary px-3 py-2 ml-3">Tutorials</a>
+      <a href="/getting-tastes/" role="button" class="btn btn-info px-3 py-2">Getting Tastes</a>
+      {% unless jekyll.environment == "production" %}
+        <a href="/tutorials/" role="button" class="btn btn-secondary px-3 py-2 ml-2">Tutorials</a>
+        <a href="/courses/" role="button" class="btn btn-light px-3 py-2 ml-2">Courses</a>
+      {% endunless %}
     </div>
   </div>
 </div>
