@@ -9,6 +9,12 @@
     h2 {
       color: #444;
     }
+    h3 {
+      color: #555;
+    }
+    h4 {
+      color: #666;
+    }
     .emoji {
       height: 30px;
       width: 30px;
@@ -45,7 +51,11 @@
         margin-top: 0;
       }
     }
-
+    .thumbnail-credit {
+      font-size: 13px;
+      font-weight: 300px;
+      text-align: center;
+    }
     table {
       border-collapse: collapse;
       width: 100%;
