@@ -4,7 +4,10 @@ title: Getting taste of HTML and CSS
 date: 13th August, 2020 02:00:00
 tags:
  - html
- - web-development
+ - css
+ - staticwebsite
+ - webdevelopment
+ - beginner
 description: 'Get the taste of HTML and CSS: structure and style your web pages'
 permalink: /getting-tastes/html-css/
 thumbnail: getting-tastes/getting-html-css-taste.png
@@ -43,11 +46,18 @@ A student portfolio website acts as a way to introduce yourself to anyone in the
 We will cover following things in our website:
 
 - A nice introduction
-- Personal information
+- Personal and Academic information
 - Blogs
 
 {% include util/note.html
     note="If you are working, consider it as a <em>Developer Portfolio</em>."
+%}
+
+Click here {% include util/open-link.html url="https://brgtrainings.github.io/student-portfolio" type="preview" %} to preview the website.
+
+{% include util/note.html
+    note="The website is not responsive i.e it might look ugly in mobile. The aim of this tutorial is to quickly get a simple website running giving enough introduction of HTML and CSS."
+    type="caution"
 %}
 
 ## Tutorial Workflow
@@ -142,7 +152,6 @@ Add following in the `css/style.css`.
 .container {
   margin: auto;
   max-width: 1100px;
-  overflow: auto;
   padding: 0 20px;
 }
 
@@ -197,6 +206,8 @@ nav ul li a:hover, nav ul li a.active {
 }
 ```
 
+I hope that the above code is simple enough to understand. If you are finding difficulty to understand any of HTML element or CSS please check the [Resources](#resources) section for HTML and CSS references.
+
 __NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/student-portfolio/commit/3feeb48626733ba3e64fd64fd2652d4945aa8f7d){:target="_blank"} in GitHub.
 
 ### Navbar Preview
@@ -210,7 +221,7 @@ __NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/studen
 %}
 
 {% include util/note.html
-    note="<strong>CSS Intro</strong><br>CSS stands for <em>Cascading Style Sheets</em>. It is describes how HTML elements should be displayed and responsible for styling our web pages.<br>
+    note="<strong>CSS Intro</strong><br>CSS stands for <em>Cascading Style Sheets</em>. It describes how HTML elements should be displayed and responsible for styling of our web pages.<br>
     For example, in the above step, 'navbar' and 'home' color are different and achieved through CSS."
 %}
 
@@ -264,6 +275,8 @@ And, update `css/style.css` with following CSS for introduction.
 ### Intro Preview
 
 <img data-src="/assets/img/getting-tastes/student-portfolio-intro.jpg" class="lozad img-fluid shadow" />
+
+__NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/student-portfolio/commit/aea8ec0e61ad30845d83031b0dab33f30e0d7b5c){:target="_blank"} in GitHub.
 
 ## Step 3: Adding Icon library [Bonus]
 
@@ -346,7 +359,7 @@ And CSS is:
 
 ### About left column
 
-Let's add introduction and skills in left column. Update `div` with `column1` class as:
+Let's add introduction and skills in the left column. Update `div` with `column1` class as:
 
 ```html
 <div class="column1">
@@ -389,6 +402,20 @@ And CSS as:
   margin-bottom: 5px;
   padding-left: 10px;
   font-size: 13px;
+}
+
+/* Paste under Utility classes */
+.text-center {
+  text-align: center;
+}
+.width_80 {
+  width: 80%;
+}
+.width_70 {
+  width: 70%;
+}
+.width_60 {
+  width: 60%;
 }
 ```
 
@@ -454,15 +481,17 @@ Now, about section should be updated as following:
 
 <img data-src="/assets/img/getting-tastes/student-portfolio-about.jpg" class="lozad img-fluid shadow" />
 
+__NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/student-portfolio/commit/a17b1cba9f4734ffb45050764920d4b8ece04322){:target="_blank"} in GitHub.
+
 ## Step 5: Blogs Section
 
 In this step, we will add blogs to the page.
 
-The layout of blog is very simple. We will have three column layout and add one blog item per column.
+We will use very simple layout for listing our blogs. It will be a three column layout with one blog item per column.
 
 ### Blog layout
 
-The HTML layout is quite simple as:
+The skeleton of three column layout for listing blogs is:
 
 ```html
 <section id="blogs" class="section-padding">
@@ -564,9 +593,9 @@ You should be able to see the first blog item as:
 
 ### Other blog items
 
-Now, repeat the HTML content of above for other two blog items. CSS need not to be changed.
+Now, repeat the HTML content with different blog content for other two blogs. CSS need not to be changed.
 
-The final blogs section should be visible as below:
+The final blogs section should look like as below:
 
 <img data-src="/assets/img/getting-tastes/student-portfolio-blogs.jpg" class="lozad img-fluid shadow" />
 
@@ -597,20 +626,20 @@ footer {
 }
 ```
 
-The footer should be visible as:
+The footer will look like:
 
 <img data-src="/assets/img/getting-tastes/student-portfolio-footer.jpg" class="lozad img-fluid shadow" />
 
 {% include util/note.html
-    note="The website we have created will not be responsive i.e it might look ugly in mobile or other devices. To achieve that we need to add 'media queries'."
+    note="The website we have created will not be responsive i.e it might look ugly in mobile or other devices. You can achieve that through the help of 'media queries'."
     type="warning"
 %}
 
 ## Step 7: Adding Social contacts [Bonus]
 
-In this step, we will add a list of social contacts of students. The best place to add it is at the introduction section below the role.
+In this step, we will add a list of social contacts of student. The best place is at the introduction section below the role.
 
-Add the following social links div below the div with `intro-body` class under div with id `intro`.
+Add the following social links inside the div with `intro-body` class whose parent div id is `intro`.
 
 ```html
 <div class="social-links text-center">
@@ -650,7 +679,7 @@ The introduction section should be updated as following:
 <img data-src="/assets/img/getting-tastes/student-portfolio-social.jpg" class="lozad img-fluid shadow" />
 
 {% include util/highlight.html
-    text="Obviously, this is not the final website. There are lot of improvements that can be done. I hope you will enhance at your own level."
+    text="Obviously, this is not the final version of the website. There are lot of improvements that can be done. I hope you will enhance at your own level."
     class="h3"
 %}
 
@@ -662,17 +691,17 @@ The introduction section should be updated as following:
 
 ## Where to go from here
 
-You can go through following useful links to continue your journey with HTML and CSS learnings.
+You can go through following useful links to continue your journey with HTML and CSS learning.
 
-- [w3schools HTML Tutorial](https://www.w3schools.com/html/default.asp){:target="_blank"} - Reference tutorial for HTML
-- [Mozilla HTML Tutorial](https://developer.mozilla.org/en-US/docs/Web/HTMLL){:target="_blank"} - Reference tutorial for HTML
-- [w3schools CSS Tutorial](https://www.w3schools.com/css/default.asp){:target="_blank"} - Reference tutorial for CSS
-- [Mozilla CSS Tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS){:target="_blank"} - Reference tutorial for CSS
+- [w3schools HTML Tutorial](https://www.w3schools.com/html/default.asp){:target="_blank"} - Reference tutorial
+- [Mozilla HTML Tutorial](https://developer.mozilla.org/en-US/docs/Web/HTMLL){:target="_blank"} - Reference tutorial
+- [w3schools CSS Tutorial](https://www.w3schools.com/css/default.asp){:target="_blank"} - Reference tutorial
+- [Mozilla CSS Tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS){:target="_blank"} - Reference tutorial
 - [htmlreferences.io](https://htmlreference.io/) - Nice guide on HTML elements and its attributes
 - [cssreference.io](https://cssreference.io/) - A visual guide to CSS
 
 {% include util/highlight.html
-    text="I hope you had wonderful tasting experience of HTML and CSS through this tutorial.<br>Wishing you good luck for your learning journey. :pray:"
+    text="I hope you had wonderful tasting experience of HTML and CSS through this tutorial. :blush: <br>Wishing you good luck for the learning journey ahead.<br> Thank You! :pray:"
     type="success"
     class="h3"
 %}
