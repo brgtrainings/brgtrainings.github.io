@@ -69,6 +69,15 @@
       width: 70%;
     }
   }
+
+  .td-main {
+    .td-content {
+      .thumbnail {
+        margin-top: 1rem;
+      }
+    }
+  }
+
   .block-to-contact {
     h1 {
       font-size: 1.8em;
@@ -140,6 +149,11 @@
   }
   .sm-block {
     display: block;
+  }
+
+  .navbar-nav .nav-item.active .nav-link {
+    width: 50%;
+    margin: auto;
   }
 
   .masthead {
