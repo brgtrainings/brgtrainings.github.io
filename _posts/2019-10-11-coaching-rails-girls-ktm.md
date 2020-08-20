@@ -14,7 +14,7 @@ status: publish
 type: post
 published: true
 author: BRG
-thumbnail_path: blog/rails-girls-ktm.jpg
+thumbnail: blog/rails-girls-ktm.jpg
 cover_img: blog/railsgirlsktm/banner.jpg
 source: https://freelancerbrg.com/blogs/2019/10/11/coaching-rails-girls-ktm/
 ---

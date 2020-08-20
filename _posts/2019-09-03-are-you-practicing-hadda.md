@@ -12,7 +12,7 @@ status: publish
 type: post
 published: true
 author: BRG
-thumbnail_path: blog/hadda.png
+thumbnail: blog/hadda.png
 source: https://freelancerbrg.com/blogs/2019/09/03/are-you-practicing-hadda/
 ---
 

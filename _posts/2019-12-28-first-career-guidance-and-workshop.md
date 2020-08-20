@@ -13,7 +13,7 @@ status: publish
 type: post
 published: true
 author: BRG
-thumbnail_path: blog/trainings/career-programming-workshop.png
+thumbnail: blog/trainings/career-programming-workshop.png
 cover_img: blog/trainings/first-workshop.jpg
 source: https://freelancerbrg.com/blogs/2019/12/28/first-career-guidance-and-workshop/
 ---
