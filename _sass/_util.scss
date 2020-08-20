@@ -57,6 +57,10 @@
     background-color: #fce6ec;
     border-color: #ffcad7;
   }
+  table td.icon.caution {
+    color: #a41a1a;
+    background-color: #ffdfd3;
+  }
 
   table td.content {
     padding: 0.8rem 1rem !important;
@@ -86,6 +90,10 @@
   table td.content.important {
     color: #8a0c0c;
     background-color: #fee6e6;
+  }
+  table td.content.caution {
+    color: #a41a1a;
+    background-color: #ffdfd3;
   }
 }
 .util-quote {
