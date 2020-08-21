@@ -19,12 +19,16 @@ thumbnail_credit: ice cream cup by Nicole Yip from the Noun Project
 Thanks for giving me the opportunity to help you with getting the taste of HTML and CSS.
 
 {% include util/note.html
-    note="<strong>Getting Taste</strong> is a learning format to give learners a quick introduction to the language, framework, or specific topic. The motive is to give quick introduction, generate interest and give pointers for the next steps."
+    note="<strong>Getting Taste</strong> is a learning format to give learners a quick introduction to the language, framework, or specific topic. The motive is to help you in making familiar about the topic, generate interest and give pointers for the next steps."
 %}
 
 This tutorial has been designed to be fully hands-on. We will build a simple website using HTML and CSS and try to understand both.
 
-To get maximum benefit, follow along with the tutorial. Understand each section and type or copy/paste the code.
+{% include util/note.html
+    note="You can find all the resources related to this tutorial including source code under <strong>Resources</strong> section.
+    However, I recommend you to follow the tutorial step by step to get <strong>maximum benefit.</strong>"
+    type="recommend"
+%}
 
 ## Who is this tutorial for
 
