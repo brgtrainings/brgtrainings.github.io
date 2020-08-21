@@ -15,6 +15,9 @@ future: true # Show blog post of future date
 permalink: /blogs/:year/:month/:day/:title/
 
 google_analytics: UA-164576022-1
+# Disqus Comments
+disqus:
+  shortname: brg-trainings
 
 contacts:
   facebook:
