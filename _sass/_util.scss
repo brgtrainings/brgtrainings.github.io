@@ -29,6 +29,11 @@
     color: #bf3400;
   }
 
+  .icon .icon-recommend::before {
+    content: "\f4fc";
+    color: #155724;
+  }
+
   .icon [class^="fa icon-"] {
     font-size: 2em;
     text-shadow: 1px 1px 2px rgba(0,0,0,.5);
@@ -60,6 +65,10 @@
   table td.icon.caution {
     color: #a41a1a;
     background-color: #ffdfd3;
+  }
+  table td.icon.recommend {
+    color: #155724;
+    background-color: #d4edda;
   }
 
   table td.content {
@@ -94,6 +103,10 @@
   table td.content.caution {
     color: #a41a1a;
     background-color: #ffdfd3;
+  }
+  table td.content.recommend {
+    color: #155724;
+    background-color: #d4edda;
   }
 }
 .util-quote {
