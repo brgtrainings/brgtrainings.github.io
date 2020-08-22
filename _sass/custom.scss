@@ -266,6 +266,15 @@ a {
   border-radius: 5px;
 }
 
+textarea {
+  resize: none;
+}
+
+// make btn font weight light
+.btn {
+  font-weight: 300 !important;
+}
+
 // Page Top
 #toTop {
   display: none;
