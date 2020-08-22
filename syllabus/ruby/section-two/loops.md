@@ -10,7 +10,7 @@ description: Loops in Ruby
 permalink: /ruby/section-two/loops/
 prev_link: /ruby/section-two/conditionals/
 next_link: /ruby/section-two/iterators/
-navbar_class: ruby-course
+comments: true
 ---
 
 # Loops in Ruby

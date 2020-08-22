@@ -7,10 +7,9 @@ tags:
   - input
 description: Getting input from user
 permalink: /ruby/section-two/getting-input/
-prev_link: /ruby/section-two/loops-and-iterators/
+prev_link: /ruby/section-two/iterators/
 next_link: /ruby/section-two/method/
-navbar_class: ruby-course
-# comments: true
+comments: true
 ---
 
 # Getting input from User in Ruby

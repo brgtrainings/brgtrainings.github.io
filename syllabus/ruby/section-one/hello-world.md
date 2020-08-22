@@ -10,7 +10,6 @@ permalink: /ruby/section-one/hello-world/
 prev_link: /ruby/section-one/features/
 next_link: /ruby/section-one/irb/
 navbar_class: ruby-course
-comments: true
 ---
 
 # Hello World Program

@@ -9,8 +9,7 @@ description: Variables and Constants in Ruby
 permalink: /ruby/section-two/variables-constants/
 prev_link: /ruby/section-two/datatypes/
 next_link: /ruby/section-two/operators/
-navbar_class: ruby-course
-# comments: true
+comments: true
 ---
 
 # Variable in Ruby
@@ -197,20 +196,7 @@ puts A_CONST
 
 So, in above case, the value of constant `A_CONST` changes after second assignment with only warning.
 
-# Ruby Pseudo Variables
-
-These are special type of variables but behave like constants as we cannot assign any value to these variables.
-
-Ruby has following Pseudo variables:
-
-- `self`: The receiver object of the current method.
-- `true`: Representing `true` value
-- `false`: Representing `false` value
-- `nil`: Representing nothing
-- `__FILE__`: The name of the current Ruby program.
-- `__LINE__`: The current line number in the Ruby program.
-
-## Key points to remember
+## Key points
 
 - Constants defined within a class or module may be accessed anywhere within the class or module.
 - Outside the class or module, they may be accessed using the scope operator, `::` prefixed by an expression
@@ -221,7 +207,8 @@ Ruby has following Pseudo variables:
 - Constants may be added to existing classes and modules from the outside by using the class or module name and
   the scope operator before the constant name.
 
-Following program shows all aspect as mentioned in the __NOTES__ section.
+Following program shows all aspect as mentioned in the __Key points__ section.
+
 ```ruby
 OUTER_CONST = 99
 
@@ -237,3 +224,16 @@ puts Const::CONST
 puts ::OUTER_CONST
 puts Const::NEW_CONST = 123
 ```
+
+# Ruby Pseudo Variables
+
+These are special type of variables but behave like constants as we cannot assign any value to these variables.
+
+Ruby has following Pseudo variables:
+
+- `self`: The receiver object of the current method.
+- `true`: Representing `true` value
+- `false`: Representing `false` value
+- `nil`: Representing nothing
+- `__FILE__`: The name of the current Ruby program.
+- `__LINE__`: The current line number in the Ruby program.

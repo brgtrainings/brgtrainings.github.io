@@ -10,7 +10,6 @@ permalink: /ruby/section-one/features/
 prev_link: /ruby/section-one/history/
 next_link: /ruby/section-one/hello-world/
 navbar_class: ruby-course
-comments: true
 ---
 
 # Features of Ruby

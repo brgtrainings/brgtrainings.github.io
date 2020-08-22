@@ -11,7 +11,6 @@ description: Getting started with Ruby
 permalink: /ruby/section-one/getting-started/
 next_link: /ruby/section-one/intro
 navbar_class: ruby-course
-comments: true
 ---
 
 # Getting Started

@@ -6,9 +6,9 @@ page_name: ruby
 navbar_class: ruby-course
 ---
 
-# Ruby Basics
+# :pray: Welcome to Ruby Basics
 
-Welcome to the {{ site.title }} learning platform! Here you can quickly jump to a particular section.
+This course has been designed to get the basic understanding of Ruby language. After completing this course you should be able to understand and write Ruby programs.
 
 {% include util/notice.html
     primary="The content of the syllabus is still in building stage."
@@ -17,13 +17,15 @@ Welcome to the {{ site.title }} learning platform! Here you can quickly jump to 
 
 <div class="section-index">
   <hr class="panel-line">
-  {% for section_hash in site.data.ruby %}
-    {% for section in section_hash.links %}
-      <div class="entry">
-        <h5>
-          <a href="{{ site.url }}/{{ site.baseurl }}{{ section.url }}">{{ section.title }}</a>
-        </h5>
-      </div>
+
+  <div class="container-fluid">
+    <div class="card-columns">
+    {% for section_hash in site.data.ruby %}
+      {% for section in section_hash.links %}
+        {% include course/topic-card.html
+            topic=section index=forloop.index %}
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
+    </div>
+  </div>
 </div>

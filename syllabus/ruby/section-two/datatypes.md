@@ -17,8 +17,7 @@ description: Data Types in Ruby language
 permalink: /ruby/section-two/datatypes/
 prev_link: /ruby/section-two/
 next_link: /ruby/section-two/variables-constants/
-navbar_class: ruby-course
-# comments: true
+comments: true
 ---
 
 # Data Types in Ruby

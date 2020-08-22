@@ -9,8 +9,7 @@ description: Naming conventions in Ruby
 permalink: /ruby/section-two/naming-conventions/
 prev_link: /ruby/section-two/method/
 next_link: /ruby/section-two/cmd-args/
-navbar_class: ruby-course
-# comments: true
+comments: true
 ---
 
 # Naming conventions in Ruby

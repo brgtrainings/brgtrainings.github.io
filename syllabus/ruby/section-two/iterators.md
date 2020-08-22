@@ -8,9 +8,9 @@ tags:
   - iterators
 description: Iterators in Ruby
 permalink: /ruby/section-two/iterators/
-prev_link: /ruby/section-two/iterators/
+prev_link: /ruby/section-two/loops/
 next_link: /ruby/section-two/getting-input/
-navbar_class: ruby-course
+comments: true
 ---
 
 # Iterators in Ruby

@@ -9,7 +9,7 @@ description: Conditional statements in Ruby
 permalink: /ruby/section-two/conditionals/
 prev_link: /ruby/section-two/operators/
 next_link: /ruby/section-two/loops/
-navbar_class: ruby-course
+comments: true
 ---
 
 # Conditional statements in Ruby

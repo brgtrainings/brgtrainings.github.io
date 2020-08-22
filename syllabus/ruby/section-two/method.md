@@ -9,7 +9,7 @@ description: Method in Ruby
 permalink: /ruby/section-two/method/
 prev_link: /ruby/section-two/getting-input/
 next_link: /ruby/section-two/naming-conventions/
-navbar_class: ruby-course
+comments: true
 ---
 
 # Method in Ruby

@@ -9,7 +9,7 @@ tags:
 description: Command Line Arguments in Python
 permalink: /ruby/section-two/cmd-args/
 prev_link: /ruby/section-two/naming-conventions/
-navbar_class: ruby-course
+comments: true
 # next_link: /ruby/section-two/section-three/
 ---
 
@@ -19,7 +19,7 @@ As the name says itself `Command line arguments`, you can assume pretty correct 
 while running your Ruby programs as how we pass arguments to a method.
 
 ```ruby
-ruby languages.rb Ruby C Python JavaScript
+$ ruby languages.rb Ruby C Python JavaScript
 ```
 
 Where
@@ -64,7 +64,7 @@ end
 And, run `languages.rb` as
 
 ```ruby
-ruby cmd.rb Ruby C Python JavaScript
+$ ruby cmd.rb Ruby C Python JavaScript
 
 # output:
 # File name is: languages.rb
@@ -97,13 +97,13 @@ ruby cmd.rb Ruby C Python JavaScript
   Run the program as:
 
   ```ruby
-  ruby cmd_even_odd.rb 10
+  $ ruby cmd_even_odd.rb 10
 
   # output:
   # Checking whether number 10 is even or odd
   # 10 is even.
 
-  ruby cmd_even_odd.rb 5
+  $ ruby cmd_even_odd.rb 5
   # output:
   # Checking whether number 5 is even or odd
   # 5 is odd.
@@ -129,7 +129,7 @@ ruby cmd.rb Ruby C Python JavaScript
   Run the program as:
 
   ```ruby
-  ruby info.rb Foo 1213131 17
+  $ ruby info.rb Foo 1213131 17
 
   # output:
   # Name is Foo
