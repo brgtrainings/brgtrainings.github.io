@@ -75,6 +75,10 @@
       .thumbnail {
         margin-top: 1rem;
       }
+
+      .card-columns {
+        column-count: 2;
+      }
     }
   }
 
@@ -270,6 +274,14 @@
 
     .col-md-6:nth-child(2) {
       margin-top: 2rem;
+    }
+  }
+
+  .td-main {
+    .td-content {
+      .card-columns {
+        column-count: 1;
+      }
     }
   }
 
