@@ -16,7 +16,9 @@
         <div class="td-main">
           <div class="row flex-xl-nowrap">
             <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none pr-0">
-              {% include course/sidebar.html %}
+              {% if page.layout == 'syllabus_page' %}
+                {% include course/sidebar.html %}
+              {% endif %}
             </div>
 
             {% if page.layout == 'syllabus_page' %}
