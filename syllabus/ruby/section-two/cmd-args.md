@@ -9,8 +9,8 @@ tags:
 description: Command Line Arguments in Python
 permalink: /ruby/section-two/cmd-args/
 prev_link: /ruby/section-two/naming-conventions/
+next_link: /ruby/section-two/array/
 comments: true
-# next_link: /ruby/section-two/section-three/
 ---
 
 # Command Line Arguments in Ruby

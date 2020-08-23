@@ -41,6 +41,10 @@
           url: ruby/section-two/naming-conventions
         - title: Command Line Arguments
           url: ruby/section-two/cmd-args
+        - title: Array
+          url: ruby/section-two/array
+        - title: Hash
+          url: ruby/section-two/hash
     # - title: Section Three
     #   url: ruby/section-three
     #   children:

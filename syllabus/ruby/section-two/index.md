@@ -20,16 +20,16 @@ permalink: /ruby/section-two/
   <hr class="panel-line">
 
   <div class="container-fluid">
-    <div class="card-columns">
+    <div class="row">
       {% for section_hash in site.data.ruby %}
         {% for section in section_hash.links %}
           {% for sub_section in section.children %}
             {% assign section_link = page.permalink | replace_first: "/", "" %}
             {% if sub_section.url contains section_link %}
-              <!-- <div class="col-lg-4 col-md-6"> -->
+              <div class="col-lg-4 col-md-6">
                 {% include course/topic-card.html
                             topic=sub_section index=forloop.index %}
-              <!-- </div> -->
+              </div>
             {% endif %}
           {% endfor %}
         {% endfor %}

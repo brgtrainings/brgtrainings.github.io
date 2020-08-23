@@ -218,6 +218,12 @@ or any other array.
 
 An array is a list of variables enclosed in square brackets and separated by commas.
 
+Each element in an array is referred to by an index which starts at 0 like in C. A negative index is assumed to
+be relative to the end of the array i.e `-1` indicates the last element of the array, `-2` is the 2nd last element
+and so on.
+
+### Creating Arrays
+
 The two common ways to create arrays are:
 
 - Using square brackets
@@ -230,7 +236,13 @@ The two common ways to create arrays are:
 
   ```ruby
   numbers = Array.new(3, 0) # output: numbers array with 3 elements initialized to 0
+  puts numbers # [0, 0, 0]
+
+  languages = Array.new(5, 'ruby')
+  puts languages # ['ruby', 'ruby', 'ruby', 'ruby', 'ruby]
   ```
+
+  This approach is quite useful in creating an array with some default values.
 
 ### Accessing element in Array
 
@@ -241,7 +253,19 @@ fruits = ['mango', 'banana', 'apple']
 puts fruits[0] # output: 'mango'
 ```
 
-We will explore more about `Array` in later section.
+### Removing element from an Array
+
+The common way to delete an element from an Array is using `delete` method.
+
+```ruby
+languages = ['C', 'Ruby', 'Python', 'Go', 'C']
+languages.delete('C')
+puts languages # ['Ruby', 'Python', 'Go']
+```
+
+__NOTE__: It will remove all occurrences of the specified element.
+
+See [More on Array](../array) page for more detail.
 
 ## Hash
 
@@ -256,7 +280,7 @@ user = { "first_name" => "Foo", "last_name" => "Bar" }
 user = { first_name: "Foo", last_name: "Bar" }
 ```
 
-### Accessing element in Hash
+### Accessing element from Hash
 
 You can retrieve values from a Hash using `[]` operator using `key` inside it.
 
