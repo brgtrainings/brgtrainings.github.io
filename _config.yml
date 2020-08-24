@@ -47,8 +47,6 @@ contacts:
     class: fab fa-youtube
 
 collections:
-  courses:
-    output: true
   tutorials:
     output: true
   getting_tastes:

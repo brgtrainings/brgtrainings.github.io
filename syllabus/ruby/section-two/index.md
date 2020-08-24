@@ -11,8 +11,8 @@ permalink: /ruby/section-two/
 
 # Welcome to Section Two
 
-{% include util/highlight.html
-    text="In this phase, we will try to learn the basic building blocks of the language." type="success" class="h3"
+{% include util/note.html
+    note="In this phase, we will try to learn the basic building blocks of the language."
 %}
 
 

@@ -10,8 +10,8 @@ navbar_class: ruby-course
 
 # Welcome to Section One
 
-{% include util/highlight.html
-    text="In this phase, we will try to get familiar with the language." type="success" class="h3"
+{% include util/note.html
+    note="In this phase, we will try to get familiar with the language."
 %}
 
 __Hello!__
