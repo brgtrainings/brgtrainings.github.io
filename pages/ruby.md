@@ -14,9 +14,9 @@ This course has been designed to get the basic understanding of Ruby language. A
     note="This course has been designed by <strong>BRG</strong> based on his work experience in the IT Industry, research and findings with the intention of using it for his interactive online or classroom trainings. <br>Feel free to use it as a reference course for your self-learning." class="h3"
 %}
 
-The course has been divided into difference sections with some intention in each section.
+The course has been divided into different sections with a section goal.
 
-Important Points to remember:
+## Points to remember
 
 - Code snippets can be copied by selecting the code inside the gray area.
 - The code examples has been tried in specific OS/Ruby version (`macOS/Ubuntu 18.04` and `Ruby 2.7.1`). In most of the cases, you will have the same output.
