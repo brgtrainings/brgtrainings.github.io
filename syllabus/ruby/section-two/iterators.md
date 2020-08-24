@@ -42,13 +42,14 @@ returned_val = arr.each do |num|
 end
 
 puts returned_val
+
 # output
-# 1
-# 2
-# 3
-# 4
-# 5
-# [1, 2, 3, 4, 5] ( similar to original array)
+1
+2
+3
+4
+5
+[1, 2, 3, 4, 5] ( similar to original array)
 ```
 
 ## map or collect Iterator
@@ -65,13 +66,14 @@ returned_val = arr.map do |num|
 end
 
 puts returned_val
+
 # output
-# 1
-# 2
-# 3
-# 4
-# 5
-# [2, 4, 6, 8, 10]  (updated array)
+1
+2
+3
+4
+5
+[2, 4, 6, 8, 10]  (updated array)
 ```
 
 ### map! or collect! Iterator
@@ -88,13 +90,14 @@ arr.map! do |num|
 end
 
 puts arr
+
 # output
-# 1
-# 2
-# 3
-# 4
-# 5
-# [2, 4, 6, 8, 10]  (original array got updated)
+1
+2
+3
+4
+5
+[2, 4, 6, 8, 10]  (original array got updated)
 ```
 
 ## times Iterator
@@ -107,12 +110,13 @@ By using `times` iterator we can execute a code block specified number of times.
 5.times do |num|
   puts num
 end
+
 # output
-# 0
-# 1
-# 2
-# 3
-# 4
+0
+1
+2
+3
+4
 ```
 
 ## upto Iterator
@@ -127,11 +131,11 @@ __NOTE__: The destination number should be greater than source number.
 end
 
 # output
-# 1
-# 2
-# 3
-# 4
-# 5
+1
+2
+3
+4
+5
 ```
 
 ## downto Iterator
@@ -146,12 +150,12 @@ __NOTE__: The destination number should be lesser than source number.
 end
 
 # output
-# 10
-# 9
-# 8
-# 7
-# 6
-# 5
+10
+9
+8
+7
+6
+5
 ```
 
 ## step Iterator
@@ -166,11 +170,11 @@ __NOTE__: The `step` iterator only works for `Range` datatype not on `Array`.
 end
 
 # output
-# 1
-# 3
-# 5
-# 7
-# 9
+1
+3
+5
+7
+9
 ```
 
 ### Numeric step method
@@ -185,15 +189,14 @@ The loop finishes when the value to be passed to the block is greater than limit
 end
 
 # output
-# 1
-# 3
-# 5
-# 7
-# 9
-
-# 'to' and 'by' are optional here.
-# We can write as 1.step(10, 2) do ... end
+1
+3
+5
+7
+9
 ```
+
+__NOTE:__ `to` and `by` are optional here. We can write as `1.step(10, 2) do ... end`
 
 Check [`Numeric#step`](https://ruby-doc.org/core-2.7.1/Numeric.html#method-i-step){:target="_blank"} for more detail.
 
@@ -208,7 +211,7 @@ lines.each_line do |line|
 end
 
 # output
-# First line
-# Second line
-# Third line
+First line
+Second line
+Third line
 ```

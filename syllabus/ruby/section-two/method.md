@@ -15,6 +15,7 @@ comments: true
 # Method in Ruby
 
 Method allows us to write the piece of code at one place which get executed many times.
+This encourages modularity in the programs since writing same code at different places tend to create more errors.
 
 __NOTE__: Ruby methods are similar to the functions in other languages.
 
@@ -59,8 +60,8 @@ hello() # or just hello
 hello("Ruby")
 
 # output
-# Hello, Foo
-# Hello, Ruby
+Hello, Foo
+Hello, Ruby
 ```
 
 {% include util/note.html
@@ -113,11 +114,11 @@ end
 add(2, 3).times { |i| puts "#{i} Hello" }
 
 # output
-# 0 Hello
-# 1 Hello
-# 2 Hello
-# 3 Hello
-# 4 Hello
+0 Hello
+1 Hello
+2 Hello
+3 Hello
+4 Hello
 ```
 
 ## Method calls as arguments
@@ -137,9 +138,7 @@ def multiply(num1, num2)
   num1 * num2
 end
 
-puts multiply(add(3, 7), subtract(10, 5))
-# output
-# 50
+puts multiply(add(3, 7), subtract(10, 5)) # output: 50
 ```
 
 ## Local Variable Scope in Method
@@ -174,7 +173,7 @@ update_language(languages)
 puts languages
 
 # output
-# ['Ruby', 'C', 'Python', 'Go']
+['Ruby', 'C', 'Python', 'Go']
 ```
 
 __NOTE__: We can update only `Array` here since it is passed as reference to method.

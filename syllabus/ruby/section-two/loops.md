@@ -59,12 +59,12 @@ end
 puts "Printing Hello ends"
 
 # output
-# 1 Hello
-# 2 Hello
-# 3 Hello
-# 4 Hello
-# 5 Hello
-# Printing Hello ends
+1 Hello
+2 Hello
+3 Hello
+4 Hello
+5 Hello
+Printing Hello ends
 ```
 
 __NOTE__: We can use `next` keyword to skip rest of statement from current looping and start execution from next iteration.
@@ -95,11 +95,11 @@ while count <= 5 do
 end
 
 # output
-# 1 Hello
-# 2 Hello
-# 3 Hello
-# 4 Hello
-# 5 Hello
+1 Hello
+2 Hello
+3 Hello
+4 Hello
+5 Hello
 ```
 
 ## do-while Statement
@@ -133,7 +133,7 @@ begin
 end while count >= 5   # making condition false in first attempt
 
 # output
-# 1 Hello
+1 Hello
 ```
 
 {% include util/note.html
@@ -170,11 +170,11 @@ until count > 5 do  # only difference with 'while' loop statement
 end
 
 # output
-# 1 Hello
-# 2 Hello
-# 3 Hello
-# 4 Hello
-# 5 Hello
+1 Hello
+2 Hello
+3 Hello
+4 Hello
+5 Hello
 ```
 
 __NOTE__: Similar to `do-while` statement, we can have code block executed first and condition checked after.
@@ -203,11 +203,11 @@ for ele in [1, 2, 3, 4, 5]
 end
 
 # output
-# 1 Hello
-# 2 Hello
-# 3 Hello
-# 4 Hello
-# 5 Hello
+1 Hello
+2 Hello
+3 Hello
+4 Hello
+5 Hello
 ```
 
 ## redo Statement
@@ -224,12 +224,12 @@ for i in (0..5)
 end
 
 # output
-# 0 Hello
-# 1 Hello
-# 2 Hello
-# 1 Hello
-# 2 Hello
-# 2 Hello
+0 Hello
+1 Hello
+2 Hello
+1 Hello
+2 Hello
+2 Hello
 ```
 
 ## retry Statement
@@ -254,16 +254,16 @@ for i in (1..5)
 end
 
 # output
-# Execution begin now
-# 1 Hello. Count 1
-# Execution begin now
-# 2 Hello. Count 1
-# Execution begin now
-# 3 Hello. Count 1
-# 3 Hello. Count 2
-# 3 Hello. Count 3
-# Execution begin now
-# 4 Hello. Count 3
-# Execution begin now
-# 5 Hello. Count 3
+Execution begin now
+1 Hello. Count 1
+Execution begin now
+2 Hello. Count 1
+Execution begin now
+3 Hello. Count 1
+3 Hello. Count 2
+3 Hello. Count 3
+Execution begin now
+4 Hello. Count 3
+Execution begin now
+5 Hello. Count 3
 ```

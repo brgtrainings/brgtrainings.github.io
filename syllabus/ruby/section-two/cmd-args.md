@@ -67,13 +67,13 @@ And, run `languages.rb` as
 $ ruby cmd.rb Ruby C Python JavaScript
 
 # output:
-# File name is: languages.rb
-# Total arguments length: 4
-# Arguments are:
-# Ruby
-# C
-# Python
-# JavaScript
+File name is: languages.rb
+Total arguments length: 4
+Arguments are:
+Ruby
+C
+Python
+JavaScript
 ```
 
 ## Exercises
@@ -100,13 +100,13 @@ $ ruby cmd.rb Ruby C Python JavaScript
   $ ruby cmd_even_odd.rb 10
 
   # output:
-  # Checking whether number 10 is even or odd
-  # 10 is even.
+  Checking whether number 10 is even or odd
+  10 is even.
 
   $ ruby cmd_even_odd.rb 5
   # output:
-  # Checking whether number 5 is even or odd
-  # 5 is odd.
+  Checking whether number 5 is even or odd
+  5 is odd.
   ```
 
 - Write a command line program to display your name, phone and age. If age is above 16 then print message as "You are an adult now.
@@ -132,7 +132,7 @@ $ ruby cmd.rb Ruby C Python JavaScript
   $ ruby info.rb Foo 1213131 17
 
   # output:
-  # Name is Foo
-  # Phone is 1213131
-  # You are an adult now.
+  Name is Foo
+  Phone is 1213131
+  You are an adult now.
   ```

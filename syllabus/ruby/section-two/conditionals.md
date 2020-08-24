@@ -55,9 +55,9 @@ The `elsif`, `then` and `else` part are optionals and required on usage basis.
 ```ruby
 num = 10
 
-if num % 2 == 0
+if num.even?
   puts "Number is even"
-elsif num % 2 != 0
+elsif num.odd?
   puts "Number is odd"
 else
   puts "Invalid number"
@@ -70,7 +70,7 @@ Executes code if condition is true. This can be used when `else` part is unneces
 
 ```ruby
 num = 10
-puts "Number is even" if num % 2 == 0
+puts "Number is even" if num.even?
 ```
 
 ## Ruby Ternary Operator ( ?: )
@@ -87,8 +87,9 @@ condition ? return this value if true : return this value if false
 
 ```ruby
 5 < 10 ? puts("5 is less than 10") : puts("5 is greater than 10")
+
 # output
-# 5 is less than 10
+5 is less than 10
 ```
 
 ## unless statement
@@ -119,7 +120,7 @@ else
 end
 
 # output
-# count is less than 5
+count is less than 5
 ```
 
 ### unless modifier
@@ -162,7 +163,7 @@ else puts "Invalid number"
 end
 
 # output
-# Number equals to 5
+Number equals to 5
 ```
 
 Ruby `case` is basically similar to `if-elsif-else` statement.
