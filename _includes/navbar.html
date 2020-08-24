@@ -23,11 +23,9 @@
             {% include tutorials-nav-items.html %}
           </li>
         {% endif %}
-        {% if jekyll.environment != "production" %}
-          <li class="nav-item ml-3{% if page.layout == 'course' or page.layout == 'syllabus_page' %} active{% endif %}">
-            {% include courses-nav-items.html %}
-          </li>
-        {% endif %}
+        <li class="nav-item ml-3{% if page.layout == 'course' or page.layout == 'syllabus_page' %} active{% endif %}">
+          {% include courses-nav-items.html %}
+        </li>
         <!-- <li class="nav-item ml-3{% if page.page_name == 'devtools' %} active{% endif %}">
           <a class="nav-link" href="/devtools/">Devtools</a>
         </li> -->
