@@ -23,13 +23,13 @@ Thanks for giving me the opportunity to help you with getting the taste of HTML 
     note="<strong>Getting Taste</strong> is a learning format to give learners a quick experience of the language, framework, or specific topic with the motive to make familiar about the topic, generate interests and give pointers for the next steps."
 %}
 
-This tutorial has been designed to be fully hands-on. We will build a simple website using HTML and CSS and try to understand both.
+## HTML Introduction
 
-{% include util/note.html
-    note="You can find all the resources related to this tutorial including source code under <strong>Resources</strong> section.
-    However, I recommend you to follow the tutorial step by step to get <strong>maximum benefit.</strong>"
-    type="recommend"
-%}
+__HTML__ stands for _HyperText Markup Language_ and also known as the language for Web. It is responsible for the structuring of web page in the web browsers.
+
+## CSS Introduction
+
+__CSS__ stands for _Cascading Style Sheets_. It describes how HTML elements should be displayed and responsible for styling of our web pages.
 
 ## Who is this tutorial for
 
@@ -46,7 +46,7 @@ This tutorial is for anyone who wants to know what HTML and CSS does and have an
 ## What we are going to build
 
 We will build a simple _Student Portfolio_ website in this tutorial.
-A student portfolio website acts as a way to introduce yourself to anyone in the internet and help showcase your skills.
+A student portfolio website acts as a way to introduce a student to anyone in the internet and help showcase his or her skills.
 
 We will cover following things in our website:
 
@@ -57,14 +57,22 @@ We will cover following things in our website:
 <img data-src="/assets/img/getting-tastes/getting-taste-html-css-preview.gif" class="lozad img-fluid shadow" />
 
 {% include util/note.html
-    note="If you are working, consider it as a <em>Developer Portfolio</em>."
+    note="You can consider it as a <em>Developer Portfolio</em> website if you working as an engineer."
 %}
 
 Click here {% include util/open-link.html url="https://brgtrainings.github.io/student-portfolio" type="preview" %} to preview the website.
 
 {% include util/note.html
-    note="The website is not responsive i.e it might look ugly in mobile. The aim of this tutorial is to quickly get a simple website running giving enough introduction of HTML and CSS."
+    note="The website might look ugly in mobile as it is beyond the scope of this tutorial."
     type="caution"
+%}
+
+This tutorial has been designed to be fully hands-on.
+
+{% include util/note.html
+    note="You can find all the resources related to this tutorial including source code under <strong>Resources</strong> section.
+    However, I recommend you to follow the tutorial step by step to get <strong>maximum benefit.</strong>"
+    type="recommend"
 %}
 
 ## Tutorial Workflow
