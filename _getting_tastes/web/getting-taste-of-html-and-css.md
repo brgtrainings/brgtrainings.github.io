@@ -54,6 +54,8 @@ We will cover following things in our website:
 - Personal and Academic information
 - Blogs
 
+<img data-src="/assets/img/getting-tastes/preview.gif" class="lozad img-fluid shadow" />
+
 {% include util/note.html
     note="If you are working, consider it as a <em>Developer Portfolio</em>."
 %}
