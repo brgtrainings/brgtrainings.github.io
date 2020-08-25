@@ -20,7 +20,7 @@ comments: true
 Thanks for giving me the opportunity to help you with getting the taste of HTML and CSS.
 
 {% include util/note.html
-    note="<strong>Getting Taste</strong> is a learning format to give learners a quick experience of the language, framework, or specific topic with the motive to make familiar about the topic, generate interests and give pointers for the next steps."
+    note="<strong>Getting Taste</strong> is a learning format to give a quick experience of the language, framework, or specific topic and help to generate interests and give pointers for the next steps."
 %}
 
 ## HTML Introduction
