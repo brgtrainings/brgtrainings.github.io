@@ -20,7 +20,7 @@ comments: true
 Thanks for giving me the opportunity to help you with getting the taste of HTML and CSS.
 
 {% include util/note.html
-    note="<strong>Getting Taste</strong> is a learning format to give learners a quick introduction to the language, framework, or specific topic. The motive is to help you in making familiar about the topic, generate interest and give pointers for the next steps."
+    note="<strong>Getting Taste</strong> is a learning format to give learners a quick experience of the language, framework, or specific topic with the motive to make familiar about the topic, generate interests and give pointers for the next steps."
 %}
 
 This tutorial has been designed to be fully hands-on. We will build a simple website using HTML and CSS and try to understand both.
@@ -54,7 +54,7 @@ We will cover following things in our website:
 - Personal and Academic information
 - Blogs
 
-<img data-src="/assets/img/getting-tastes/preview.gif" class="lozad img-fluid shadow" />
+<img data-src="/assets/img/getting-tastes/getting-taste-html-css-preview.gif" class="lozad img-fluid shadow" />
 
 {% include util/note.html
     note="If you are working, consider it as a <em>Developer Portfolio</em>."
