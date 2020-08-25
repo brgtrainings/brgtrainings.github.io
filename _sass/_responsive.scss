@@ -13,6 +13,10 @@
 }
 
 @media (min-width: 768px) {
+  .td-main main {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -46,6 +50,9 @@
         font-size: 20px;
       }
     }
+  }
+  .course-body .td-outer {
+    margin-top: 1rem;
   }
   .features {
     .col-md-6.col-md-6:nth-child(1) {

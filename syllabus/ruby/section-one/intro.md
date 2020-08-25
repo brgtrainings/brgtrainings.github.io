@@ -93,43 +93,43 @@ In an interview Matz discussed the _Philosophy of Ruby_ where he described why h
 
 ### No Perfect Language
 
-> Instead of emphasizing the what, I want to emphasize the how part: how
+Matz says, "Instead of emphasizing the what, I want to emphasize the how part: how
 we feel while programming. That's Ruby's main difference from other
 language designs. I emphasize the feeling, in particular, how I feel
 using Ruby. I didn't work hard to make Ruby perfect for everyone,
 because you feel differently from me. No language can be perfect for
 everyone. I tried to make Ruby perfect for me, but maybe it's not
-perfect for you. -- Matz
+perfect for you.
 
 ### Freedom and Comfort
 
-> Ruby inherited the Perl philosophy of having more than one way to do
+Matz says, "Ruby inherited the Perl philosophy of having more than one way to do
 the same thing. I want to make Ruby users free. I want to give them the
 freedom to choose. People are different. People choose different
 criteria. But if there is a better way among many alternatives, I want
-to encourage that way by making it comfortable. -- Matz
+to encourage that way by making it comfortable."
 
 ### The Joy of Ruby
 
-> You want to enjoy life, don't you? If you get your job done quickly and
+Matz says, "You want to enjoy life, don't you? If you get your job done quickly and
 your job is fun, that's good isn't it?  That's the purpose of life,
 partly. Your life is better.  I want to solve problems I meet in the
-daily life by using computers, so I need to write programs. -- Matz
+daily life by using computers, so I need to write programs."
 
 ### The Human Factor
 
-> Often people, especially computer engineers, focus on the machines.
+Matz says, "Often people, especially computer engineers, focus on the machines.
 They think, "By doing this, the machine will run faster. By doing
 this, the machine will run more effectively. By doing this, the
 machine will something something something." They are focusing on
 machines. But in fact we need to focus on humans, on how humans care
 about doing programming or operating the application of the machines.
-We are the masters. They are the slaves. -- Matz
+We are the masters. They are the slaves."
 
 ### Principle of Least Surprise
 
-> The principle of least surprise means principle of least my surprise.
+Matz says, "The principle of least surprise means principle of least my surprise.
 And it means the principle of least surprise after you learn Ruby very
 well. For example, I was a C++ programmer before I started designing
 Ruby. I programmed in C++ exclusively for two or three years. And after
-two years of C++ programming, it still surprised me. -- Matz
+two years of C++ programming, it still surprised me."
