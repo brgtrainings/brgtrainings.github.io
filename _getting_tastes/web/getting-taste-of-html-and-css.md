@@ -19,8 +19,8 @@ comments: true
 
 Thanks for giving me the opportunity to help you with getting the taste of HTML and CSS.
 
-{% include util/note.html
-    note="<strong>Getting Taste</strong> is a learning format to give a quick experience of the language, framework, or specific topic and help to generate interests and give pointers for the next steps."
+{% include util/highlight.html
+    text="<strong>Getting Taste</strong> is a learning format to give a quick experience of the language, framework, or specific topic and help to generate interests and give pointers for the next steps." class="h5"
 %}
 
 ## HTML Introduction
@@ -229,16 +229,7 @@ __NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/studen
 
 <img data-src="/assets/img/getting-tastes/student-portfolio-navbar.jpg" class="lozad img-fluid shadow" />
 
-{% include util/note.html
-    note="<strong>HTML Intro</strong><br>HTML stands for <em>HyperText Markup Language</em> and also known as the language for Web.
-    It is responsible for the structuring of web page in the web browsers. <br>
-    For example, in the above step, 'nav', 'h1', 'h2', 'a' are instructing browser to show different web page elements like heading, links etc"
-%}
-
-{% include util/note.html
-    note="<strong>CSS Intro</strong><br>CSS stands for <em>Cascading Style Sheets</em>. It describes how HTML elements should be displayed and responsible for styling of our web pages.<br>
-    For example, in the above step, 'navbar' and 'home' color are different and achieved through CSS."
-%}
+__NOTE:__ In the above step, HTML elements like `nav`, `h1`, `h2`, `a` are instructing browser to show different web page elements like heading, links etc. Also, `navbar` and `home` menu items color are different and achieved through CSS.
 
 ## Step 2: Introduction Section
 
@@ -695,7 +686,7 @@ The introduction section should be updated as following:
 
 {% include util/highlight.html
     text="Obviously, this is not the final version of the website. There are lot of improvements that can be done. I hope you will enhance at your own level."
-    class="h3"
+    class="h5"
 %}
 
 ## Resources
@@ -716,7 +707,5 @@ You can go through following useful links to continue your journey with HTML and
 - [cssreference.io](https://cssreference.io/) - A visual guide to CSS
 
 {% include util/highlight.html
-    text="I hope you had wonderful tasting experience of HTML and CSS through this tutorial. :blush: <br>Wishing you good luck for the learning journey ahead.<br> Thank You! :pray:"
-    type="success"
-    class="h3"
+    text="I hope you had wonderful tasting experience of HTML and CSS through this tutorial. :blush: <br>Wishing you good luck for the learning journey ahead.<br> Thank You! :pray:" type="success" class="h5"
 %}
