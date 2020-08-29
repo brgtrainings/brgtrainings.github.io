@@ -10,11 +10,19 @@ navbar_class: ruby-course
 
 This course has been designed to get the basic understanding of Ruby language. After completing this course you should be able to understand and write Ruby programs.
 
-{% include util/note.html
-    note="This course has been designed by <strong>BRG</strong> based on his work experience in the IT Industry, research and findings with the intention of using it for his interactive online or classroom trainings. <br>Feel free to use it as a reference course for your self-learning." class="h3"
+{% include util/highlight.html
+    text="This course has been designed by <strong>BRG</strong> based on his work experience in the IT Industry, research and findings with the intention of using it for his interactive online or classroom trainings. <br>Feel free to use it as a reference course for your self-learning." class="h5"
 %}
 
 The course has been divided into different sections with a section goal.
+
+## Ruby Introduction
+
+Ruby is an interpreted, high-level, and general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+
+The key features of Ruby focus on developer "happiness" and ease of use, making it a good language for those just learning to program and for those who want to get more done with less code.
+
+We will know more about it in _Section One_.
 
 ## Points to remember
 
