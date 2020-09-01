@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Command Line Arguments
 date: 8th May, 2020 18:00:00
+course: ruby
 parent: /ruby/section-two/
 tags:
  - cmd

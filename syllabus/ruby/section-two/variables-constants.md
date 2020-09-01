@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Variables and Constants
 date: 25th April, 2020 1:00:00
+course: ruby
 parent: /ruby/section-two/
 tags:
   - variables

@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Method
 date: 8th May, 2020 5:00:00
+course: ruby
 parent: /ruby/section-two/
 tags:
   - method

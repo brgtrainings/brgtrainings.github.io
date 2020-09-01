@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Interactive Ruby
 date: 21th April, 2020 3:00:00
+course: ruby
 parent: /ruby/section-one/
 tags:
  - irb
@@ -9,7 +10,6 @@ description: Interactive Ruby
 permalink: /ruby/section-one/irb/
 prev_link: /ruby/section-one/hello-world/
 next_link: /ruby/section-two/
-navbar_class: ruby-course
 ---
 
 # Interactive Ruby

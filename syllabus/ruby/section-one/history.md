@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: History
 date: 16th April, 2020 02:00:00
+course: ruby
 parent: /ruby/section-one/
 tags:
  - history
@@ -9,7 +10,6 @@ description: History of Ruby Language
 permalink: /ruby/section-one/history/
 prev_link: /ruby/section-one/intro
 next_link: /ruby/section-one/features
-navbar_class: ruby-course
 ---
 
 # History of Ruby Language

@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Data Types
 date: 23th April, 2020 02:00:00
+course: ruby
 parent: /ruby/section-two/
 tags:
  - datatypes

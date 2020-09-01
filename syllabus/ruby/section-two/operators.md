@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Operators
 date: 8th May, 2020 02:00:00
+course: ruby
 parent: /ruby/section-two/
 tags:
   - operators

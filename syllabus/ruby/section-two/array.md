@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Array
 date: 22nd Aug, 2020 18:00:00
+course: ruby
 parent: /ruby/section-two/
 tags:
  - datatype
