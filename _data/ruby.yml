@@ -45,6 +45,12 @@
           url: ruby/section-two/array
         - title: Hash
           url: ruby/section-two/hash
+        - title: Class
+          url: ruby/section-two/class
+        - title: Module
+          url: ruby/section-two/module
+        - title: File Handling
+          url: ruby/section-two/file-handling
     # - title: Section Three
     #   url: ruby/section-three
     #   children:
