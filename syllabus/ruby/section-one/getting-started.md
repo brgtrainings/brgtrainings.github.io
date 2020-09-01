@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Getting Started
 date: 15th April, 2020 1:00:00
+course: ruby
 parent: /ruby/section-one/
 tags:
   - installation
@@ -10,7 +11,6 @@ tags:
 description: Getting started with Ruby
 permalink: /ruby/section-one/getting-started/
 next_link: /ruby/section-one/intro
-navbar_class: ruby-course
 ---
 
 # Getting Started

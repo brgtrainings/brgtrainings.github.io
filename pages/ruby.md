@@ -1,9 +1,9 @@
 ---
 layout: course
 title: Ruby Basics
+course: ruby
 permalink: /ruby/
 page_name: ruby
-navbar_class: ruby-course
 ---
 
 # :pray: Welcome to Ruby Basics

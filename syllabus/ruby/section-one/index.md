@@ -2,10 +2,10 @@
 layout: course
 title: Section One
 date: 15th April, 2020 1:00:00
+course: ruby
 type: section
 description: Section One - getting familiar with language
 permalink: /ruby/section-one/
-navbar_class: ruby-course
 ---
 
 # Welcome to Section One

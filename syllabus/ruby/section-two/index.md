@@ -2,6 +2,7 @@
 layout: course
 title: Section Two
 date: 20th April, 2020 1:00:00
+course: ruby
 type: section
 description: Section Two - learning building blocks
 permalink: /ruby/section-two/

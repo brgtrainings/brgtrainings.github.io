@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Hello World
 date: 21th April, 2020 02:00:00
+course: ruby
 parent: /ruby/section-one/
 tags:
  - hello world
@@ -9,7 +10,6 @@ description: Hello World program in Ruby
 permalink: /ruby/section-one/hello-world/
 prev_link: /ruby/section-one/features/
 next_link: /ruby/section-one/irb/
-navbar_class: ruby-course
 ---
 
 # Hello World Program
