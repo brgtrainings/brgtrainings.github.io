@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Conditionals
 date: 8th May, 2020 03:00:00
+course: ruby
 parent: /ruby/section-two/
 tags:
   - conditionals

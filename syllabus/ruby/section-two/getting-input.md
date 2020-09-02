@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Getting Input
 date: 8th May, 2020 4:00:00
+course: ruby
 parent: /ruby/section-two/
 tags:
   - input

@@ -2,6 +2,7 @@
 layout: syllabus_page
 title: Features of Ruby
 date: 20th April, 2020 02:00:00
+course: ruby
 parent: /ruby/section-one/
 tags:
  - features
@@ -9,7 +10,6 @@ description: Features of Ruby Language
 permalink: /ruby/section-one/features/
 prev_link: /ruby/section-one/history/
 next_link: /ruby/section-one/hello-world/
-navbar_class: ruby-course
 ---
 
 # Features of Ruby

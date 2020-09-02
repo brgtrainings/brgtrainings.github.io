@@ -2,6 +2,7 @@
 title: Introduction
 layout: syllabus_page
 date: 15th April, 2020 02:00:00
+course: ruby
 parent: /ruby/section-one/
 tags:
  - matz
@@ -9,7 +10,6 @@ description: Introduction of Ruby Language
 permalink: /ruby/section-one/intro/
 prev_link: /ruby/section-one/getting-started
 next_link: /ruby/section-one/history
-navbar_class: ruby-course
 ---
 
 # Introduction
