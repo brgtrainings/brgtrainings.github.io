@@ -11,7 +11,7 @@ page_name: ruby
 This course has been designed to get the basic understanding of Ruby language. After completing this course you should be able to understand and write Ruby programs.
 
 {% include util/highlight.html
-    text="This course has been designed by <strong>BRG</strong> based on his work experience in the IT Industry, research and findings with the intention of using it for his interactive online or classroom trainings. <br>Feel free to use it as a reference course for your self-learning." class="h5"
+    text="This course has been designed with the intention of being used in an interactive online or classroom teaching session. <br>Feel free to use it for your self-learning." class="h5"
 %}
 
 The course has been divided into different sections with a section goal.
