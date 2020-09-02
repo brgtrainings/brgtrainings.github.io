@@ -16,6 +16,9 @@
   <script src="{{ "/assets/js/particles.min.js" | relative_url }}"></script>
 {% endif %}
 
+{% if page.prismjs %}
+  <script type="text/javascript" src="{{ "/assets/js/prism.js" | relative_url }}"></script>
+{% endif %}
 <!-- Lazy load images -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 <script type="text/javascript" src="{{ "/assets/js/custom.js" | relative_url }}"></script>

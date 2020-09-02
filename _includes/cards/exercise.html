@@ -1,0 +1,20 @@
+<div class="card mb-3">
+  <div class="card-header" id="heading{{ include.index }}">
+    <h4 class="mb-0">
+      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+        data-target="#collapse{{ include.index }}" aria-expanded="true" aria-controls="collapseOne">
+        {{ include.index }}. {{ include.exercise.qns }}
+      </button>
+    </h4>
+  </div>
+
+  <div id="collapse{{ include.index }}" class="collapse" aria-labelledby="heading{{ include.index }}" data-parent="#exercises">
+    <div class="card-body">
+      <div class="language-{{ include.exercise.lang }} highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code>{{ include.exercise.solution }}</code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

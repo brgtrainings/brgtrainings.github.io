@@ -387,3 +387,35 @@ header.default_header {
     background-color: #0077B5;
   }
 }
+
+
+// Exercises
+#exercises {
+  .btn:focus {
+    box-shadow: none !important;
+  }
+  .btn-link.focus, .btn-link:focus, .btn-link:hover {
+    text-decoration: none;
+  }
+  .card-header {
+    padding: 0;
+
+    button {
+      font-size: 1.8rem;
+      color: #333;
+    }
+  }
+  .card-body {
+    padding: 0;
+  }
+  .highlighter-rouge .highlight {
+    background: #2d2d2d;
+  }
+  .highlighter-rouge .highlight .highlight {
+    margin: 0 !important;
+    font-size: 16px;
+  }
+  .highlighter-rouge code {
+    color: #ccc;
+  }
+}

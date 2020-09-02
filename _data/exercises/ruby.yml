@@ -1,0 +1,25 @@
+- type: code
+  qns: Write a program to find a number is even or odd.
+  lang: javascript
+  solution: |-
+    var myObject = {
+        foo: "bar",
+        func: function() {
+            var self = this;
+            console.log("outer func:  this.foo = " + this.foo);
+            console.log("outer func:  self.foo = " + self.foo);
+            (function() {
+                console.log("inner func:  this.foo = " + this.foo);
+                console.log("inner func:  self.foo = " + self.foo);
+            }());
+        }
+    };
+    myObject.func();
+
+- type: code
+  qns: Write a program to check whether a string is palindrome or not.
+  lang: ruby
+  solution: |-
+    def foo(msg)
+      puts msg
+    end

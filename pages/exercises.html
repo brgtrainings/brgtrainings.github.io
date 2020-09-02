@@ -1,0 +1,22 @@
+---
+layout: default
+title: Code Exercises
+permalink: /exercises/
+page_name: exercises
+prismjs: true
+---
+
+<section id="exercises" class="devtools-section py-6">
+  <div class="container">
+
+    <h1 class="text-center mb-4">Code Exercises</h1>
+
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-9">
+        {% for exercise in site.data.exercises.ruby %}
+          {% include cards/exercise.html exercise=exercise index=forloop.index %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
