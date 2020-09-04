@@ -1,0 +1,5 @@
+{% for section_hash in site.data.c %}
+  {% for section in section_hash.links %}
+    <a href="{{ site.url }}/{{ site.baseurl }}{{ section.url }}" class="btn btn-secondary ml-3" role="button">{{ section.title }}</a>
+  {% endfor %}
+{% endfor %}
