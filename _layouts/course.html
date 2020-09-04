@@ -21,6 +21,8 @@
 
             {% if page.layout == 'syllabus_page' %}
               <div class="d-none d-xl-block col-md-3 col-xl-3 td-toc d-print-none pl-0">
+                {% include share-page.html %}
+
                 <nav id="TableOfContents">
                   <p class="h4 mb-2 text-muted">Quick Links</p>
                   <ul>
@@ -60,6 +62,11 @@
                   {% if page.next_link %}
                     <a href="{{ page.next_link }}" class="btn btn-primary px-4" role="button">Next</a>
                   {% endif %}
+                </div>
+
+
+                <div class="show-share">
+                  {% include share-page.html %}
                 </div>
 
                 {% if site.disqus.shortname and page.comments == true  %}
