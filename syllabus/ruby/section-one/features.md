@@ -1,18 +1,18 @@
 ---
 layout: syllabus_page
-title: Features of Ruby
+title: Features of Ruby language
 date: 20th April, 2020 02:00:00
 course: ruby
 parent: /ruby/section-one/
 tags:
  - features
-description: Features of Ruby Language
+description: Features of Ruby language
 permalink: /ruby/section-one/features/
 prev_link: /ruby/section-one/history/
 next_link: /ruby/section-one/hello-world/
 ---
 
-# Features of Ruby
+# Features of Ruby language
 
 I have listed few prominent features of Ruby that one should aware.
 

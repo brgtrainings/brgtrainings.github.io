@@ -1,18 +1,18 @@
 ---
 layout: syllabus_page
-title: Hello World
+title: Hello World program in Ruby language
 date: 21th April, 2020 02:00:00
 course: ruby
 parent: /ruby/section-one/
 tags:
  - hello world
-description: Hello World program in Ruby
+description: Hello World program in Ruby language
 permalink: /ruby/section-one/hello-world/
 prev_link: /ruby/section-one/features/
 next_link: /ruby/section-one/irb/
 ---
 
-# Hello World Program
+# Hello World program in Ruby language
 
 Writing a `Hello World` program in Ruby is as simple as writing a single line in
 a file as

@@ -1,20 +1,20 @@
 ---
 layout: syllabus_page
-title: Loops
+title: Loops in Ruby language
 date: 8th May, 2020 03:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
   - control-flow
   - loops
-description: Loops in Ruby
+description: Loops in Ruby language
 permalink: /ruby/section-two/loops/
 prev_link: /ruby/section-two/conditionals/
 next_link: /ruby/section-two/iterators/
 comments: true
 ---
 
-# Loops in Ruby
+# Loops in Ruby language
 
 Loops are the way to execute sequence of statements many times in Ruby when some of the condition evaluates to true or false.
 

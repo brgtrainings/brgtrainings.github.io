@@ -1,18 +1,18 @@
 ---
 layout: syllabus_page
-title: History
+title: History of C language
 date: 31st August, 2020 02:00:00
 course: c
 parent: /c/section-one/
 tags:
  - history
-description: History of C Language
+description: History of C language
 permalink: /c/section-one/history/
 prev_link: /c/section-one/getting-started/
 next_link: /c/section-one/charset-keywords/
 ---
 
-# History of C Language
+# History of C language
 
 C programming language was developed in 1972 by Dennis Ritchie at AT & T Bell Labs in USA. It was originally developed to construct utilities running on Unix and later applied to re-implementing the kernel of the Unix operating system.
 

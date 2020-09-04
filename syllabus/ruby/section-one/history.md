@@ -1,18 +1,18 @@
 ---
 layout: syllabus_page
-title: History
+title: History of Ruby language
 date: 16th April, 2020 02:00:00
 course: ruby
 parent: /ruby/section-one/
 tags:
  - history
-description: History of Ruby Language
+description: History of Ruby language
 permalink: /ruby/section-one/history/
 prev_link: /ruby/section-one/intro
 next_link: /ruby/section-one/features
 ---
 
-# History of Ruby Language
+# History of Ruby language
 
 In the own words of Ruby creator, `Matz`, while sending an email message to `ruby-talk` email group,
 

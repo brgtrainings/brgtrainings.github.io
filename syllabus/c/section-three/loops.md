@@ -1,6 +1,6 @@
 ---
 layout: syllabus_page
-title: Loops
+title: Loop statements in C language
 date: 31st Aug, 2020 02:00:00
 course: c
 parent: /c/section-three/
@@ -13,4 +13,4 @@ next_link: /c/section-three/case/
 comments: true
 ---
 
-# Loop statements in C
+# Loop statements in C language

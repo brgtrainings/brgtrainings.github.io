@@ -1,19 +1,19 @@
 ---
 layout: syllabus_page
-title: Hash
+title: Hash in Ruby language
 date: 22nd Aug, 2020 22:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
  - datatype
  - hash
-description: Hash
+description: Hash in Ruby language
 permalink: /ruby/section-two/hash/
 prev_link: /ruby/section-two/array/
 comments: true
 ---
 
-# Hash
+# Hash in Ruby language
 
 A `Hash` is a collection of key-value pairs data. These key-value pairs provide a useful way to store
 and access data. A hash is created using symbols as keys and any data types as values.

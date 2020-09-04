@@ -1,19 +1,19 @@
 ---
 layout: syllabus_page
-title: Method
+title: Method in Ruby language
 date: 8th May, 2020 5:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
   - method
-description: Method in Ruby
+description: Method in Ruby language
 permalink: /ruby/section-two/method/
 prev_link: /ruby/section-two/getting-input/
 next_link: /ruby/section-two/naming-conventions/
 comments: true
 ---
 
-# Method in Ruby
+# Method in Ruby language
 
 Method allows us to write the piece of code at one place which get executed many times.
 This encourages modularity in the programs since writing same code at different places tend to create more errors.

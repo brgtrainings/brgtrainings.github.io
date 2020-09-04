@@ -1,20 +1,20 @@
 ---
 layout: syllabus_page
-title: Array
+title: Array in Ruby language
 date: 22nd Aug, 2020 18:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
  - datatype
  - array
-description: Array
+description: Array in Ruby language
 permalink: /ruby/section-two/array/
 prev_link: /ruby/section-two/cmd-args/
 next_link: /ruby/section-two/hash/
 comments: true
 ---
 
-# Array
+# Array in Ruby language
 
 Ruby arrays are ordered collections of objects. They can hold objects like integer, number, hash, string, symbol
 or any other array.

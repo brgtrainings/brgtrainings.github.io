@@ -1,18 +1,18 @@
 ---
 layout: syllabus_page
-title: Character Set and Keywords
+title: Character Set in C language
 date: 2nd Sept, 2020 02:00:00
 course: c
 parent: /c/section-one/
 tags:
  - charset
-description: Character Set and Keywords in C
+description: Character Set in C language
 permalink: /c/section-one/charset/
 prev_link: /c/section-one/history/
 next_link: /c/section-one/tokens/
 ---
 
-# Character Set in C
+# Character Set in C language
 
 Every language has its own set of the characters which are used to form a sentence to write a program/code, like how English has its set of characters like Alphabets, punctuation characters etc. We can only use the valid set of the characters defined by the programming language.
 

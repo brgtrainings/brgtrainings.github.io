@@ -1,18 +1,18 @@
 ---
 layout: syllabus_page
-title: Hello World
+title: Hello World program in C language
 date: 31st Aug, 2020 02:00:00
 course: c
 parent: /c/section-one/
 tags:
  - hello world
-description: Hello World program in C
+description: Hello World program in C language
 permalink: /c/section-one/hello-world/
 prev_link: /c/section-one/tokens/
 next_link: /c/section-two/
 ---
 
-# Hello World Program
+# Hello World program in C language
 
 Let's begin writing with our first program i.e `Hello World`.
 

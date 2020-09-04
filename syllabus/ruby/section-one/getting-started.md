@@ -1,6 +1,6 @@
 ---
 layout: syllabus_page
-title: Getting Started
+title: Getting Started with Ruby language
 date: 15th April, 2020 1:00:00
 course: ruby
 parent: /ruby/section-one/
@@ -8,12 +8,12 @@ tags:
   - installation
   - rvm
   - rbenv
-description: Getting started with Ruby
+description: Getting Started with Ruby language
 permalink: /ruby/section-one/getting-started/
 next_link: /ruby/section-one/intro
 ---
 
-# Getting Started
+# Getting Started with Ruby language
 
 To get Ruby into your system, you need to first install it and there are several ways and/or tools to do it. This
 page describes how to install Ruby in Linux, macOS or Windows. There are many ways to install Ruby in each

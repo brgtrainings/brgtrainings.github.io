@@ -1,19 +1,19 @@
 ---
 layout: syllabus_page
-title: Variables and Constants
+title: Variables and Constants in Ruby language
 date: 25th April, 2020 1:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
   - variables
-description: Variables and Constants in Ruby
+description: Variables and Constants in Ruby language
 permalink: /ruby/section-two/variables-constants/
 prev_link: /ruby/section-two/datatypes/
 next_link: /ruby/section-two/operators/
 comments: true
 ---
 
-# Variable in Ruby
+# Variable in Ruby language
 
 Variable is a label to give name to the memory location, which hold any data to be used by the program.
 The data can be of any data type including integer, boolean, string, array, hash or else.

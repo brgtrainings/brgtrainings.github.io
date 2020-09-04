@@ -1,18 +1,18 @@
 ---
 layout: syllabus_page
-title: Getting Started
+title: Getting Started with C language
 date: 1st Sept, 2020 1:00:00
 course: c
 parent: /c/section-one/
 tags:
   - getting-start
-description: Getting started with C
+description: Getting Started with C language
 permalink: /c/section-one/getting-started/
 next_link: /c/section-one/history/
 prev_link: /c/section-one/
 ---
 
-# Getting Started
+# Getting Started with C language
 
 In this page, we will learn to install C in Linux, macOS and Windows.
 

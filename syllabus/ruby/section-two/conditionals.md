@@ -1,19 +1,19 @@
 ---
 layout: syllabus_page
-title: Conditionals
+title: Conditional statements in Ruby language
 date: 8th May, 2020 03:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
   - conditionals
-description: Conditional statements in Ruby
+description: Conditional statements in Ruby language
 permalink: /ruby/section-two/conditionals/
 prev_link: /ruby/section-two/operators/
 next_link: /ruby/section-two/loops/
 comments: true
 ---
 
-# Conditional statements in Ruby
+# Conditional statements in Ruby language
 
 Conditional statement is used to perform decision making operations based on some condition.
 Decision making process in programming is similar to decision making in real life.

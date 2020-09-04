@@ -21,7 +21,7 @@ next_link: /ruby/section-two/variables-constants/
 comments: true
 ---
 
-# Data Types in Ruby
+# Data Types in Ruby language
 
 {% include util/highlight.html
     text="Data types represents different types of data like text, string, numbers etc.

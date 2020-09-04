@@ -1,19 +1,19 @@
 ---
 layout: syllabus_page
-title: Getting Input
+title: Getting input from User in Ruby language
 date: 8th May, 2020 4:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
   - input
-description: Getting input from user
+description: Getting input from User in Ruby language
 permalink: /ruby/section-two/getting-input/
 prev_link: /ruby/section-two/iterators/
 next_link: /ruby/section-two/method/
 comments: true
 ---
 
-# Getting input from User in Ruby
+# Getting input from User in Ruby language
 
 Sometimes during the program you want ask user to interact with the program like
 asking his name or other details.

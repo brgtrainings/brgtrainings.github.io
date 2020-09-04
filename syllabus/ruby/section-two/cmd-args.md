@@ -1,20 +1,20 @@
 ---
 layout: syllabus_page
-title: Command Line Arguments
+title: Command Line Arguments in Ruby language
 date: 8th May, 2020 18:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
  - cmd
  - arguments
-description: Command Line Arguments in Python
+description: Command Line Arguments in Ruby language
 permalink: /ruby/section-two/cmd-args/
 prev_link: /ruby/section-two/naming-conventions/
 next_link: /ruby/section-two/array/
 comments: true
 ---
 
-# Command Line Arguments in Ruby
+# Command Line Arguments in Ruby language
 
 As the name says itself `Command line arguments`, you can assume pretty correct that these might be the arguments you pass
 while running your Ruby programs as how we pass arguments to a method.

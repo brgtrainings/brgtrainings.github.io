@@ -1,18 +1,18 @@
 ---
 layout: syllabus_page
-title: Tokens
+title: Tokens in C language
 date: 2nd Sept, 2020 02:00:00
 course: c
 parent: /c/section-one/
 tags:
  - tokens
-description: Tokens in C
+description: Tokens in C language
 permalink: /c/section-one/tokens/
 prev_link: /c/section-one/charset/
 next_link: /c/section-one/hello-world/
 ---
 
-# Tokens in C
+# Tokens in C language
 
 A token is the smallest element of a program that is meaningful to the compiler. The compiler breaks a program into the smallest possible units (tokens) and proceeds to the various stages of the compilation.
 

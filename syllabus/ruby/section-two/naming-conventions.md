@@ -1,19 +1,19 @@
 ---
 layout: syllabus_page
-title: Naming Conventions
+title: Naming conventions in Ruby language
 date: 8th May, 2020 17:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
  - naming conventions
-description: Naming conventions in Ruby
+description: Naming conventions in Ruby language
 permalink: /ruby/section-two/naming-conventions/
 prev_link: /ruby/section-two/method/
 next_link: /ruby/section-two/cmd-args/
 comments: true
 ---
 
-# Naming conventions in Ruby
+# Naming conventions in Ruby language
 
 {% include util/quote.html
     quote="The only real difficulties in programming are cache invalidation and naming things."

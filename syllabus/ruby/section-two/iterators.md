@@ -1,20 +1,20 @@
 ---
 layout: syllabus_page
-title: Iterators
+title: Iterators in Ruby language
 date: 8th May, 2020 03:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
   - control-flow
   - iterators
-description: Iterators in Ruby
+description: Iterators in Ruby language
 permalink: /ruby/section-two/iterators/
 prev_link: /ruby/section-two/loops/
 next_link: /ruby/section-two/getting-input/
 comments: true
 ---
 
-# Iterators in Ruby
+# Iterators in Ruby language
 
 In computer programming, an iterator is an entity which enables programmer to traverse through the element of container, particularly a list (or array).
 

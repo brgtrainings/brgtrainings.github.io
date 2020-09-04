@@ -1,18 +1,18 @@
 ---
 layout: syllabus_page
-title: Class
+title: Class in Ruby language
 date: 29th Aug, 2020 22:00:00
 parent: /ruby/section-two/
 tags:
  - class
-description: Class
+description: Class in Ruby language
 permalink: /ruby/section-two/class/
 prev_link: /ruby/section-two/hash/
 next_link: /ruby/section-two/module/
 comments: true
 ---
 
-# Class
+# Class in Ruby language
 
 A class is a blueprint from which objects are created in programming language. It means every object is an instance of a class, and a class defines the state(variables) and behaviors(methods) of an object.
 

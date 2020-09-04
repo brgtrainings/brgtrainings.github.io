@@ -1,19 +1,19 @@
 ---
 layout: syllabus_page
-title: Operators
+title: Operators in Ruby language
 date: 8th May, 2020 02:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
   - operators
-description: Operators in Python
+description: Operators in Ruby language
 permalink: /ruby/section-two/operators/
 prev_link: /ruby/section-two/variables-constants/
 next_link: /ruby/section-two/conditionals/
 comments: true
 ---
 
-# Operators in Ruby
+# Operators in Ruby language
 
 An operator is a programming entity that represents an operation to be performed with one or more operand.
 Operators are the foundation of any programming language.

@@ -1,18 +1,18 @@
 ---
-title: Introduction
 layout: syllabus_page
+title: Introduction of Ruby language
 date: 15th April, 2020 02:00:00
 course: ruby
 parent: /ruby/section-one/
 tags:
  - matz
-description: Introduction of Ruby Language
+description: Introduction of Ruby language
 permalink: /ruby/section-one/intro/
 prev_link: /ruby/section-one/getting-started
 next_link: /ruby/section-one/history
 ---
 
-# Introduction
+# Introduction of Ruby language
 
 {% include util/quote-with-pic.html
     quote="Ruby is simple in appearance, but is very complex inside, just like our human body."
