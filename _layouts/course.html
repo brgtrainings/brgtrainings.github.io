@@ -34,12 +34,13 @@
               </div>
             {% endif %}
             <main class="col-12 col-md-9 col-xl-6" role="main">
-              <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
+              <!-- <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
                 <ol class="breadcrumb spb-1">
                   <li class="breadcrumb-item active" aria-current="page">
                     {% if page.parent %}
+                      {% assign course = page.course %}
                       <a href="{{ site.url }}{{ site.baseurl }}{{ page.parent }}">
-                        {{ page.parent  | remove: "/ruby" | remove: "/" | replace: "-", " " | capitalize }}
+                        {{ page.parent  | remove: course | remove: "/" | replace: "-", " " | capitalize }}
                       </a>
                       <i class="fas fa-chevron-right mx-2"></i>
                     {% endif %}
@@ -48,7 +49,7 @@
                     </a>
                   </li>
                 </ol>
-              </nav>
+              </nav> -->
               <div class="td-content">
                 {{ content }}
 
@@ -73,6 +74,7 @@
         </div>
 
         {% include footer.html %}
+        {% include course/permalinks.html %}
       </div>
     </main>
 
