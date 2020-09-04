@@ -9,8 +9,10 @@
           url: c/section-one/getting-started
         - title: History
           url: c/section-one/history
-        - title: Character Set and Keywords
-          url: c/section-one/charset-keywords
+        - title: Character Set
+          url: c/section-one/charset
+        - title: Tokens
+          url: c/section-one/tokens
         - title: Hello World
           url: c/section-one/hello-world
     - title: Section Two
