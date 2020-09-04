@@ -14,23 +14,7 @@ prev_link: /c/section-one/
 
 # Getting Started
 
-In this page, we will learn to install C in Windows, macOS and Linux.
-
-## Install C on Windows
-
-The easy way to install C in Window is through Integrated Development Environment(IDE).
-
-We will be using an open-source IDE named _Code::Blocks_ which bundles a compiler (named `gcc` offered by Free Software Foundation GNU), editor and debugger in a single package.
-
-{% include util/note.html
-    note="An integrated development environment (IDE) is user-friendly software for building applications that combines common developer tools with nice graphical user interface (GUI). It typically consists of source code editor, build tools, and debugger."
-%}
-
-### Steps
-
-- Go to [Code Blocks Download page](http://www.codeblocks.org/downloads){:target="_blank"} and click `Download the binary release` link.
-- Under `Windows XP/.../10`, look for the installer with GCC Compiler, e.g. `codeblocks-20.03mingw-setup.exe` which includes MinGW's GNU GCC compiler and GNU GDB debugger and click on `Sourceforge.net` link to initiate downloading of the binary.
-- Run the downloaded installer and accept the default options.
+In this page, we will learn to install C in Linux, macOS and Windows.
 
 ## Install C on Linux
 
@@ -68,7 +52,7 @@ The default Ubuntu repositories contain a meta-package named `build-essential` t
   $ sudo apt-get install manpages-dev
   ```
 
-- Validate that the GCC compiler:
+- Validate the GCC compiler:
 
   ```shell
   $ gcc --version
@@ -86,9 +70,25 @@ To setup C in macOS, follow the given steps:
 
 - After the installation process, open a terminal and run `gcc -v` command or `clang -v`:
 
-```shell
-Apple clang version 11.0.3 (clang-1103.0.32.62)
-Target: x86_64-apple-darwin19.5.0
-Thread model: posix
-InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-```
+  ```shell
+  Apple clang version 11.0.3 (clang-1103.0.32.62)
+  Target: x86_64-apple-darwin19.5.0
+  Thread model: posix
+  InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+  ```
+
+## Install C on Windows
+
+The easy way to install C in Window is through Integrated Development Environment(IDE).
+
+We will be using an open-source IDE named _Code::Blocks_ which bundles a compiler (named `gcc` offered by Free Software Foundation GNU), editor and debugger in a single package.
+
+{% include util/note.html
+    note="An integrated development environment (IDE) is user-friendly software for building applications that combines common developer tools with nice graphical user interface (GUI). It typically consists of source code editor, build tools, and debugger."
+%}
+
+### Steps
+
+- Go to [Code Blocks Download page](http://www.codeblocks.org/downloads){:target="_blank"} and click `Download the binary release` link.
+- Under `Windows XP/.../10`, look for the installer with GCC Compiler, e.g. `codeblocks-20.03mingw-setup.exe` which includes MinGW's GNU GCC compiler and GNU GDB debugger and click on `Sourceforge.net` link to initiate downloading of the binary.
+- Run the downloaded installer and accept the default options.
