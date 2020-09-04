@@ -6,12 +6,17 @@ permalink: /ruby/
 page_name: ruby
 ---
 
+{% include util/note.html
+    note="The content of the syllabus is still in building stage. However, you can still begin your learning."
+    type="important"
+%}
+
 # :pray: Welcome to Ruby Basics
 
 This course has been designed to get the basic understanding of Ruby language. After completing this course you should be able to understand and write Ruby programs.
 
 {% include util/highlight.html
-    text="This course has been designed with the intention of being used in an interactive online or classroom teaching session. <br>Feel free to use it for your self-learning." class="h5"
+    text="This course has been designed with the intention of being used in an interactive online or classroom teaching session. <br>Feel free to use it for your self-learning purpose." class="h5"
 %}
 
 The course has been divided into different sections with a section goal.
@@ -31,11 +36,6 @@ We will know more about it in _Section One_.
 - Check the `Learning Notations` section below to see important notations used.
 - The course can be properly viewable in mobile and tablet.
 - This can be considered as the comprehensive course.
-
-{% include util/note.html
-    note="The content of the syllabus is still in building stage. However, you can still begin your learning."
-    type="warning"
-%}
 
 {% include util/note.html
           note="Use <strong>Desktop</strong> for the best learning experience as you can practice the code snippet along with." type="important" %}
