@@ -10,7 +10,7 @@
         - title: History
           url: c/section-one/history
         - title: Character Set and Keywords
-          url: c/char-set-keywords
+          url: c/section-one/charset-keywords
         - title: Hello World
           url: c/section-one/hello-world
     - title: Section Two

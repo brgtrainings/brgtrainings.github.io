@@ -1,7 +1,7 @@
 ---
 layout: syllabus_page
 title: Getting Started
-date: 15th April, 2020 1:00:00
+date: 1st Sept, 2020 1:00:00
 course: c
 parent: /c/section-one/
 tags:

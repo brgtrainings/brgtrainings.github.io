@@ -8,6 +8,8 @@ description: Section Two - learning building blocks
 permalink: /c/section-two/
 ---
 
+<a href="/c/section-one/" class="btn btn-secondary" role="button">Go to Section One</a>
+
 ### Congratulations on the completion of section one.
 
 # Welcome to Section Two
@@ -31,7 +33,7 @@ permalink: /c/section-two/
           {% for sub_section in section.children %}
             {% assign section_link = page.permalink | replace_first: "/", "" %}
             {% if sub_section.url contains section_link %}
-              <div class="col-lg-4 col-md-6">
+              <div class="col-md-6">
                 {% include course/topic-card.html
                             topic=sub_section index=forloop.index %}
               </div>
@@ -40,18 +42,5 @@ permalink: /c/section-two/
         {% endfor %}
       {% endfor %}
     </div>
-  </div>
-</div>
-
-<hr class="panel-line">
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
-      <h3 class="mt-1">Go to sections</h3>
-    </div>
-  </div>
-  <div class="row">
-    {% include course/section-links.html %}
   </div>
 </div>
