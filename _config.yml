@@ -1,7 +1,7 @@
 title: BRG Trainings
 email: contact@brgtrainings.com
 description: >-
-  Training resource materials of BRG
+  A Platform for Self-Learners to a Career in Software Development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brgtrainings.com" # the base hostname & protocol for your site, e.g. http://example.com
 image_base_url: /assets # local images: ending without forward slash
