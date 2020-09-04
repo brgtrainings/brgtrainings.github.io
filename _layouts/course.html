@@ -65,9 +65,11 @@
                 </div>
 
 
-                <div class="show-share">
-                  {% include share-page.html %}
-                </div>
+                {% if page.layout == 'syllabus_page' %}
+                  <div class="show-share">
+                    {% include share-page.html %}
+                  </div>
+                {% endif %}
 
                 {% if site.disqus.shortname and page.comments == true  %}
                   <div id="comments" class="mt-3">
