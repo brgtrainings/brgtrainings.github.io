@@ -7,7 +7,7 @@ parent: /c/section-two/
 tags:
  - getting-input
 description: Input and output in C language
-permalink: /c/section-two/get-input/
+permalink: /c/section-two/input-and-output/
 prev_link: /c/section-two/operators/
 next_link: /c/section-three/
 comments: true
