@@ -9,7 +9,7 @@ tags:
 description: Input and output in C language
 permalink: /c/section-two/input-and-output/
 prev_link: /c/section-two/operators/
-next_link: /c/section-three/
+next_link: /c/section-two/exercises/
 comments: true
 ---
 

@@ -29,6 +29,8 @@
           url: c/section-two/operators
         - title: Input and Output
           url: c/section-two/input-and-output
+        - title: Exercises
+          url: c/section-two/exercises
     - title: Section Three
       description: Control Structures
       url: c/section-three
@@ -37,6 +39,8 @@
           url: c/section-three/conditions
         - title: Loops
           url: c/section-three/loops
+        - title: Exercises
+          url: c/section-three/exercises
     # - title: Section Four
     #   description: Functions and Pointers
     #   url: c/section-four
