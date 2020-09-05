@@ -9,7 +9,7 @@ tags:
 description: Operators in C language
 permalink: /c/section-two/operators/
 prev_link: /c/section-two/data-types/
-next_link: /c/section-two/get-input/
+next_link: /c/section-two/input-and-output/
 comments: true
 ---
 

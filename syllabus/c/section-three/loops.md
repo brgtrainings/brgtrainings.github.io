@@ -9,7 +9,7 @@ tags:
 description: Loop statements in C language
 permalink: /c/section-three/loops/
 prev_link: /c/section-three/conditions/
-next_link: /c/section-four
+# next_link: /c/section-four
 comments: true
 ---
 
