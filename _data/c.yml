@@ -27,8 +27,8 @@
           url: c/section-two/data-types
         - title: Operators
           url: c/section-two/operators
-        - title: Receiving Input
-          url: c/section-two/get-input
+        - title: Input and Output
+          url: c/section-two/input-and-output
     - title: Section Three
       description: Control Structures
       url: c/section-three
