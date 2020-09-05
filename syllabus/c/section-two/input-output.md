@@ -13,5 +13,5 @@ next_link: /c/section-three/
 comments: true
 ---
 
-# Getting input in C language
+# Input/Ouput in C language
 
