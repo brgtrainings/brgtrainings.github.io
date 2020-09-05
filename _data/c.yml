@@ -37,8 +37,6 @@
           url: c/section-three/conditions
         - title: Loops
           url: c/section-three/loops
-        - title: Case
-          url: c/section-three/case
     # - title: Section Four
     #   description: Functions and Pointers
     #   url: c/section-four
