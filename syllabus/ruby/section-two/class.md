@@ -1,5 +1,6 @@
 ---
 layout: syllabus_page
+course: ruby
 title: Class in Ruby language
 date: 29th Aug, 2020 22:00:00
 parent: /ruby/section-two/
