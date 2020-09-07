@@ -9,7 +9,7 @@ tags:
 description: History of C language
 permalink: /c/section-one/history/
 prev_link: /c/section-one/getting-started/
-next_link: /c/section-one/charset-keywords/
+next_link: /c/section-one/charset/
 ---
 
 # History of C language
