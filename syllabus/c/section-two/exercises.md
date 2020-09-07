@@ -15,21 +15,23 @@ comments: true
 
 # Section Two Exercises
 
-1. Write a C program to print your name, date of birth. and mobile number. Go to the editor
+## Writing program
+
+1. Write a program to print your name, date of birth. and mobile number. Go to the editor
 
     Expected Output:
 
-    ```
+    ```c
     Name   : Foo Bar
     DOB    : 5th Sept, 2020
     Mobile : 012-9876543210
     ```
 
-2. Write a C program to print character `C` using `*` character as shown below.
+2. Write a program to print character `C` using `*` character as shown below.
 
     Expected Output:
 
-    ```
+    ```c
       ******
     **      **
     *
@@ -40,23 +42,23 @@ comments: true
       ******
     ```
 
-3. Write a C program to print the quotient and remainder of a division.
+3. Write a program to print the quotient and remainder of a division.
 
     Expected Output:
 
-    ```
+    ```c
     Enter first number: 20
     Enter second number: 7
 
     Quotient of 20/7 = 2
-    Remainder of 20/7 = 7
+    Remainder of 20/7 = 6
     ```
 
-4. Write a C program to convert specified days (Eg: `370`) into years, months, weeks and days
+4. Write a program to convert specified days (Eg: `370`) into years, months, weeks and days
 
     Expected Output:
 
-    ```
+    ```c
     Years: 1
     Months: 12
     Weeks: 0
