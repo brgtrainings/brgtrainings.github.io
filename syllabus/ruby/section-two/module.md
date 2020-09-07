@@ -9,7 +9,7 @@ tags:
 description: Module in Ruby language
 permalink: /ruby/section-two/module/
 prev_link: /ruby/section-two/class/
-# next_link: /ruby/section-two/file-handling/
+next_link: /ruby/section-two/file-handling/
 comments: true
 ---
 
