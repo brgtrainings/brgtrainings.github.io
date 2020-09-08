@@ -95,7 +95,7 @@ Let's jump into the coding.
 
 You should be able to see the following:
 
-<img data-src="/assets/img/getting-tastes/getting-taste-html-css-preview.gif" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/getting-taste-html-css-preview.gif" %}
 
 ## Step 1: Familiar with Semantic Elements
 
@@ -232,7 +232,7 @@ __NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/studen
 
 Blogs section now should look like below:
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-figure.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-figure.jpg" %}
 
 ## Step 3: Video and Audio elements
 

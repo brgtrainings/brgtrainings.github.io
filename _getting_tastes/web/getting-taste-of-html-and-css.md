@@ -54,7 +54,7 @@ We will cover following things in our website:
 - Personal and Academic information
 - Blogs
 
-<img data-src="/assets/img/getting-tastes/getting-taste-html-css-preview.gif" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/getting-taste-html-css-preview.gif" %}
 
 {% include util/note.html
     note="You can consider it as a <em>Developer Portfolio</em> website if you working as an engineer."
@@ -115,7 +115,7 @@ Workflow of tutorial is quite simple as:
 
 You should be able to see the following:
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-starter.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-starter.jpg" %}
 
 ### Code overview
 
@@ -227,7 +227,7 @@ __NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/studen
 
 ### Navbar Preview
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-navbar.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-navbar.jpg" %}
 
 __NOTE:__ In the above step, HTML elements like `nav`, `h1`, `h2`, `a` are instructing browser to show different web page elements like heading, links etc. Also, `navbar` and `home` menu items color are different and achieved through CSS.
 
@@ -280,7 +280,7 @@ And, update `css/style.css` with following CSS for introduction.
 
 ### Intro Preview
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-intro.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-intro.jpg" %}
 
 __NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/student-portfolio/commit/aea8ec0e61ad30845d83031b0dab33f30e0d7b5c){:target="_blank"} in GitHub.
 
@@ -427,7 +427,7 @@ And CSS as:
 
 You should be able to see following:
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-about-left.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-about-left.jpg" %}
 
 ### About right column
 
@@ -485,7 +485,7 @@ And CSS as:
 
 Now, about section should be updated as following:
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-about.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-about.jpg" %}
 
 __NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/student-portfolio/commit/a17b1cba9f4734ffb45050764920d4b8ece04322){:target="_blank"} in GitHub.
 
@@ -595,7 +595,7 @@ And, add its CSS as:
 
 You should be able to see the first blog item as:
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-blog-item.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-blog-item.jpg" %}
 
 ### Other blog items
 
@@ -603,7 +603,7 @@ Now, repeat the HTML content with different blog content for other two blogs. CS
 
 The final blogs section should look like as below:
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-blogs.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-blogs.jpg" %}
 
 {% include util/note.html
     note="All the images for this tutorial have been taken from from <a href='https://unsplash.com/'>https://unsplash.com/</a>."
@@ -634,7 +634,7 @@ footer {
 
 The footer will look like:
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-footer.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-footer.jpg" %}
 
 {% include util/note.html
     note="The website we have created will not be responsive i.e it might look ugly in mobile or other devices. You can achieve that through the help of 'media queries'."
@@ -682,7 +682,7 @@ __NOTE:__ I will leave up to you to add the different color for the different so
 
 The introduction section should be updated as following:
 
-<img data-src="/assets/img/getting-tastes/student-portfolio-social.jpg" class="lozad img-fluid shadow" />
+{% include util/lazy-img.html src="getting-tastes/student-portfolio-social.jpg" %}
 
 {% include util/highlight.html
     text="Obviously, this is not the final version of the website. There are lot of improvements that can be done. I hope you will enhance at your own level."
