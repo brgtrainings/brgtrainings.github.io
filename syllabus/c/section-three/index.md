@@ -6,9 +6,8 @@ course: c
 type: section
 description: Section Three - Control Structures
 permalink: /c/section-three/
+prev_section: /c/section-two/
 ---
-
-<a href="/c/section-two/" class="btn btn-secondary" role="button">Go to Section Two</a>
 
 ### Congratulations on the completion of section two.
 

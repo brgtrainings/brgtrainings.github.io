@@ -6,9 +6,8 @@ course: c
 type: section
 description: Section Two - learning building blocks
 permalink: /c/section-two/
+prev_section: /c/section-one/
 ---
-
-<a href="/c/section-one/" class="btn btn-secondary" role="button">Go to Section One</a>
 
 ### Congratulations on the completion of section one.
 
