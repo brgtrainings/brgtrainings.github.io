@@ -7,9 +7,9 @@ parent: /ruby/section-two/
 tags:
  - class
 description: Class in Ruby language
-permalink: /ruby/section-two/class/
-prev_link: /ruby/section-two/hash/
-next_link: /ruby/section-two/module/
+permalink: /ruby/section-three/class/
+prev_link: /ruby/section-three/hash/
+next_link: /ruby/section-three/module/
 comments: true
 ---
 

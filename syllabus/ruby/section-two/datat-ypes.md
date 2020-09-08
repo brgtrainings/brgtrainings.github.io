@@ -5,7 +5,7 @@ date: 23th April, 2020 02:00:00
 course: ruby
 parent: /ruby/section-two/
 tags:
- - datatypes
+ - data-types
  - number
  - string
  - boolean
@@ -15,7 +15,7 @@ tags:
  - range
  - nil
 description: Data Types in Ruby language
-permalink: /ruby/section-two/datatypes/
+permalink: /ruby/section-two/data-types/
 prev_link: /ruby/section-two/
 next_link: /ruby/section-two/variables-constants/
 comments: true

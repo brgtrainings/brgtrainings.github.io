@@ -7,8 +7,8 @@ parent: /ruby/section-two/
 tags:
  - file
 description: File Handling in Ruby language
-permalink: /ruby/section-two/file-handling/
-prev_link: /ruby/section-two/module/
+permalink: /ruby/section-three/file-handling/
+prev_link: /ruby/section-three/module/
 comments: true
 ---
 

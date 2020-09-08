@@ -8,8 +8,9 @@ tags:
  - datatype
  - hash
 description: Hash in Ruby language
-permalink: /ruby/section-two/hash/
-prev_link: /ruby/section-two/array/
+permalink: /ruby/section-three/hash/
+prev_link: /ruby/section-three/array/
+next_link: /ruby/section-three/class/
 comments: true
 ---
 

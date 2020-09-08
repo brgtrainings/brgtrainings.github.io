@@ -8,9 +8,9 @@ tags:
  - datatype
  - array
 description: Array in Ruby language
-permalink: /ruby/section-two/array/
-prev_link: /ruby/section-two/cmd-args/
-next_link: /ruby/section-two/hash/
+permalink: /ruby/section-three/array/
+prev_link: /ruby/section-three/
+next_link: /ruby/section-three/hash/
 comments: true
 ---
 

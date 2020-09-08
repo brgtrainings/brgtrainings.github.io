@@ -22,7 +22,7 @@
       url: ruby/section-two
       children:
         - title: Data Types
-          url: ruby/section-two/datatypes
+          url: ruby/section-two/data-types
         - title: Variables and Constants
           url: ruby/section-two/variables-constants
         - title: Operators
@@ -41,16 +41,20 @@
           url: ruby/section-two/naming-conventions
         - title: Command Line Arguments
           url: ruby/section-two/cmd-args
+    - title: Section Three
+      description: More building blocks
+      url: ruby/section-three
+      children:
         - title: Array
-          url: ruby/section-two/array
+          url: ruby/section-three/array
         - title: Hash
-          url: ruby/section-two/hash
+          url: ruby/section-three/hash
         - title: Class
-          url: ruby/section-two/class
+          url: ruby/section-three/class
         - title: Module
-          url: ruby/section-two/module
+          url: ruby/section-three/module
         - title: File Handling
-          url: ruby/section-two/file-handling
+          url: ruby/section-three/file-handling
     # - title: Section Three
     #   url: ruby/section-three
     #   children:

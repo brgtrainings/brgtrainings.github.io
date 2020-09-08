@@ -10,7 +10,7 @@ tags:
 description: Command Line Arguments in Ruby language
 permalink: /ruby/section-two/cmd-args/
 prev_link: /ruby/section-two/naming-conventions/
-next_link: /ruby/section-two/array/
+next_link: /ruby/section-three/
 comments: true
 ---
 

@@ -7,9 +7,9 @@ parent: /ruby/section-two/
 tags:
  - module
 description: Module in Ruby language
-permalink: /ruby/section-two/module/
-prev_link: /ruby/section-two/class/
-next_link: /ruby/section-two/file-handling/
+permalink: /ruby/section-three/module/
+prev_link: /ruby/section-three/class/
+next_link: /ruby/section-three/file-handling/
 comments: true
 ---
 

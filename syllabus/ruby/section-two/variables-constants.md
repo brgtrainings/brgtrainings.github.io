@@ -8,7 +8,7 @@ tags:
   - variables
 description: Variables and Constants in Ruby language
 permalink: /ruby/section-two/variables-constants/
-prev_link: /ruby/section-two/datatypes/
+prev_link: /ruby/section-two/data-types/
 next_link: /ruby/section-two/operators/
 comments: true
 ---

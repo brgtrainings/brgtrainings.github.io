@@ -1,20 +1,20 @@
 ---
 layout: course
-title: Section Two
-date: 20th April, 2020 1:00:00
+title: Section Three
+date: 8th Sept, 2020 1:00:00
 course: ruby
 type: section
-description: Section Two - learning building blocks
-permalink: /ruby/section-two/
-prev_section: /ruby/section-one/
+description: Section Three - more building blocks
+permalink: /ruby/section-three/
+prev_section: /ruby/section-two/
 ---
 
-### Congratulations on the completion of section one.
+### Congratulations on the completion of section two.
 
-# Welcome to Section Two
+# Welcome to Section Three
 
 {% include util/note.html
-    note="In this phase, we will try to learn the basic building blocks of the language."
+    note="In this phase, we will try to learn few other building blocks of the language."
 %}
 
 
