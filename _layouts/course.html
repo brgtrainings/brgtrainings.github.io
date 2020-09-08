@@ -53,6 +53,10 @@
                 </ol>
               </nav> -->
               <div class="td-content">
+                {% if page.prev_section %}
+                  <a href="{{ page.prev_section }}" class="btn btn-secondary" role="button">Go to Previous Section</a>
+                {% endif %}
+
                 {{ content }}
 
                 <div class="mt-5">
