@@ -51,6 +51,8 @@ collections:
     output: true
   getting_tastes:
     output: true
+  snippets:
+    output: true
 
 paginate: 6
 paginate_path: "/blogs/page:num"
