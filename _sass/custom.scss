@@ -229,6 +229,12 @@ a {
 .text-ccc {
   color: #ccc !important;
 }
+.text-eee {
+  color: #eee !important
+}
+.text-444 {
+  color: #444 !important
+}
 .bg-efefef {
   background-color: #efefef !important;
 }
@@ -246,6 +252,10 @@ a {
 }
 .text-white-80 {
   color: rgba(255, 255, 255, 0.80);
+}
+.bg-primary {
+  background: linear-gradient(180deg, rgba(60,100,170,1) 0%, rgba(39,65,105,1) 100%);
+  color: #eee;
 }
 .gradient-text {
   font-size: 25px;

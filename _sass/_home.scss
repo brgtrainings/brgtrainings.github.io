@@ -394,3 +394,34 @@ header.default_header {
     border: 0;
   }
 }
+
+// Gurukul
+.mentoring-section {
+  .mentoring-header {
+    img {
+      height: 320px;
+    }
+  }
+
+  .elevator-pitch {
+    h3, h4 {
+      line-height: 36px;
+    }
+  }
+
+  .mentoring-body {
+    .pitch-header {
+      color: #333;
+    }
+    .pitch-body {
+      color: #555;
+      line-height: 30px;
+    }
+  }
+
+  .mentoring-process {
+    table th, table td {
+      border: 0;
+    }
+  }
+}
