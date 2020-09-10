@@ -45,6 +45,10 @@ web:
     title: Tailwind CSS
   - link: https://boxicons.com/
     title: Quality Web Icons Set (Boxicons)
+  - link: https://cssgradient.io/
+    title: Create a gradient background yourself
+  - link: https://www.grabient.com/
+    title: Collection of gradient backgrounds
 editors:
   - link: https://code.visualstudio.com/
     title: VS Code Editor
