@@ -34,20 +34,20 @@ Here, `radius` is a variable of `int` (integer) type. And, the size of `int` is 
 
 Below are the list of basic data types in C language along with their memory size in bytes.
 
-| Type | Memory Size (bytes) |
-| :- | :- |
-| int	| 2 (32 Bits), 4 (64 Bits) |
-| char | 1 |
-| float |	4 |
-| double | 8 |
-| short int	| 2 |
-| unsigned int | 2 (32 Bits), 4 (64 Bits) |
-| long int | 4 (32 Bits), 8 (64 Bits) |
-| long long int |	8 |
-| unsigned long int	| 4 |
-| unsigned long long int | 8 |
-| signed char |	1 |
-| unsigned char |	1 |
-| long double |	16 |
+| Type | Memory Size (bytes) | Format Specifiers |
+| :- | :- | :- |
+| int	| 2 (32 Bits), 4 (64 Bits) | `%d`, `%e` (scientific) |
+| char | 1 | `%c` |
+| float |	4 | `%f` |
+| double | 8 | `%lf` |
+| long double |	16 | `%Lf` |
+| short int	| 2 | `%hi` |
+| unsigned int | 2 (32 Bits), 4 (64 Bits) | `%hu` |
+| long int | 4 (32 Bits), 8 (64 Bits) | `%ld` |
+| long long int |	8 | `%lld` |
+| unsigned long int	| 4 | `%lu` |
+| unsigned long long int | 8 | `%llu` |
+| signed char |	1 | `%c` |
+| unsigned char |	1 | `%d` |
 
 __NOTE:__ There is also another datatype `void` which represent nothing or no type.
