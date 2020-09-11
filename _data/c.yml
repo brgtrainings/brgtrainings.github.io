@@ -41,12 +41,12 @@
           url: c/section-three/loops
         - title: Exercises
           url: c/section-three/exercises
-    # - title: Section Four
-    #   description: Functions and Pointers
-    #   url: c/section-four
-    #   children:
-    #     - title: Functions
-    #       url: c/section-four/functions
+    - title: Section Four
+      description: Functions and Pointers
+      url: c/section-four
+      children:
+        - title: Functions
+          url: c/section-four/functions
     #     - title: Pointers
     #       url: c/section-four/pointers
     # - title: Section Five
