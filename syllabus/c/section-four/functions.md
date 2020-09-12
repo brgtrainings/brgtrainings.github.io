@@ -88,6 +88,12 @@ float square_circle(int radius) // <-- Definition
 Area of circle with radius 5 is 78.50.
 ```
 
+## Function Execution
+
+Following animated image should help you give a gist of how function works.
+
+{% include image.html img="courses/c/function-behavior.gif" %}
+
 ## Types of Functions
 
 There are mainly two types of function in C language.
@@ -150,6 +156,42 @@ This method copies the address of an arguments passed to function into their res
 
 We will see the example of _Call by reference_ later in the pointer section.
 
+## Recursive Function
+
+A function that calls itself during its execution is known as a recursive function.
+The recursion continues until some condition is met to prevent it from further recursion which is usually done through
+`if...else` statement (or similar approach) where we need to make one branch to call for recursion and other to return value.
+
+{% include image.html img="courses/c/recursive.png" %}
+
+### Example
+
+Following is an example of recursive function to print numbers from 1 to `N`.
+
+```c
+#include <stdio.h>
+
+void printNumbers(int lowerLimit, int upperLimit)
+{
+  if(lowerLimit > upperLimit)
+    return;
+
+  printf("%d ", lowerLimit);
+
+  printNumbers(lowerLimit + 1, upperLimit);
+}
+
+int main(void) {
+  int n;
+
+  printf("Enter the value of n: ");
+  scanf("%d", &n);
+  printNumbers(1, n);
+
+  return 0;
+}
+```
+
 ## Exercises
 
 - Write a function to perform addition and subtraction of two numbers and use it in the program.
@@ -184,7 +226,7 @@ We will see the example of _Call by reference_ later in the pointer section.
   [40.00 - 10.00 = 30.00].
   ```
 
-- Write a program in C to swap two numbers using function.
+- Write a program to check whether a number is even or odd.
 
   ```c
   #include <stdio.h>
@@ -215,4 +257,39 @@ We will see the example of _Call by reference_ later in the pointer section.
   // output
   Enter any number: 6
   The entered number is even.
+  ```
+
+- Write a program using recursive function to find the sum of numbers from 1 to `N`.
+
+  ```c
+  #include<stdio.h>
+
+  int sumOfNumbers(int num)
+  {
+    int res;
+    if (num == 1) {
+      return (1);
+    } else {
+        res = num + sumOfNumbers(num - 1);
+    }
+    return (res);
+  }
+
+  int main()
+  {
+    int n;
+    int sum;
+
+    printf("Enter the value of N : ");
+    scanf("%d", &n);
+
+    sum = sumOfNumbers(n);
+    printf("The sum of numbers from 1 to %d : %d\n\n", n, sum);
+
+    return (0);
+  }
+
+  // output
+  Enter the value of N : 10
+  The sum of numbers from 1 to 10 : 55
   ```
