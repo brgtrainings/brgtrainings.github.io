@@ -11,6 +11,7 @@ permalink: /c/section-four/functions/
 prev_link: /c/section-four/
 # next_link: /c/section-four/pointers/
 comments: true
+thumbnail: courses/c/function-behavior.gif
 ---
 
 # Functions in C language
