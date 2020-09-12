@@ -134,6 +134,22 @@ These functions are created by user as their need. It helps to reduce the comple
 
 The `square_circle()` function which we defined at the [Example](#example) is actually a user defined function which we used in the later part of the program.
 
+## Function Arguments
+
+While calling a function, there are two ways in which arguments can be passed to a function.
+
+### Call by value
+
+This method copies the actual value of an arguments passed to function into their respective parameters as declared in the function. And, whatever changes made to the parameters inside the function have no effect on the arguments passed while calling to it.
+
+All the example in this page uses _Call by value_ approach of function arguments.
+
+### Call by reference
+
+This method copies the address of an arguments passed to function into their respective formal parameters. And, we can access the actual argument using this address which means that changes made to these parameters affect the arguments.
+
+We will see the example of _Call by reference_ later in the pointer section.
+
 ## Exercises
 
 - Write a function to perform addition and subtraction of two numbers and use it in the program.
