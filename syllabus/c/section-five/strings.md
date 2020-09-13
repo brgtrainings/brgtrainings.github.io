@@ -1,296 +1,266 @@
 ---
 layout: syllabus_page
-title: Functions in C language
-date: 10th Sept, 2020 03:00:00
+title: Strings in C language
+date: 11th Sept, 2020 03:00:00
 course: c
-parent: /c/section-four/
+parent: /c/section-five/
 tags:
-  - functions
-description: Functions in C language
-permalink: /c/section-four/functions/
-prev_link: /c/section-four/
+  - strings
+description: Strings in C language
+permalink: /c/section-five/strings/
+prev_link: /c/section-five/arrays/
 # next_link: /c/section-four/pointers/
 comments: true
-thumbnail: courses/c/function-behavior.gif
 ---
 
-# Functions in C language
+# Strings in C language
 
-A function is an independent entity in programming which contains a set of statements enclosed by braces `{ ... }` and intended to perform a specific task.
+In C language, a string is actually a sequence of characters terminated with a null character `\0`. It is stored as one-dimensional array of character with its last element as a null character `\0`.
 
-- Sometimes, while developing programs it is needed to run the same set of statements repeatedly. In such cases, we can extract those statement into separate block and then invoke the function as necessary.
-- Functions are meant to be invoked from other part of the program.
-- Functions are also used to increase modularity of the program. It helps to divide the large program which made it easy to manage it.
-- Every C program has at least one function, i.e `main()`.
+__Example:__
 
-There are three aspects related to function:
+```c
+char lang[] = "learning";
 
-## Declaration of function
+// or it can be also defined as
 
-  A function declaration tells the compiler about a function name, parameters and return type. The actual body of the function can be defined separately.
+char lang[] = {'l', 'e', 'a', 'r', 'n', 'i', 'n', 'g', '\0'};
+```
 
-  Syntax:
+Then, its memory representation is similar to one dimensional array as show below:
 
-  ```c
-  return_type function_name( type-1, type-2, ..., type-N );
-  ```
+| l | e| a | r | n | i | n | g | \0 |
 
-## Function definition
+## Declaring String
 
-  A function definition consists of a function header and function body which contains the actual statements which are to be executed. It contains _return type_, _function name_, _parameters_ and _function body_.
+A string can be declare using following syntax:
 
-  Syntax:
+```c
+char string_name[ number_of_characters ];
+```
 
-  ```c
-  return_type function_name( type-1 arg-1, type-2 arg-2, ..., type-N arg-N )
-  {
-    // body
-    // C statements
-  }
-  ```
+__Example:__
 
-## Function call
+```c
+char str[5]; // means declare a string of 5 characters
+```
 
-  Function can be called from anywhere in the program. The list of parameters must be same during the function calling and function declaration. We must pass the same number of arguments while calling function as it is declared in the function declaration.
+## Declaration with initialization
 
-  Syntax:
+We can declare and initialize a string in different ways:
 
-  ```c
-  function_name ( arg-1, arg-2, ..., arg-N );
-  ```
+```c
+char str[] = "learning";  // good practice
+
+char str[10] = "learning"; // bad practice
+
+char str[] = {'l', 'e', 'a', 'r', 'n', 'i', 'n', 'g', '\0'};  // good practice
+
+char str[10] = {'l', 'e', 'a', 'r', 'n', 'i', 'n', 'g', '\0'};  // bad practice
+```
 
 ## Example
 
-Following example shows how to declare, define and call a function.
-
 ```c
-#include <stdio.h>
-
-// function to find area of circle
-float square_circle(int);  // <-- Declaration
+#include<stdio.h>
 
 int main()
 {
-  int radius = 5;
-  float area;
+  // declare and initialize string
+  char str[] = "learning";
 
-  area = square_circle(radius);   // <-- Function call
-  printf("Area of circle with radius %d is %.2f.\n", radius, area);
+  // print string
+  printf("%s", str);
 
   return 0;
 }
 
-float square_circle(int radius) // <-- Definition
-{
-  return 3.14 * radius * radius;
-}
-
-# output
-Area of circle with radius 5 is 78.50.
+// output
+learning
 ```
 
-## Function Execution
+## Assigning value to String
 
-Following animated image should help you give a gist of how function works.
+We cannot directly assign value to string like we do for other data types.
 
-{% include image.html img="courses/c/function-behavior.gif" %}
+```c
+char str[15] = "old string";
 
-## Types of Functions
+// now you want to update to new value
+str = "language";  // Error! array type is not assignable.
+```
 
-There are mainly two types of function in C language.
-
-### Standard library functions
-
-The standard library functions are built-in functions in C programming. These functions are declared and defined in header files. And, we need to add these header file in our program in order to use these functions.
-
-For example, the `printf()` is a standard library function to send formatted output to the screen and it is defined in the `stdio.h` file. The `sqrt()` function calculates the square root of a number and it is defined in `math.h`.
-
-Following are some of the popular header files:
-
-| Header file | Description |
-| `<math.h>` | Mathematics functions |
-| `<stdio.h>` | Standard Input/Output functions |
-| `<stdlib.h>` | Standard utility functions |
-| `<string.h>` | String handling functions |
-| `<time.h>` | Date time functions |
-| `<signal.h>` | Signal handling functions |
-
-Example:
+For this, C standard library `string.h` has provided us useful methods to work with strings. One of them is `strcpy()` which we can use to copy one string to another.
 
 ```c
 #include <stdio.h>
-#include <math.h>
-
+#include <string.h>
 
 int main() {
-  int num = 50;
-  float result;
+  char str[15] = "old string";
+  char new_str[15] = "language";
 
-  printf("Square root of %d is %.2f.\n", num, sqrt(num));
+  printf("str = %s\n", str);
+  strcpy(str, new_str);
+  printf("After 'strcpy'\n");
+
+  printf("str = %s\n", str);
 
   return 0;
 }
 
-# output
-Square root of 50 is 7.07.
+// output
+str = old string
+After 'strcpy'
+str = language
 ```
 
-### User-defined functions
+## Updating particular character in String
 
-These functions are created by user as their need. It helps to reduce the complexity of large program and optimizes the code. Hence, these functions are known as user-defined functions.
+Since a string is an array of characters we can update particular character in string by accessing that character using braces `[]`.
 
-The `square_circle()` function which we defined at the [Example](#example) is actually a user defined function which we used in the later part of the program.
-
-## Function Arguments
-
-While calling a function, there are two ways in which arguments can be passed to a function.
-
-### Call by value
-
-This method copies the actual value of an arguments passed to function into their respective parameters as declared in the function. And, whatever changes made to the parameters inside the function have no effect on the arguments passed while calling to it.
-
-All the example in this page uses _Call by value_ approach of function arguments.
-
-### Call by reference
-
-This method copies the address of an arguments passed to function into their respective formal parameters. And, we can access the actual argument using this address which means that changes made to these parameters affect the arguments.
-
-We will see the example of _Call by reference_ later in the pointer section.
-
-## Recursive Function
-
-A function that calls itself during its execution is known as a recursive function.
-The recursion continues until some condition is met to prevent it from further recursion which is usually done through
-`if...else` statement (or similar approach) where we need to make one branch to call for recursion and other to return value.
-
-{% include image.html img="courses/c/recursive.png" %}
-
-### Example
-
-Following is an example of recursive function to print numbers from 1 to `N`.
+__Example:__
 
 ```c
 #include <stdio.h>
 
-void printNumbers(int lowerLimit, int upperLimit)
+int main()
 {
-  if(lowerLimit > upperLimit)
-    return;
+  char str[] = "C language";
 
-  printf("%d ", lowerLimit);
+  str[0] = 'D';   // just update first character
 
-  printNumbers(lowerLimit + 1, upperLimit);
-}
-
-int main(void) {
-  int n;
-
-  printf("Enter the value of n: ");
-  scanf("%d", &n);
-  printNumbers(1, n);
+  printf("Updated name : %s\n", str);
 
   return 0;
 }
+
+// output
+Updated name : D language
 ```
 
-## Exercises
 
-- Write a function to perform addition and subtraction of two numbers and use it in the program.
+## Read String as input from user
 
-  ```c
-  #include <stdio.h>
+Asking any information from user is a common operation. The information can be in the form of string too.
 
-  float add(float num1, float num2)
-  {
-    return num1 + num2;
-  }
-  float subtract(float num1, float num2)
-  {
-    return num1 - num2;
-  }
+We can use `scanf()` function to read string as well.
+The `scanf()` reads the series of characters from user(or keyboard) until it encounters
+whitespace character ( i.e space, newline, tab, etc).
 
-  int main()
-  {
-    float num1, num2;
+__Syntax:__
 
-    printf("Enter value of num1 and num2: ");
-    scanf("%f%f", &num1, &num2);
-    printf("[%.2f + %.2f = %.2f].\n", num1, num2, add(num1, num2));
-    printf("[%.2f - %.2f = %.2f].\n", num1, num2, subtract(num1, num2));
+```c
+scanf("%s", variable_name);
+```
 
-    return 0;
-  }
+__NOTE:__ We are not using `&` operator here as we had used in case of `int`, `float` or other data type.
 
-  // output
-  Enter value of num1 and num2: 40 10
-  [40.00 + 10.00 = 50.00].
-  [40.00 - 10.00 = 30.00].
-  ```
+__Example:__
 
-- Write a program to check whether a number is even or odd.
+```c
+#include <stdio.h>
 
-  ```c
-  #include <stdio.h>
+int main() {
+  char name[20];
+  printf("Enter name: ");
+  scanf("%s", name);
+  printf("Your name is %s.", name);
+  return 0;
+}
 
-  int checkOddEven(int num) {
-    if (num % 2 == 0) {
-      return 1;
-    }
-    return 0;
-  }
+// output
+Enter name: c language
+Your name is c.
+```
 
-  int main() {
-    int num;
+__NOTE:__ Since, there is a space before `language`, hence in the above program, only "C" was stored in the `name` string.
 
-    printf("Enter any number : ");
-    scanf("%d", &num);
+## Read a line of string
 
-    if(checkOddEven(num)) {
-        printf("The entered number is even.\n\n");
-    }
-    else {
-        printf("The entered number is odd.\n\n");
-    }
+`stdio.h` library provided other useful input and output functions like `fgets()` and `puts()`.
+The `fgets()` function is used to read a line of string. And, function `puts()` is used to display the line string.
 
-    return 0;
-  }
+```c
+#include <stdio.h>
 
-  // output
-  Enter any number: 6
-  The entered number is even.
-  ```
+int main() {
+  char name[20];
+  printf("Enter name: ");
 
-- Write a program using recursive function to find the sum of numbers from 1 to `N`.
+  fgets(name, sizeof(name), stdin);
+  // stdin represents standard input device i.e keyboard
 
-  ```c
-  #include<stdio.h>
+  printf("Your name is ");
+  puts(name);
 
-  int sumOfNumbers(int num)
-  {
-    int res;
-    if (num == 1) {
-      return (1);
-    } else {
-        res = num + sumOfNumbers(num - 1);
-    }
-    return (res);
-  }
+  return 0;
+}
 
-  int main()
-  {
-    int n;
-    int sum;
+// output
+Enter name: c language
+Your name is c language
 
-    printf("Enter the value of N : ");
-    scanf("%d", &n);
+```
 
-    sum = sumOfNumbers(n);
-    printf("The sum of numbers from 1 to %d : %d\n\n", n, sum);
+__NOTE:__ `puts()` function also print the new line character (`\n`) to the screen. There is also a `gets()` function but it has been removed from `C11` version onwards.
 
-    return (0);
-  }
+## string.h header file
 
-  // output
-  Enter the value of N : 10
-  The sum of numbers from 1 to 10 : 55
-  ```
+The `string.h` header file defines many useful string related functions which you can use in your programs.
+Following are one of the few commonly used functions:
+
+- `strlen()`: Find the length of string
+- `strcat()`: Concatenate two strings together
+- `strcmp()`: Compare two strings
+- `strcpy()`: Copy one string into another
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+  char str1[] = "language", str2[] = "language", str3[] = "Language", str4[] = "Lang";
+
+  char new_str[10];
+
+  int result;
+
+  printf("Length of str1 : %lu\n", strlen(str1));
+  printf("Length of str2 : %lu\n", strlen(str2));
+  printf("Length of str3 : %lu\n", strlen(str3));
+  printf("Length of str4 : %lu\n", strlen(str4));
+
+  // comparing strings str1 and str2
+  if(strcmp(str1, str2) == 0) {
+    printf("str1 and str2 are equal.\n");
+  };
+
+  if(strcmp(str1, str3) != 0) {
+    printf("str1 and str2 are not equal.\n");
+  };
+
+
+  printf("--- Combining str1 and str3\n");
+  printf("str1 + str4: %s\n", strcat(str1, str3));
+
+  printf("--- Copying string str1 to new_str\n");
+  strcpy(new_str, str1);
+  printf("Value of new_str: %s\n", new_str);
+
+  return 0;
+}
+
+// output
+Length of str1 : 8
+Length of str2 : 8
+Length of str3 : 8
+Length of str4 : 4
+str1 and str2 are equal.
+str1 and str2 are not equal.
+--- Combining str1 and str3
+str1 + str4: languageLanguage
+--- Copying string str1 to new_str
+Value of new_str: languageLanguage
+```
