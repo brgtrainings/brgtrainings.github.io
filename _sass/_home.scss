@@ -392,6 +392,11 @@ header.default_header {
 .getting-tastes-body {
   .card {
     border: 0;
+
+    .card-img-top {
+      height: 200px;
+      // width: 160px;
+    }
   }
 }
 

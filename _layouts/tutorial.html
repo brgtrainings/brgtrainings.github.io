@@ -18,7 +18,11 @@
             <div class="d-none d-xl-block col-md-3 col-xl-3 td-toc d-print-none">
               {% include share-page.html %}
               {% include course/useful-links.html %}
-              <a role="button" class="btn btn-success btn-lg mb-3 py-2" href="/tutorials/">Back to all tutorials</a>
+              {% if page.permalink contains 'getting-tastes' %}
+                <a role="button" class="btn btn-success mb-3 py-2" href="/getting-tastes/">Back to all Getting Tastes</a>
+              {% else %}
+                <a role="button" class="btn btn-success mb-3 py-2" href="/tutorials/">Back to all Tutorials</a>
+              {% endif %}
               <nav id="TableOfContents">
                 <p class="h4 mb-2 text-muted">Table of Contents</p>
                 <ul>
