@@ -4,6 +4,11 @@
   </a>
 
   <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="/ruby/">Ruby Basics</a>
+    {% for tutorial in site.tutorials %}
+      {% if tutorial.tutorial %}
+        <a class="dropdown-item" href="{{ tutorial.url }}">{{ tutorial.title }}</a>
+      {% endif %}
+    {% endfor %}
+
   </div>
 </div>
