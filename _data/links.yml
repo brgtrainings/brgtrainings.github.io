@@ -11,6 +11,8 @@ learning:
     title: Writing Idiomatic JavaScript (idiomatic.js)
   - link: https://javascript.info/
     title: The Modern JavaScript Tutorial (javascript.info)
+  - link: https://exercism.io/
+    title: Code practice and mentorship for everyone
 documentations:
   - link: https://devdocs.io/
     title: Multiple API documentations (devdocs.io)
@@ -49,6 +51,8 @@ web:
     title: Create a gradient background yourself
   - link: https://www.grabient.com/
     title: Collection of gradient backgrounds
+  - link: https://codepen.io
+    title: A social development environment (codepen.io)
 editors:
   - link: https://code.visualstudio.com/
     title: VS Code Editor
@@ -69,6 +73,13 @@ tools:
     title: A Free Image Placeholder Service
   - link: https://carbon.now.sh/
     title: Beautiful images of your source code (Carbon)
+  - link: https://asciinema.org/
+    title: Record and share your terminal sessions, the right way (asciinema.org)
+  - link: https://codesandbox.io/
+    title: An instant IDE and prototyping tool for rapid web development (codesandbox.io)
+fun:
+  - link: https://xkcd.com/
+    title: A webcomic of romance, sarcasm, math, and language (xkcd.com)
 others:
   - link: https://www.keybr.com/
     title: Online Typing Master
