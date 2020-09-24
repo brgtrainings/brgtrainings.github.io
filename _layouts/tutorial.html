@@ -37,7 +37,7 @@
 
             <main class="col-12 col-md-9 col-xl-6" role="main">
               <div class="td-content">
-                {% if page.thumbnail %}
+                {% if page.thumbnail and page.include_header_image %}
                   <img src="{{ site.baseurl }}/assets/img/{{ page.thumbnail }}" class="thumbnail img-fluid" />
                 {% endif %}
                 {% if page.thumbnail_credit %}

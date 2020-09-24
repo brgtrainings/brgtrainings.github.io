@@ -8,6 +8,8 @@ tags:
  - beginner
 description: Simple Calculator in Ruby
 permalink: /tutorials/calculator-ruby/
+thumbnail: https://asciinema.org/a/361518.svg
+external: true
 comments: true
 ---
 

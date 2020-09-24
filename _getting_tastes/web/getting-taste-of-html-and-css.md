@@ -11,6 +11,7 @@ tags:
 description: 'Get the taste of HTML and CSS: structure and style your web pages'
 permalink: /getting-tastes/html-css/
 thumbnail: getting-tastes/getting-html-css-taste.png
+include_header_image: true
 thumbnail_credit: ice cream cup by Nicole Yip from the Noun Project
 comments: true
 ---

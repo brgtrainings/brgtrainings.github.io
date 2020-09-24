@@ -11,6 +11,7 @@ tags:
 description: 'Get the taste of HTML5: Fifth and the latest major version of HTML'
 permalink: /getting-tastes/html5/
 thumbnail: getting-tastes/html5.jpg
+include_header_image: true
 comments: true
 ---
 

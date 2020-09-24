@@ -9,6 +9,8 @@ tags:
  - game
 description: Number Guessing game in Ruby
 permalink: /tutorials/number-guess-ruby/
+thumbnail: https://asciinema.org/a/361520.svg
+external: true
 comments: true
 ---
 
