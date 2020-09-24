@@ -64,3 +64,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jemoji
+  - jekyll-redirect-from
