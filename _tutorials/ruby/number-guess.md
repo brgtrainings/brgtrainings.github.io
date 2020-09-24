@@ -24,25 +24,7 @@ If the user failed to enter the correct number then display the hints as followi
 
 ## Demo
 
-```bash
-$ ruby number_guess.rb
-Hey, may I know your first name? brg
-
-Guess a number from 1 to 100: 50
-Brg, your guess was high, enter a lower number. You have 9 guesses left.
-
-Guess a number from 1 to 100: 30
-Brg, your guess was low, enter a higher number. You have 8 guesses left.
-
-Guess a number from 1 to 100: 40
-Brg, your guess was high, enter a lower number. You have 7 guesses left.
-
-Guess a number from 1 to 100: 35
-Brg, your guess was high, enter a lower number. You have 6 guesses left.
-
-Guess a number from 1 to 100: 31
-Good job, Brg! You guessed the number in 5 tries.
-```
+{% include asciinema.html id="361520" %}
 
 ## Prerequisites
 
@@ -121,6 +103,7 @@ Follow the steps below to build the `Number Guessing` game in Ruby.
 ## Solution
 
 ```ruby
+# number_guess.rb
 random_num = rand(100)  # generate a random number
 num_of_guesses = 0  # store number of guesses
 

@@ -18,47 +18,16 @@ specific operations.
 
 ## Demo
 
-```shell
-$ ruby calculator.rb
---- Calculator ---
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Exit
-Which operation you want to perform: 1
-Enter first number: 20
-Enter second number: 30
-20 + 30 = 50
-
---- Calculator ---
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Exit
-Which operation you want to perform: 2
-Enter first number: 40
-Enter second number: 10
-40 - 10 = 30
-
---- Calculator ---
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-5. Exit
-Which operation you want to perform: 5
-```
+{% include asciinema.html id="361518" %}
 
 ## Prerequisites
 
 - Enthusiasm and passion to Learn
 - Basic knowledge of Ruby language
-  - Variables
-  - Loop
-  - Conditional Operators
-  - Getting input from User
+  - [Variables](/ruby/section-two/variables-constants/){:target="_blank"}
+  - [Loop](/ruby/section-two/loops/){:target="_blank"}
+  - [Conditional Operators](/ruby/section-two/conditionals/){:target="_blank"}
+  - [Getting input from User](/ruby/section-two/getting-input/){:target="_blank"}
 
 ## Solution Steps
 
@@ -144,6 +113,7 @@ Follow the steps below to build the simple calculator in Ruby.
 ## Solution
 
 ```ruby
+# calculator.rb
 def accept_operands
   print "Enter first number: "
   operand1 = gets.to_i
