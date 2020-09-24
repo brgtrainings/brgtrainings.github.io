@@ -12,9 +12,13 @@ page_name: tutorials
   <div class="container">
     <div class="row justify-content-center">
       {% for tutorial in site.tutorials %}
-        {% if tutorial.tutorial %}
-          <div class="col-md-3"> <a href="{{ tutorial.url }}"><h1>{{ tutorial.title }}</h1></a></div>
-        {% endif %}
+        <div class="card col-md-3 text-center border-0">
+          <img src="{{ tutorial.thumbnail }}" class="card-img-top pt-3" alt="{{ tutorial.title }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ tutorial.title }}</h5>
+            <a href="{{ tutorial.url }}" class="btn btn-primary">Let's write code</a>
+          </div>
+        </div>
       {% endfor %}
     </div>
   </div>
