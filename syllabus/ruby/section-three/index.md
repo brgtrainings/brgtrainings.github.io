@@ -7,6 +7,7 @@ type: section
 description: Section Three - more building blocks
 permalink: /ruby/section-three/
 prev_section: /ruby/section-two/
+disable_toc: true
 ---
 
 ### Congratulations on the completion of section two.

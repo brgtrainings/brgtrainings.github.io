@@ -3,6 +3,8 @@ layout: course
 course: c
 title: Learn C Practically
 permalink: /c/
+disable_toc: true
+disable_sidebar: true
 ---
 
 {% include util/note.html
@@ -93,11 +95,12 @@ We will know more about it in _Section One_.
 
 <div class="section-index">
   <div class="container-fluid">
-    <div class="card-columns">
+    <div class="row">
     {% for section_hash in site.data.c %}
       {% for section in section_hash.links %}
-        {% include course/topic-card.html
-            topic=section index=forloop.index %}
+        <div class="col-md-6">
+          {% include course/topic-card.html topic=section index=forloop.index %}
+        </div>
       {% endfor %}
     {% endfor %}
     </div>

@@ -7,6 +7,7 @@ type: section
 description: Section Three - Control Structures
 permalink: /c/section-three/
 prev_section: /c/section-two/
+disable_toc: true
 ---
 
 ### Congratulations on the completion of section two.

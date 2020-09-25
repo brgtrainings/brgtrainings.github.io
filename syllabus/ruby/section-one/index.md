@@ -6,6 +6,7 @@ course: ruby
 type: section
 description: Section One - getting familiar with language
 permalink: /ruby/section-one/
+disable_toc: true
 ---
 
 # Welcome to Section One

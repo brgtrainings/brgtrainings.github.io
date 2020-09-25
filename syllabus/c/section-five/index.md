@@ -7,6 +7,7 @@ type: section
 description: Section Five - More on Data types
 permalink: /c/section-five/
 prev_section: /c/section-four/
+disable_toc: true
 ---
 
 ### Congratulations on the completion of section four.

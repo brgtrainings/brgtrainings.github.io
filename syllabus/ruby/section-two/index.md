@@ -7,6 +7,7 @@ type: section
 description: Section Two - learning building blocks
 permalink: /ruby/section-two/
 prev_section: /ruby/section-one/
+disable_toc: true
 ---
 
 ### Congratulations on the completion of section one.

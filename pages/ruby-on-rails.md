@@ -1,29 +1,29 @@
 ---
 layout: course
-title: Ruby Basics
-course: ruby
-permalink: /ruby/
-page_name: ruby
-disable_sidebar: true
+title: Ruby on Rails
+course: ruby-on-rails
+permalink: /ruby-on-rails/
+page_name: ruby-on-rails
 disable_toc: true
+disable_sidebar: true
 ---
 
 {% include util/note.html
-    note="The content of the syllabus is still in building stage. However, you can still begin your learning."
+    note="This is a comprehensive course on Ruby on Rails. We will learn by building a small app and adding features on top of it."
     type="important"
 %}
 
-# :pray: Welcome to Ruby Basics
+# :pray: Welcome to Ruby on Rails
 
 This course has been designed to get the basic understanding of Ruby language. After completing this course you should be able to understand and write Ruby programs.
 
 {% include util/highlight.html
-    text="This course has been designed with the intention of being used in an interactive online or classroom teaching session. <br>Feel free to use it for your self-learning purpose." class="h5"
+    text="This course has been designed with the intention of being used in an interactive online or classroom teaching session. <br><em>However, one can use this syllabus and self-learn Ruby on Rails.</em>" class="h4"
 %}
 
 The course has been divided into different sections with a section goal.
 
-## Ruby Introduction
+## Ruby on Rails Introduction
 
 Ruby is an interpreted, high-level, and general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
 
@@ -64,7 +64,7 @@ We will know more about it in _Section One_.
 <div class="section-index">
   <div class="container-fluid">
     <div class="row">
-    {% for section_hash in site.data.ruby %}
+    {% for section_hash in site.data.ruby-on-rails %}
       {% for section in section_hash.links %}
         <div class="col-md-6">
           {% include course/topic-card.html topic=section index=forloop.index %}
