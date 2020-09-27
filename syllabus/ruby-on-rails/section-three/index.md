@@ -1,17 +1,21 @@
 ---
 layout: course
-title: Section Two
+title: Section Three
 date: 25th Sept, 2020 1:00:00
 course: ruby-on-rails
 type: section
-description: Section Two - Web and MVC Architecture
-permalink: /ruby-on-rails/section-two/
+description: Section Three - Installation and Setup
+permalink: /ruby-on-rails/section-three/
 disable_toc: true
 ---
 
-# Welcome to Section Two
+# Welcome to Section Three
 
-It is important to understand the basic concepts of Web and application architecture. In this section, we will see basics of how Web work and see the MVC architecture.
+In this section, we will build our first basic application. We will call this app as `IdeaStore`, a store having lot of ideas.
+
+## Overview of App
+
+An `IdeaStore` is a web application which list all the innovative ideas from different people.
 
 Proceed with following sub-sections one at a time.
 

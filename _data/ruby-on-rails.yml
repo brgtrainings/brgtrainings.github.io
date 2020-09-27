@@ -1,0 +1,53 @@
+- title: Ruby on Rails
+  url: ruby-on-rails
+  links:
+    - title: Installation and Setup
+      description: Install required packages and setup up development environment.
+      url: ruby-on-rails/section-one
+      children:
+        - title: Installation
+          url: ruby-on-rails/section-one/installation
+        - title: Setup Environment
+          url: ruby-on-rails/section-one/setup-environment
+    - title: Web and MVC Architecture
+      description: Understand how web works and MVC architecture.
+      url: ruby-on-rails/section-two
+      children:
+        - title: How web work
+          url: ruby-on-rails/section-two/how-web-work
+        - title: MVC architecture
+          url: ruby-on-rails/section-two/mvc-architecture
+    - title: Build first app
+      description: Build your first basic application and understand basic concepts.
+      url: ruby-on-rails/section-three
+      children:
+        - title: App skeleton
+          url: ruby-on-rails/section-three/app-skeleton
+        - title: App model
+          url: ruby-on-rails/section-three/app-model
+        - title: App route
+          url: ruby-on-rails/section-three/app-route
+        - title: App controller
+          url: ruby-on-rails/section-three/app-controller
+        - title: App view
+          url: ruby-on-rails/section-three/app-view
+        - title: Design the UI
+          url: ruby-on-rails/section-three/design-ui
+        - title: Root route
+          url: ruby-on-rails/section-three/root-route
+        # - title: Image upload
+        #   url: ruby-on-rails/section-three/image-upload
+        - title: First static page
+          url: ruby-on-rails/section-three/first-static-page
+        - title: Add button to navigation bar
+          url: ruby-on-rails/section-three/add-btn-to-navbar
+    - title: Deploy the app on Heroku
+      description: We will deploy the application to some online hosting platform.
+      url: ruby-on-rails/section-four
+      children:
+        - title: Prepare your app
+          url: ruby-on-rails/section-four/prepare-app
+        - title: Deploy through CLI
+          url: ruby-on-rails/section-four/deploy
+        - title: Things to note about Heroku
+          url: ruby-on-rails/section-four/notes-on-heroku
