@@ -4,9 +4,11 @@
       {{ include.quote }}
     </div>
   </blockquote>
-  {% if include.quote_by %}
+  {% if include.quote_by or include.source %}
     <div class="attribution">
-      — {{ include.quote_by }}
+      {% if include.source %}
+        — {{ include.quote_by }}
+      {% endif %}
       {% if include.source %}
         <a href="{{ include.source }}" target="_blank">(source)</a>
       {% endif %}
