@@ -15,7 +15,7 @@ disable_sidebar: true
 
 # :pray: Welcome to Ruby on Rails
 
-This course has been designed to get the basic understanding of Ruby language. After completing this course you should be able to understand and write Ruby programs.
+This course has been designed to get the basic understanding of Ruby on Rails web framework. After completing this course you should be able to understand and build dynamic web applications in Ruby on Rails.
 
 {% include util/highlight.html
     text="This course has been designed with the intention of being used in an interactive online or classroom teaching session. <br><em>However, one can use this syllabus and self-learn Ruby on Rails.</em>" class="h4"

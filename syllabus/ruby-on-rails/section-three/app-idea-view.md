@@ -1,15 +1,15 @@
 ---
 layout: syllabus_page
-title: Creating app view
+title: Creating Idea view in app
 date: 27th Sept, 2020 02:00:00
 course: ruby-on-rails
 parent: /ruby-on-rails/section-three/
 tags:
  - view
-description: Creating app view
-permalink: /ruby-on-rails/section-three/app-view/
-prev_link: /ruby-on-rails/section-three/app-controller/
-next_link: /ruby-on-rails/section-three/design-ui/
+description: Creating Idea view in app
+permalink: /ruby-on-rails/section-three/app-idea-view/
+prev_link: /ruby-on-rails/section-three/app-idea-controller/
+next_link: /ruby-on-rails/section-three/app-list-ideas/
 disable_toc: true
 comments: true
 ---
@@ -22,13 +22,12 @@ In the previous page, we got the template error as:
 No template for interactive request
 
 IdeasController#show is missing a template for request formats: text/html
-
 ...
 ```
 
 It means that we are missing the view file which is an ERB template inside `app/views/ideas` folder.
 
-Fix the above error by creating a file `show.html.erb` inside `app/views/ideas` folder.
+Fix the above error by creating a file `show.html.erb` inside `app/views/ideas` folder with following content:
 
 ```erb
 <h1>Showing Idea</h1>
@@ -56,26 +55,34 @@ Also, update `show.html.erb` as:
 <h1>Showing Idea</h1>
 
 <p>
-  <strong>Title: </strong> @idea.title
+  <strong>Title: </strong> <%= @idea.title %>
 </p>
 <p>
-  <strong>Description: </strong> @idea.description
+  <strong>Description: </strong> <%= @idea.description %>
 </p>
 ```
+
+__NOTE:__ If you are wondering about weird tag `<%= ... %>` along with HTML content above, then it is ERB tag which is briefly explained at the later part of page.
 
 Now, reload your browser, you should see following:
 
 {% include image.html img="courses/ror/idea-show-1.png" class="shadow" %}
 
+## Check other Ideas as well
+
+The above idea is the first idea. However, our application has two more ideas.
+
+Check them as well by removing `1` from `https://localhost:3000/ideas/1` with `2` and `3`.
+
 ## Understanding ERB Template
 
 In this section, we will try to understand little about ERB template.
 
-'ERB' Refers to Embedded Ruby. It's file that ends with an `.html.erb` or `.erb` extension.
+`ERB` refers to Embedded Ruby. It is a file that ends with an `.html.erb` or `.erb` extension.
 
 Everything we write inside an ERB template is HTML along with special tags containing Ruby statements. These tags are then processed by template engine and replace it with evaluated Ruby code inside it.
 
-There are mainly two kind of ERG tags used in Rails.
+There are mainly two kind of ERB tags used in Rails.
 
 ### <% ... %> : Execution Tag
 

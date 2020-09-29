@@ -23,24 +23,30 @@
       children:
         - title: App skeleton
           url: ruby-on-rails/section-three/app-skeleton
-        - title: App model
-          url: ruby-on-rails/section-three/app-model
-        - title: App route
-          url: ruby-on-rails/section-three/app-route
-        - title: App controller
-          url: ruby-on-rails/section-three/app-controller
-        - title: App view
-          url: ruby-on-rails/section-three/app-view
+        - title: App Idea model
+          url: ruby-on-rails/section-three/app-idea-model
+        - title: App Idea route
+          url: ruby-on-rails/section-three/app-idea-route
+        - title: App Idea controller
+          url: ruby-on-rails/section-three/app-idea-controller
+        - title: App Idea view
+          url: ruby-on-rails/section-three/app-idea-view
+        - title: App list ideas
+          url: ruby-on-rails/section-three/app-list-ideas
         - title: Design the UI
-          url: ruby-on-rails/section-three/design-ui
-        - title: Root route
-          url: ruby-on-rails/section-three/root-route
-        # - title: Image upload
-        #   url: ruby-on-rails/section-three/image-upload
-        - title: First static page
-          url: ruby-on-rails/section-three/first-static-page
-        - title: Add button to navigation bar
-          url: ruby-on-rails/section-three/add-btn-to-navbar
+          url: ruby-on-rails/section-three/design-basic-ui
+        - title: Design the UX
+          url: ruby-on-rails/section-three/design-basic-ux
+        - title: App root URL
+          url: ruby-on-rails/section-three/app-root-url
+        - title: App new idea
+          url: ruby-on-rails/section-three/app-new-idea
+        - title: App edit idea
+          url: ruby-on-rails/section-three/app-edit-idea
+        - title: App delete idea
+          url: ruby-on-rails/section-three/app-delete-idea
+        - title: More UI and UX changes
+          url: ruby-on-rails/section-three/more-ui-ux-changes
     - title: Deploy the app on Heroku
       description: We will deploy the application to some online hosting platform.
       url: ruby-on-rails/section-four

@@ -9,7 +9,7 @@ tags:
 description: Ruby on Rails app skeleton
 permalink: /ruby-on-rails/section-three/app-skeleton/
 prev_link: /ruby-on-rails/section-three/
-next_link: /ruby-on-rails/section-three/app-model/
+next_link: /ruby-on-rails/section-three/app-idea-model/
 disable_toc: true
 comments: true
 ---

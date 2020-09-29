@@ -1,16 +1,16 @@
 ---
 layout: syllabus_page
-title: Creating app model
+title: Creating Idea model in app
 date: 26th Sept, 2020 02:00:00
 course: ruby-on-rails
 parent: /ruby-on-rails/section-three/
 tags:
  - model
  - rails-console
-description: Creating app model
-permalink: /ruby-on-rails/section-three/app-model/
+description: Creating Idea model in app
+permalink: /ruby-on-rails/section-three/app-idea-model/
 prev_link: /ruby-on-rails/section-three/app-skeleton/
-next_link: /ruby-on-rails/section-three/app-route/
+next_link: /ruby-on-rails/section-three/app-idea-route/
 disable_toc: true
 comments: true
 ---
