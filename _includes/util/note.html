@@ -22,7 +22,7 @@
         <td class="content {{ include.type }}">
           {{ include.note }}
           {% if include.source %}
-            <a href="{{ include.source }}" target="_blank">(source)</a>
+            <a href="{{ include.source }}" target="_blank">{% if include.source_label %}{{ include.source_label }}{% else %}(source){% endif %}</a>
           {% endif %}
         </td>
       </tr>
