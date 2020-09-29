@@ -13,9 +13,11 @@ disable_toc: true
 
 In this section, we will build our first basic application. We will call this app as `IdeaStore`, a store having lot of ideas.
 
-## Overview of App
+## Preview of the application
 
 An `IdeaStore` is a web application which list all the innovative ideas from different people.
+
+{% include util/embed-youtube.html id="V5UBNJKapwg" %}
 
 Proceed with following sub-sections one at a time.
 
