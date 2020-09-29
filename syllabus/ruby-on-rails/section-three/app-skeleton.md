@@ -112,7 +112,3 @@ Use Ctrl-C to stop
 Open url `http://localhost:3000` in your browser. You should be able to see web page similar to following :
 
 {% include image.html img="courses/ror/app-skeleton.jpg" %}
-
-## Brief info about the skeleton
-
-\#TODO: Add video about app skeleton
