@@ -6,6 +6,7 @@ course: ruby-on-rails
 type: section
 description: Section Three - Installation and Setup
 permalink: /ruby-on-rails/section-three/
+thumbnail: courses/ror/crud-basic-app.jpg
 disable_toc: true
 ---
 
