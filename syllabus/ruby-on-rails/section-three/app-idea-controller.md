@@ -8,7 +8,7 @@ tags:
  - controller
 description: Creating Idea controller in app
 permalink: /ruby-on-rails/section-three/app-idea-controller/
-prev_link: /ruby-on-rails/section-three/app-idea-model/
+prev_link: /ruby-on-rails/section-three/app-idea-route/
 next_link: /ruby-on-rails/section-three/app-idea-view/
 disable_toc: true
 comments: true

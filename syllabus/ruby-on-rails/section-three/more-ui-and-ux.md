@@ -9,7 +9,7 @@ tags:
 description: More UI and UX changes
 permalink: /ruby-on-rails/section-three/more-ui-ux-changes/
 prev_link: /ruby-on-rails/section-three/app-delete-idea/
-next_link: /ruby-on-rails/section-four/
+# next_link: /ruby-on-rails/section-four/
 disable_toc: true
 comments: true
 ---

@@ -9,7 +9,7 @@ tags:
 description: App delete idea
 permalink: /ruby-on-rails/section-three/app-delete-idea/
 prev_link: /ruby-on-rails/section-three/app-edit-idea/
-next_link: /ruby-on-rails/section-four/
+next_link: /ruby-on-rails/section-three/more-ui-ux-changes/
 disable_toc: true
 comments: true
 ---

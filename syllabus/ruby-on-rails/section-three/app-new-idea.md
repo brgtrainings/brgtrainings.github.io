@@ -10,7 +10,7 @@ tags:
 description: App new idea
 permalink: /ruby-on-rails/section-three/app-new-idea/
 prev_link: /ruby-on-rails/section-three/app-root-url/
-next_link: /ruby-on-rails/section-three/app-update-idea/
+next_link: /ruby-on-rails/section-three/app-edit-idea/
 disable_toc: true
 comments: true
 ---

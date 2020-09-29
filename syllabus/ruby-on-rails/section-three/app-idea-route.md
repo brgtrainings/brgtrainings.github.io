@@ -9,7 +9,7 @@ tags:
  - http-verbs
 description: Creating Idea route in app
 permalink: /ruby-on-rails/section-three/app-idea-route/
-prev_link: /ruby-on-rails/section-three/app-idea-model
+prev_link: /ruby-on-rails/section-three/app-idea-model/
 next_link: /ruby-on-rails/section-three/app-idea-controller/
 thumbnail: courses/ror/request-response-flow.jpg
 disable_toc: true

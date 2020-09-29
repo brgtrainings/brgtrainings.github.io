@@ -17,8 +17,8 @@
           url: ruby-on-rails/section-two/how-web-work
         - title: MVC architecture
           url: ruby-on-rails/section-two/mvc-architecture
-    - title: Build first app
-      description: Build your first basic application and understand basic concepts.
+    - title: Build first CRUD app
+      description: Build your first basic application and understand CRUD concepts.
       url: ruby-on-rails/section-three
       children:
         - title: App skeleton
@@ -47,13 +47,13 @@
           url: ruby-on-rails/section-three/app-delete-idea
         - title: More UI and UX changes
           url: ruby-on-rails/section-three/more-ui-ux-changes
-    - title: Deploy the app on Heroku
-      description: We will deploy the application to some online hosting platform.
-      url: ruby-on-rails/section-four
-      children:
-        - title: Prepare your app
-          url: ruby-on-rails/section-four/prepare-app
-        - title: Deploy through CLI
-          url: ruby-on-rails/section-four/deploy
-        - title: Things to note about Heroku
-          url: ruby-on-rails/section-four/notes-on-heroku
+    # - title: Deploy the app on Heroku
+    #   description: We will deploy the application to some online hosting platform.
+    #   url: ruby-on-rails/section-four
+    #   children:
+    #     - title: Prepare your app
+    #       url: ruby-on-rails/section-four/prepare-app
+    #     - title: Deploy through CLI
+    #       url: ruby-on-rails/section-four/deploy
+    #     - title: Things to note about Heroku
+    #       url: ruby-on-rails/section-four/notes-on-heroku

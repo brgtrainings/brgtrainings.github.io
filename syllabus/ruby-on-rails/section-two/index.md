@@ -6,6 +6,7 @@ course: ruby-on-rails
 type: section
 description: Section Two - Web and MVC Architecture
 permalink: /ruby-on-rails/section-two/
+prev_section: /ruby-on-rails/section-one/
 disable_toc: true
 ---
 
