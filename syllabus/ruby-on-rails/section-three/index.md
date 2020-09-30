@@ -19,7 +19,7 @@ In this section, we will build our first basic application. We will call this ap
 
 An `IdeaStore` is a web application which list all the innovative ideas from different people.
 
-{% include util/embed-youtube.html id="V5UBNJKapwg" %}
+{% include util/embed-youtube.html id="vg_Us8wOWG4" %}
 
 Proceed with following sub-sections one at a time.
 
