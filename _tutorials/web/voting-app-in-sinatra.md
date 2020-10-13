@@ -1,30 +1,33 @@
 ---
 layout: tutorial
 tutorial: true
-title: Build a simple voting web app in Sinatra
+title: Simple voting web app in Sinatra
 date: 11th Oct, 2020 02:00:00
 tags:
  - ruby
  - sinatra
  - beginner
-description: Build a simple voting web app in Sinatra
+ - webapp
+description: Simple voting web app in Sinatra
 permalink: /tutorials/voting-web-app-in-sinatra/
-thumbnail: /assets/img/tutorials/voting-app/6.gif
-external: true
+thumbnail: tutorials/voting-app/6.gif
 comments: true
 ---
 
 In this tutorial, we are going to build a simple Voting web application using Sinatra.
 
+{% include util/note.html note="Source code included. See <strong>Resources</strong> section." %}
+
 ## Demo
 
-{% include util/lazy-img.html src="tutorials/voting-app/6.gif" %}
+{% include util/embed-youtube.html id="yZYH4RXT0X0" %}
 
 ## Prerequisites
 
 - Enthusiasm and passion to Learn
+- Basic knowledge of HTML and CSS
 - Basic knowledge of Ruby language
-- Basic knowledge of Sinatra
+- Basic knowledge of [Sinatra](http://sinatrarb.com){:target="_blank"}
 
 ## Inspiration for the tutorial
 
@@ -530,3 +533,4 @@ Finally, the web app will look like as:
 
 - [Sinatra Website](http://sinatrarb.com){:target="_blank"}
 - [Sinatra in GitHub](https://github.com/sinatra/sinatra/){:target="_blank"}
+- [Source Code](https://github.com/brgtrainings/voting_app_sinatra){:target="_blank"}
