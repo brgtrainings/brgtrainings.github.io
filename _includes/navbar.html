@@ -12,9 +12,6 @@
         <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
           <a class="nav-link" href="/">Home</a>
         </li>
-        <li class="nav-item{% if page.page_name == 'mentorship' %} active{% endif %}">
-          <a class="nav-link" href="/mentorship/">Mentorship</a>
-        </li>
         <!-- <li class="nav-item ml-3{% if page.page_name == 'about' %} active{% endif %}">
           <a class="nav-link" href="/about/">About</a>
         </li> -->
@@ -28,9 +25,9 @@
           {% include courses-nav-items.html %}
         </li>
 
-        <!-- <li class="nav-item ml-3{% if page.page_name == 'programs' %} active{% endif %}">
-          <a class="nav-link" href="/programs/">Programs</a>
-        </li> -->
+        <li class="nav-item ml-3{% if page.page_name == 'exercises' %} active{% endif %}">
+          <a class="nav-link" href="/exercises/">Exercises</a>
+        </li>
 
         <li class="nav-item ml-3{% if page.page_name == 'others' %} active{% endif %}">
           <div class="dropdown">
@@ -39,7 +36,7 @@
             </a>
 
             <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
-              <!-- <a class="dropdown-item" href="/snippets/">Code Snippets</a> -->
+              <a class="dropdown-item" href="/mentoring/">Mentoring</a>
               <a class="dropdown-item" href="/links/">Useful Links</a>
               <a class="dropdown-item" href="/ask-brg/">Ask BRG</a>
               <a class="dropdown-item" href="/contact/">Contact</a>

@@ -51,7 +51,7 @@ collections:
     output: true
   getting_tastes:
     output: true
-  programs:
+  exercises:
     output: true
 
 paginate: 6
