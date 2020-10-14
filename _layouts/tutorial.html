@@ -20,8 +20,10 @@
               {% include course/useful-links.html %}
               {% if page.permalink contains 'getting-tastes' %}
                 <a role="button" class="btn btn-success mb-3 py-2" href="/getting-tastes/">Back to all Getting Tastes</a>
-              {% else %}
+              {% elsif page.permalink contains 'tutorials' %}
                 <a role="button" class="btn btn-success mb-3 py-2" href="/tutorials/">Back to all Tutorials</a>
+              {% elsif page.permalink contains 'exercises' %}
+                <a role="button" class="btn btn-success mb-3 py-2" href="/exercises/">Back to all Exercises</a>
               {% endif %}
               <nav id="TableOfContents">
                 <p class="h4 mb-2 text-muted">Table of Contents</p>
