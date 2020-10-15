@@ -7,7 +7,7 @@ tags:
  - c
  - beginner
 description: Simple Calculator in C language
-permalink: /exercises/calculator-c/
+permalink: /tutorials/calculator-c/
 thumbnail: https://asciinema.org/a/365339.svg
 external: true
 comments: true
@@ -309,6 +309,21 @@ __NOTE:__ Notice that the `pow` function accept double. Hence we have declared `
 ## Source Code
 
 Find the complete source code of this exercise [here](https://github.com/brgtrainings/codesnippets/blob/master/c_programs/calculator.c){:target="_blank"}.
+
+## Important things to remember
+
+- The use of curly braces `{ ... }` here might be different than what you are using or given in book. They may be of the form:
+
+  ```c
+  int main()
+  {
+    // code
+  }
+  ```
+
+  Both are valid. I like to keep the opening brace at the end of statement more like the JavaScript style.
+
+- You can always use different approaches to implement same problem.
 
 ## Possible optimizations
 

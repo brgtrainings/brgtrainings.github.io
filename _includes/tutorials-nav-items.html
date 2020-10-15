@@ -4,7 +4,9 @@
   </a>
 
   <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
-    {% for tutorial in site.tutorials %}
+    <a class="dropdown-item" href="/tutorials/">Show All</a>
+    {% assign tutorials = site.tutorials | reverse %}
+    {% for tutorial in tutorials %}
       {% if tutorial.tutorial %}
         <a class="dropdown-item" href="{{ tutorial.url }}">{{ tutorial.title }}</a>
       {% endif %}
