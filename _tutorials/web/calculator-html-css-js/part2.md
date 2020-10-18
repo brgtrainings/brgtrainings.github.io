@@ -1,20 +1,22 @@
 ---
-layout: tutorial
+layout: tutorial_series
 tutorial: true
-title: Calculator in HTML, CSS and JS Part 2
+tutorial_name: calculator-html-css-js
+title: Calculator - UI and functional changes
 date: 17th Oct, 2020 02:00:00
 tags:
  - html
  - css
  - javascript
  - beginner
-description: Calculator in HTML, CSS and JS Part 2
-permalink: /tutorials/calculator-html-css-js-part2/
+description: Calculator - UI and functional changes
+permalink: /tutorials/calculator-html-css-js/part2/
+prev_link: /tutorials/calculator-html-css-js/part1/
 thumbnail: tutorials/calculator-html-css-js/part2_5.png
 comments: true
 ---
 
-In this tutorial, we are going extend the [Simple Calculator in HTML, CSS and JavaScript](/tutorials/calculator-html-css-js/) that we built previously.
+In this tutorial, we are going extend the calculator that we built in previous part.
 
 We will mostly do the UI improvement as the functionality of operations is complete.
 

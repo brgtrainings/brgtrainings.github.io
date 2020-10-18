@@ -1,15 +1,17 @@
 ---
-layout: tutorial
+layout: tutorial_series
 tutorial: true
-title: Simple Calculator in HTML, CSS and JS
+tutorial_name: calculator-html-css-js
+title: Calculator - build a simple one
 date: 16th Oct, 2020 02:00:00
 tags:
  - html
  - css
  - javascript
  - beginner
-description: Simple Calculator in HTML, CSS and JS
-permalink: /tutorials/calculator-html-css-js/
+description: Calculator - build a simple one
+permalink: /tutorials/calculator-html-css-js/part1
+next_link: /tutorials/calculator-html-css-js/part2
 thumbnail: tutorials/calculator-html-css-js/4.gif
 comments: true
 ---
