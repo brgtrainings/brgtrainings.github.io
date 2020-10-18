@@ -17,6 +17,20 @@
           <div class="row justify-content-center flex-xl-nowrap">
             <main class="col-12 col-md-9 col-xl-6 px-md-2 pr-md-4" role="main">
               <div class="td-content">
+                {% if page.thumbnail and page.include_header_image %}
+                  <center>
+                    <img src="{{ site.baseurl }}/assets/img/{{ page.thumbnail }}" class="thumbnail img-fluid" />
+                  </center>
+                {% endif %}
+                {% if page.thumbnail_credit %}
+                  <p class="thumbnail-credit">Image: {{ page.thumbnail_credit }}</p>
+                {% endif %}
+                <h1 id="{{ page.title | remove: ':' | remove: ',' | downcase | split: ' ' | join: '-' }}">{{ page.description }}</h1>
+
+                {% if page.tags %}
+                  <div class="tags mb-4"></div>
+                {% endif %}
+                <hr>
 
                 {{ content }}
 
@@ -27,6 +41,10 @@
                   {% if page.next_link %}
                     <a href="{{ page.next_link }}" class="btn btn-primary px-4" role="button">Next</a>
                   {% endif %}
+                </div>
+
+                <div class="show-share">
+                  {% include share-page.html %}
                 </div>
 
                 {% if site.disqus.shortname and page.comments == true  %}
@@ -40,6 +58,8 @@
 
             <div class="col-12 col-md-3 col-xl-3 td-sidebar d-print-none">
               {% include tutorial/sidebar.html %}
+
+
             </div>
           </div>
         </div>
@@ -47,6 +67,9 @@
         {% include footer.html %}
       </div>
     </main>
+
+    {% include course/toc.html %}
+    {% include course/tags.html %}
 
     <a href="#pagetop" class="scroll" id="toTop">
       <img src="/assets/img/top.png" id="toTopHover" style="opacity: 1;" />

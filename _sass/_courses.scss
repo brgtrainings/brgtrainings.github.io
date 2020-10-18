@@ -39,6 +39,28 @@
   }
 }
 
+.tutorial-series-body {
+  .td-sidebar-nav {
+    margin: 0;
+    padding: 0;
+  }
+  #TableOfContents {
+    padding: 1rem 0.8rem;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+
+    ul {
+      margin-bottom: 0;
+      padding-left: 0;
+      list-style: none;
+
+      a {
+        font-weight: 300;
+      }
+    }
+  }
+}
+
 @media (max-width: 480px) {
   .navbar-brand {
     font-size: 20px !important;
