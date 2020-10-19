@@ -1,10 +1,9 @@
 <div id="td-sidebar-menu" class="d-xl-block td-sidebar__inner">
-  {% include share-page.html %}
   {% include course/useful-links.html %}
-  <a role="button" class="btn btn-success w-100 mb-3 py-2" href="/tutorials/">Back to all tutorials</a>
-  <nav class="collapse td-sidebar-nav pt-3" id="td-section-nav">
+  <a role="button" class="btn btn-sm btn-success w-100 mb-1 py-1" href="/tutorials/">Back to all tutorials</a>
+  <nav class="collapse td-sidebar-nav pt-2" id="td-section-nav">
     {% for section in site.data.tutorials[page.tutorial_name] %}
-      <ul class="td-sidebar-nav__section pl-0 pr-md-3">
+      <ul class="td-sidebar-nav__section pl-0 pr-md-3 mb-2 py-1">
         <li class="td-sidebar-nav__section-title pl-3">
           <a  href="{% if section.url %}{{ site.baseurl }}/{{ section.url }}{% else %}{{ section.external_url }}{% endif %}" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">{{ section.title }}</a>
         </li>
