@@ -3,9 +3,9 @@ layout: tutorial_series
 projects: true
 learning_type: projects
 tutorial_name: calculator
-title: Calculator Project in HTML, CSS and JavaScript
+title: Calculator in HTML, CSS and JavaScript
 date: 26th Oct, 2020 1:00:00
-description: Calculator Project in HTML, CSS and JavaScript
+description: Calculator in HTML, CSS and JavaScript
 permalink: /projects/calculator/
 redirect_from: /projects/calculator/overview
 thumbnail: projects/calculator/part2_5.png

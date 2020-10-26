@@ -10,3 +10,7 @@
     - title: Add Functional and UI changes
       description: Adding functional and UI changes to calculator
       url: projects/calculator/part2
+    - title: UI Dark Mode
+      description: Adding dark mode to the UI
+      url: projects/calculator/part3
+

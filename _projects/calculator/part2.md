@@ -11,6 +11,7 @@ tags:
  - beginner
 description: Calculator - UI and functional changes
 permalink: /projects/calculator/part2/
+next_link: /projects/calculator/part3/
 prev_link: /projects/calculator/part1/
 thumbnail: projects/calculator/part2_5.png
 comments: true
