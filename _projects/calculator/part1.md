@@ -17,7 +17,7 @@ thumbnail: projects/calculator/4.gif
 comments: true
 ---
 
-In this tutorial, we are going to see how to build a simple calculator in HTML, CSS and JavaScript.
+In this tutorial, we are going to see how to build a simple calculator in HTML, CSS and JavaScript from scratch.
 
 ## Demo
 

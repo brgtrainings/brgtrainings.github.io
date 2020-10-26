@@ -13,7 +13,11 @@ disable_sidebar: true
 disable_toc: true
 ---
 
-In this tutorial series, we are trying to build a calculator project in HTML, CSS and JavaScript.
+In this tutorial series, we are trying to build a calculator in HTML, CSS and JavaScript.
+
+Go through the following phases to build the calculator.
+
+## Phases
 
 <div class="section-index">
   <hr class="panel-line">
@@ -21,7 +25,7 @@ In this tutorial series, we are trying to build a calculator project in HTML, CS
   <div class="container-fluid">
     <div class="row">
       {% for section_hash in site.data.projects.calculator %}
-        {% for section in section_hash.links %}
+        {% for section in section_hash.links offset: 1 %}
           <div class="col-md-6">
             <a href="{{ site.url }}/{{ site.baseurl }}{{ section.url }}" class="text-secondary">
               <div class="card shadow mb-3">
