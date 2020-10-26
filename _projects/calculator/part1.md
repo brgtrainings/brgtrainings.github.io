@@ -1,8 +1,7 @@
 ---
 layout: tutorial_series
-tutorial: true
-learning_type: tutorials
-tutorial_name: calculator-html-css-js
+learning_type: projects
+tutorial_name: calculator
 title: Calculator - build a simple one
 date: 16th Oct, 2020 02:00:00
 tags:
@@ -11,9 +10,10 @@ tags:
  - javascript
  - beginner
 description: Calculator - build a simple one
-permalink: /tutorials/calculator-html-css-js/part1
-next_link: /tutorials/calculator-html-css-js/part2
-thumbnail: tutorials/calculator-html-css-js/4.gif
+permalink: /projects/calculator/part1
+prev_link: /projects/calculator/
+next_link: /projects/calculator/part2
+thumbnail: projects/calculator/4.gif
 comments: true
 ---
 
@@ -142,7 +142,7 @@ In the above code:
 
 Now, if you open the `index.html` file in browser, you should see the first row of calculator as below:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/1.jpg" %}
+{% include util/lazy-img.html src="projects/calculator/1.jpg" %}
 
 ### 2nd, 3rd and 4th rows: Numeric buttons
 
@@ -242,7 +242,7 @@ Till this time, we are ready with full calculator UI.
 
 Now, if you refresh the `index.html` file in browser, you should see the rough UI of calculator:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/2.jpg" %}
+{% include util/lazy-img.html src="projects/calculator/2.jpg" %}
 
 ## Styling our calculator
 
@@ -287,7 +287,7 @@ The CSS I have used quite simple and easy to understand.
 
 Now, if you refresh the `index.html` page in browser, you will see calculator UI as below:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/3.jpg" %}
+{% include util/lazy-img.html src="projects/calculator/3.jpg" %}
 
 ## Adding functionality
 
@@ -325,7 +325,7 @@ In the above code:
 
 The sample operation of calculator look like below:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/4.gif" %}
+{% include util/lazy-img.html src="projects/calculator/4.gif" %}
 
 ## Possible optimizations
 

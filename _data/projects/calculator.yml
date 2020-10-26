@@ -1,0 +1,12 @@
+- title: Calculator in HTML, CSS and JavaScript
+  url: projects/calculator/
+  links:
+    - title: Overview
+      description: Overview of the project
+      url: projects/calculator/overview
+    - title: Build simple calculator
+      description: Getting start with simple calculator
+      url: projects/calculator/part1
+    - title: Add Functional and UI changes
+      description: Adding functional and UI changes to calculator
+      url: projects/calculator/part2

@@ -1,8 +1,7 @@
 ---
 layout: tutorial_series
-tutorial: true
-learning_type: tutorials
-tutorial_name: calculator-html-css-js
+learning_type: projects
+tutorial_name: calculator
 title: Calculator - UI and functional changes
 date: 17th Oct, 2020 02:00:00
 tags:
@@ -11,9 +10,9 @@ tags:
  - javascript
  - beginner
 description: Calculator - UI and functional changes
-permalink: /tutorials/calculator-html-css-js/part2/
-prev_link: /tutorials/calculator-html-css-js/part1/
-thumbnail: tutorials/calculator-html-css-js/part2_5.png
+permalink: /projects/calculator/part2/
+prev_link: /projects/calculator/part1/
+thumbnail: projects/calculator/part2_5.png
 comments: true
 ---
 
@@ -76,7 +75,7 @@ input[type="text"] {
 
 Click on any button and you will notice a blue ring around it. See below:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/part2_0.png" %}
+{% include util/lazy-img.html src="projects/calculator/part2_0.png" %}
 
 Add following CSS to remove it:
 
@@ -116,7 +115,7 @@ input[type="text"] {
 
 Result should look like below:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/part2_1.png" %}
+{% include util/lazy-img.html src="projects/calculator/part2_1.png" %}
 
 ### Button font size, box shadow and margin
 
@@ -136,7 +135,7 @@ It will update the font size of button, add the shadow effect which kind of give
 
 Now, if you see the UI of calculator, it should look like below:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/part2_2.png" %}
+{% include util/lazy-img.html src="projects/calculator/part2_2.png" %}
 
 ### Update border color
 
@@ -158,7 +157,7 @@ input[type="text"] {
 
 Now, UI should look like:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/part2_3.png" %}
+{% include util/lazy-img.html src="projects/calculator/part2_3.png" %}
 
 ### Remove the cell border
 
@@ -197,7 +196,7 @@ __NOTE:__ The property `width` is update to `90%` and `margin-left` is newly add
 
 The updated UI is:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/part2_4.png" %}
+{% include util/lazy-img.html src="projects/calculator/part2_4.png" %}
 
 ### Highlight first row
 
@@ -213,7 +212,7 @@ table tr:first-child {
 
 Notice the separation below:
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/part2_5.png" %}
+{% include util/lazy-img.html src="projects/calculator/part2_5.png" %}
 
 ### Button hover effect
 
@@ -235,7 +234,7 @@ input[type="button"]:hover {
 
 Notice below when I hover the button `9`, it got highlighted.
 
-{% include util/lazy-img.html src="tutorials/calculator-html-css-js/part2_6.png" %}
+{% include util/lazy-img.html src="projects/calculator/part2_6.png" %}
 
 ## Calculator functional changes
 
