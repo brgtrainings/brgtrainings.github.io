@@ -59,6 +59,14 @@
       }
     }
   }
+  .project-phase {
+    .card {
+      background: transparent;
+    }
+  }
+  .project-phase:hover {
+    background-color: #eee;
+  }
 }
 
 @media (max-width: 480px) {

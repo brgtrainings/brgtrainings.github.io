@@ -17,20 +17,24 @@ In this tutorial series, we are trying to build a calculator in HTML, CSS and Ja
 
 Go through the following phases to build the calculator.
 
+{% include util/note.html
+    note="The tutorial has been built thinking college graduates in mind and assumes that you have already basic knowledge of HTML, CSS, and JavaScript."
+%}
+
 ## Phases
 
 <div class="section-index">
   <hr class="panel-line">
 
-  <div class="container-fluid">
-    <div class="row">
-      {% for section_hash in site.data.projects.calculator %}
-        {% for section in section_hash.links offset: 1 %}
-          <div class="col-md-6">
+  <div class="container-fluid mt-4">
+    {% for section_hash in site.data.projects.calculator %}
+      {% for section in section_hash.links offset: 1 %}
+        <div class="row mb-3 project-phase">
+          <div class="col-md-7">
             <a href="{{ site.url }}/{{ site.baseurl }}{{ section.url }}" class="text-secondary">
-              <div class="card shadow mb-3">
+              <div class="card border-0 mb-3">
                 <div class="card-body">
-                  <h5 class="card-title font-weight-bold">{{ section.title }}</h5>
+                  <h5 class="card-title font-weight-bold">{{ forloop.index + 1}}) {{ section.title }}</h5>
                   {% if section.description %}
                     <p class="card-text">{{ section.description }}</p>
                   {% endif %}
@@ -38,8 +42,13 @@ Go through the following phases to build the calculator.
               </div>
             </a>
           </div>
-        {% endfor %}
+          <div class="col-md-5 p-2">
+            <a href="{{ site.url }}/{{ site.baseurl }}{{ section.url }}">
+              <img src="/assets/img/{{ section.thumbnail }}" class="img-fluid" />
+            </a>
+          </div>
+        </div>
       {% endfor %}
-    </div>
+    {% endfor %}
   </div>
 </div>
