@@ -5,13 +5,14 @@
     {% for section in site.data[page.learning_type][page.tutorial_name] %}
       <ul class="td-sidebar-nav__section pl-0 pr-md-3 mb-2 py-1">
         <li class="td-sidebar-nav__section-title pl-3">
-          <a  href="{% if section.url %}{{ site.baseurl }}/{{ section.url }}{% else %}{{ section.external_url }}{% endif %}" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">{{ section.title }}</a>
+          <a  href="{% if section.url %}{{ site.baseurl }}/{{ section.url }}{% else %}{{ section.external_url }}{% endif %}"
+            class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">{{ section.title }}</a>
         </li>
         {% if section.links %}
         <ul>
           <li class="collapse show" id="{{ section.title | slugify }}">
             <ul class="td-sidebar-nav__section p-0 pr-md-3">
-              {% for entry in section.links %}
+              {% for entry in section.links offset: 1 %}
                 <li class="td-sidebar-nav__section-title">
                   <a href="{% if entry.url %}{{ site.baseurl }}/{{ entry.url }}{% else %}{{ entry.external_url }}{% endif %}"
                     class="align-left pl-0 px-2 td-sidebar-link td-sidebar-link__section">

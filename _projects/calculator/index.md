@@ -34,7 +34,7 @@ Go through the following phases to build the calculator.
             <a href="{{ site.url }}/{{ site.baseurl }}{{ section.url }}" class="text-secondary">
               <div class="card border-0 mb-3">
                 <div class="card-body">
-                  <h5 class="card-title font-weight-bold">{{ forloop.index + 1}}) {{ section.title }}</h5>
+                  <h5 class="card-title font-weight-bold">{{ forloop.index }}) {{ section.title }}</h5>
                   {% if section.description %}
                     <p class="card-text">{{ section.description }}</p>
                   {% endif %}
