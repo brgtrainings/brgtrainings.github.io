@@ -9,6 +9,7 @@ tags:
 description: An introduction of Digital Marketing
 permalink: /tutorials/digital-marketing/
 redirect_from: /digital-marketing/
+thumbnail: tutorials/digital-marketing.jpg
 ---
 
 In this tutorial, we will try to understand what _Digital Marketing_ is.
