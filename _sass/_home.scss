@@ -436,10 +436,22 @@ header.default_header {
 
 // tutorials section
 .tutorials-page {
+  img {
+    height: 200px;
+    max-width: 100%;
+  }
   .card-title {
     font-size: 16px;
   }
   .card-body {
     padding: 5px;
+  }
+}
+
+// courses page
+.courses-page {
+  img {
+    height: 200px;
+    max-width: 100%;
   }
 }
