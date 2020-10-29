@@ -36,7 +36,7 @@ Using a naming convention has following benefits:
 ## Popular naming conventions in Ruby Community
 
 Following are the few naming conventions one should know and taken from
-[Ruby community style guide]([Ruby Style Guide naming convention.](https://rubystyle.guide/#naming-conventions){:target="_blank"}).
+[Ruby community style guide](https://rubystyle.guide/#naming-conventions){:target="_blank"}).
 These rules are set to make Ruby code more readable, acceptable in the community.
 
 {% include util/note.html

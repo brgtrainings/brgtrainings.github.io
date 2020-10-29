@@ -266,7 +266,7 @@ puts languages # ['Ruby', 'Python', 'Go']
 
 __NOTE__: It will remove all occurrences of the specified element.
 
-See [Array](../array) page for more detail.
+See __Array__ page for more detail.
 
 ## Hash
 
@@ -290,7 +290,7 @@ user = { first_name: "Foo", last_name: "Bar" }
 puts user[:first_name] # output: Foo
 ```
 
-See [Hash](../hash) page for more detail.
+See __Hash__ page for more detail.
 
 ## Symbol
 

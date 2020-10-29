@@ -59,12 +59,10 @@ editors:
   - link: https://atom.io/
     title: Atom Editor
 tools:
-  - link: https://chrome.google.com/webstore/detail/json-formatter
+  - link: https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
     title: JSON Formatter
   - link: https://validator.w3.org/
     title: Markup Validation Service
-  - link: https://www.canva.com/
-    title: Design anything (canva.com)
   - link: https://unsplash.com/
     title: Source of Free Online Images (unsplash.com)
   - link: https://www.postman.com/downloads/

@@ -189,7 +189,7 @@ end
 
 After restarting the server, the web page will now show following:
 
-{% include util/lazy-img.html src="tutorials/voting-app/1.png" %}
+{% include util/lazy-img.html src="tutorials/voting-app/1.png" alt="Voting app view index" %}
 
 ## Code explanation
 
@@ -271,7 +271,7 @@ button {
 }
 ```
 
-{% include util/lazy-img.html src="tutorials/voting-app/2.png" %}
+{% include util/lazy-img.html src="tutorials/voting-app/2.png" alt="Voting app adding CSS" %}
 
 ## Passing data to View
 
@@ -295,7 +295,7 @@ end
 We are able to do this as templates in Sinatra are evaluated within the same context as route handlers like `get`.
 Instance variables set in route handlers are directly accessible by templates.
 
-{% include util/lazy-img.html src="tutorials/voting-app/3.png" %}
+{% include util/lazy-img.html src="tutorials/voting-app/3.png" alt="Voting app passing data to view" %}
 
 ## Ability to cast Vote (POST results)
 
@@ -331,7 +331,7 @@ Also, create a new file `cast.erb` in the `views` directory and put following co
 
 Now, restart the server and open `https://loclhost:4567` and choose item for the dinner and click on `Cast this vote!` button.
 
-{% include util/lazy-img.html src="tutorials/voting-app/4.gif" %}
+{% include util/lazy-img.html src="tutorials/voting-app/4.gif" alt="Voting app cast vote" %}
 
 ## Code explanation
 
@@ -469,7 +469,7 @@ Now, create its view file as `results.erb` under `views` directory.
 
 Now, check the results page after restarting the server (`Ctrl+c` and run app again). You will see following similar page:
 
-{% include util/lazy-img.html src="tutorials/voting-app/5.png" %}
+{% include util/lazy-img.html src="tutorials/voting-app/5.png" alt="Voting app add results route" %}
 
 ## Code explanation
 
@@ -522,7 +522,7 @@ We are using YAML here to easily manage our voting data.
 
 Finally, the web app will look like as:
 
-{% include util/lazy-img.html src="tutorials/voting-app/6.gif" %}
+{% include util/lazy-img.html src="tutorials/voting-app/6.gif" alt="Voting app final view" %}
 
 {% include util/highlight.html
     text="There are many areas of improvement here which I leave up to you. This is quite basic and serve as the base for

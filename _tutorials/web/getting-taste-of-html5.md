@@ -96,7 +96,7 @@ Let's jump into the coding.
 
 You should be able to see the following:
 
-{% include util/lazy-img.html src="tutorials/getting-taste-html-css-preview.gif" %}
+{% include util/lazy-img.html src="tutorials/getting-taste-html-css-preview.gif" alt="Preview" %}
 
 ## Step 1: Familiar with Semantic Elements
 
@@ -233,7 +233,7 @@ __NOTE:__ Check the above [step's commit](https://github.com/brgtrainings/studen
 
 Blogs section now should look like below:
 
-{% include util/lazy-img.html src="tutorials/student-portfolio-figure.jpg" %}
+{% include util/lazy-img.html src="tutorials/student-portfolio-figure.jpg" alt="Update image element" %}
 
 ## Step 3: Video and Audio elements
 

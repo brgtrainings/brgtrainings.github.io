@@ -701,7 +701,7 @@ The introduction section should be updated as following:
 You can go through following useful links to continue your journey with HTML and CSS learning.
 
 - [w3schools HTML Tutorial](https://www.w3schools.com/html/default.asp){:target="_blank"} - Reference tutorial
-- [Mozilla HTML Tutorial](https://developer.mozilla.org/en-US/docs/Web/HTMLL){:target="_blank"} - Reference tutorial
+- [Mozilla HTML Tutorial](https://developer.mozilla.org/en-US/docs/Web/HTML){:target="_blank"} - Reference tutorial
 - [w3schools CSS Tutorial](https://www.w3schools.com/css/default.asp){:target="_blank"} - Reference tutorial
 - [Mozilla CSS Tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS){:target="_blank"} - Reference tutorial
 - [htmlreferences.io](https://htmlreference.io/) - Nice guide on HTML elements and its attributes

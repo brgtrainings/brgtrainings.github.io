@@ -118,7 +118,7 @@ They first convert their operands to boolean values and then perform the respect
 | &#124;&#124; | OR operator. If any of the two operands are non zero, then the condition becomes true. `or` is its alternative operator. | `(false or true)` is true |
 | ! | NOT operator. Use to reverses the logical state of its operand. `not` is its alternative operator. | `!(false && true)` is true |
 
-These are also called Boolean operators which work on Boolean datatype. See [Boolean Dataype](../datatypes#boolean){:target="_blank"}.
+These are also called Boolean operators which work on Boolean datatype. See __Boolean Dataype__.
 
 ### Best Practice
 

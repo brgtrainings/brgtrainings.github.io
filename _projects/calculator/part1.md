@@ -10,9 +10,9 @@ tags:
  - javascript
  - beginner
 description: Calculator - build a simple one
-permalink: /projects/calculator/part1
+permalink: /projects/calculator/part1/
 prev_link: /projects/calculator/
-next_link: /projects/calculator/part2
+next_link: /projects/calculator/part2/
 thumbnail: projects/calculator/4.gif
 comments: true
 ---

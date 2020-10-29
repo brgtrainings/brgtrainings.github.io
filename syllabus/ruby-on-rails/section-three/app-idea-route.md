@@ -18,7 +18,7 @@ comments: true
 
 # Creating Idea route in Rails
 
-In the previous page, we have created our first three ideas while [playing around with rails console](http://localhost:4000/ruby-on-rails/section-three/app-model/#play-around-with-rails-command){:target="_blank"}.
+In the previous page, we have created our first three ideas while playing around with Rails console].
 
 In this page, we will setup the required route in our application which will help us to display those ideas in the browser.
 
