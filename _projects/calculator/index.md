@@ -7,7 +7,6 @@ title: Calculator in HTML, CSS and JavaScript
 date: 26th Oct, 2020 1:00:00
 description: Calculator in HTML, CSS and JavaScript
 permalink: /projects/calculator/
-redirect_from: /projects/calculator/overview
 thumbnail: projects/calculator/part2_5.png
 disable_sidebar: true
 disable_toc: true
@@ -28,7 +27,7 @@ Go through the following phases to build the calculator.
 
   <div class="container-fluid mt-4">
     {% for section_hash in site.data.projects.calculator %}
-      {% for section in section_hash.links offset: 1 %}
+      {% for section in section_hash.links %}
         <div class="row mb-3 project-phase">
           <div class="col-md-7">
             <a href="{{ site.url }}/{{ site.baseurl }}{{ section.url }}" class="text-secondary">

@@ -12,7 +12,7 @@
         <ul>
           <li class="collapse show" id="{{ section.title | slugify }}">
             <ul class="td-sidebar-nav__section p-0 pr-md-3">
-              {% for entry in section.links offset: 1 %}
+              {% for entry in section.links %}
                 <li class="td-sidebar-nav__section-title">
                   <a href="{% if entry.url %}{{ site.baseurl }}/{{ entry.url }}{% else %}{{ entry.external_url }}{% endif %}"
                     class="align-left pl-0 px-2 td-sidebar-link td-sidebar-link__section">
