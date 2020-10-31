@@ -1,12 +1,12 @@
 ---
 layout: tutorial
 tutorial: true
-title: An introduction of Digital Marketing
+title: Intro of Digital Marketing and free courses
 date: 28th Oct, 2020 02:00:00
 tags:
  - digital-marketing
  - beginner
-description: An introduction of Digital Marketing
+description: Intro of Digital Marketing and free courses
 permalink: /tutorials/digital-marketing/
 redirect_from: /digital-marketing/
 thumbnail: tutorials/digital-marketing.jpg
