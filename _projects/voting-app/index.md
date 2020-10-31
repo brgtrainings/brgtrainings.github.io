@@ -14,8 +14,6 @@ disable_toc: true
 
 In this tutorial, we are going to build a simple Voting web application using Sinatra.
 
-{% include util/note.html note="Source code included. See <strong>Resources</strong> section." %}
-
 ## Demo
 
 {% include util/embed-youtube.html id="yZYH4RXT0X0" %}
@@ -36,6 +34,12 @@ I am presenting it in my own way with little or updated content.
 {% include util/note.html
     note="The tutorial has been built thinking college graduates in mind and assumes that you have already basic knowledge of HTML, CSS, and JavaScript."
 %}
+
+## Resources
+
+- [Sinatra Website](http://sinatrarb.com){:target="_blank"}
+- [Sinatra in GitHub](https://github.com/sinatra/sinatra/){:target="_blank"}
+- [Source Code](https://github.com/brgtrainings/voting_app_sinatra){:target="_blank"}
 
 ## Phases
 

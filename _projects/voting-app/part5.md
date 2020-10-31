@@ -49,7 +49,7 @@ Now, create its view file as `results.erb` under `views` directory.
 
 Now, check the results page after restarting the server (`Ctrl+c` and run app again). You will see following similar page:
 
-{% include util/lazy-img.html src="tutorials/voting-app/5.png" alt="Voting app add results route" %}
+{% include util/lazy-img.html src="projects/voting-app-sinatra/5.2.png" alt="Voting app add results route" %}
 
 ## Code explanation
 

@@ -47,4 +47,4 @@ button {
 }
 ```
 
-{% include util/lazy-img.html src="tutorials/voting-app/2.png" alt="Voting app adding CSS" %}
+{% include util/lazy-img.html src="projects/voting-app-sinatra/2.png" alt="Voting app adding CSS" %}

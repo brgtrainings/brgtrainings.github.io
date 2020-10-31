@@ -68,7 +68,7 @@ end
 
 After restarting the server, the web page will now show following:
 
-{% include util/lazy-img.html src="tutorials/voting-app/1.png" alt="Voting app view index" %}
+{% include util/lazy-img.html src="projects/voting-app-sinatra/1.png" alt="Voting app view index" %}
 
 ## Code explanation
 

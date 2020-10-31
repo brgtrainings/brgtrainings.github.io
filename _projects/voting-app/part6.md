@@ -12,7 +12,7 @@ comments: true
 
 So far we have played with static dummy data.
 
-Let's store the voting result and update the count whenever we vote the specific dish.
+Let's store the voting result and update the count whenever we vote for the specific dish.
 
 ## Adding YAML Store library
 
@@ -59,7 +59,7 @@ We are using YAML here to easily manage our voting data.
 
 The web app now will functionally look like below:
 
-{% include util/lazy-img.html src="tutorials/voting-app/6.gif" alt="Voting app final view" %}
+{% include util/lazy-img.html src="projects/voting-app-sinatra/6.gif" alt="Voting app final view" %}
 
 {% include util/highlight.html
     text="There are many areas of improvement here which I leave up to you. This is quite basic and serve as the base for
