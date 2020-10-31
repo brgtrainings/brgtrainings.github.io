@@ -25,7 +25,8 @@
                 {% if page.thumbnail_credit %}
                   <p class="thumbnail-credit">Image: {{ page.thumbnail_credit }}</p>
                 {% endif %}
-                <h1 id="{{ page.title | remove: ':' | remove: ',' | downcase | split: ' ' | join: '-' }}">{{ page.description }}</h1>
+                <h1 id="{{ page.title | remove: ':' | remove: ',' | downcase | split: ' ' | join: '-' }}" class="mb-0">{{ page.title }}</h1>
+                <h4 class="m-0">{{ page.description }}</h4>
 
                 {% if page.tags %}
                   <div class="tags mb-4"></div>

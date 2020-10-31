@@ -398,7 +398,6 @@ In general _Layout_ is used to define the HTML structure of the web page.
     render the associated template file. When the template is done, it keeps going to render everything else after the 'yield' statement in the layout. <br>Therefore, it is very important to be cautious about choosing the right spot for yielding statement in your layout." class="h5"
 %}
 
-
 ## Update the views files
 
 Update the views files `index.erb` and `cast.erb` as follows:

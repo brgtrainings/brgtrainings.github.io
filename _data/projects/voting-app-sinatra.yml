@@ -1,19 +1,30 @@
-- title: Calculator in HTML, CSS and JavaScript
-  url: projects/calculator/
+- title: Voting Web App in Sinatra
+  url: projects/voting-app-sinatra/
   links:
-    - title: Overview
-      description: Overview of the project
-      url: projects/calculator/overview
-    - title: Build simple calculator
-      description: Getting start with simple calculator
-      url: projects/calculator/part1
-      thumbnail: projects/calculator/4.gif
-    - title: Add Functional and UI changes
-      description: Adding functional and UI changes to calculator
-      url: projects/calculator/part2
-      thumbnail: projects/calculator/part2_5.png
-    - title: UI Dark Mode
-      description: Adding dark mode to the UI
-      url: projects/calculator/part3
-      thumbnail: projects/calculator/part3_4.gif
+    - title: Sinatra intro and basic app
+      description: Getting start with Sinatra and create a basic web app
+      url: projects/voting-app-sinatra/part1
+      thumbnail: projects/voting-app-sinatra/4.gif
+    - title: List of choices to vote from
+      description: Create a page to list different choices one can vote for
+      url: projects/voting-app-sinatra/part2
+      thumbnail: projects/voting-app-sinatra/part2_5.png
+    - title: Styling the list of choices page
+      description: Style the list of choices page through CSS
+      url: projects/voting-app-sinatra/part3
+      thumbnail: projects/voting-app-sinatra/part3_4.gif
+    - title: Layout and views
+      description: Extract common view component into layout
+      url: projects/voting-app-sinatra/part4
+      thumbnail: projects/voting-app-sinatra/part3_4.gif
+    - title: Result page
+      description: Add result route and its view
+      url: projects/voting-app-sinatra/part5
+      thumbnail: projects/voting-app-sinatra/part3_4.gif
+    - title: Storing voting results
+      description: Data persistence with YAML Store
+      url: projects/voting-app-sinatra/part6
+      thumbnail: projects/voting-app-sinatra/part3_4.gif
+
+
 
