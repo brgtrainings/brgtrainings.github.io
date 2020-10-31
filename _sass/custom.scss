@@ -312,6 +312,10 @@ textarea {
   filter: alpha(opacity=0);
 }
 
+.lozad {
+  border-radius: 5px;
+}
+
 @import "docsy-jekyll";
 @import "syntax-highlighting";
 @import "animate.min";
