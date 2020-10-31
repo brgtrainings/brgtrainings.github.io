@@ -1,6 +1,10 @@
-<div id="td-sidebar-menu" class="d-xl-block td-sidebar__inner">
-  {% include course/useful-links.html %}
-  <a role="button" class="btn btn-sm btn-success w-100 mb-1 py-1" href="/{{ page.learning_type }}/">Back to all {{ page.learning_type | | capitalize }}</a>
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  <a role="button" class="btn btn-sm btn-success w-100 mb-3 py-1" href="/{{ page.learning_type }}/">Back to all {{ page.learning_type | | capitalize }}</a>
+  <button class="btn btn-sm btn-primary btn-block py-2 text-white td-sidebar__toggle d-block d-sm-none m-0 font-weight-bold" type="button"
+    data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav"
+    aria-expanded="false" aria-label="Toggle section navigation">
+    <i class="fas fa-bars mr-3"></i>Table Of Contents
+  </button>
   <nav class="collapse td-sidebar-nav pt-2" id="td-section-nav">
     {% for section in site.data[page.learning_type][page.tutorial_name] %}
       <ul class="td-sidebar-nav__section pl-0 pr-md-3 mb-2 py-1">

@@ -11,28 +11,42 @@
         {% include staticbanner.html %}
       {% endif %}
     </header>
-    <main class="tutorial-body">
+    <main class="tutorial-series-body">
       <div class="container-fluid td-outer">
         <div class="td-main">
           <div class="row justify-content-center flex-xl-nowrap">
-            <div class="d-none d-xl-block col-md-3 col-xl-3 td-toc d-print-none">
-              {% include share-page.html %}
-              {% include course/useful-links.html %}
-              {% if page.permalink contains 'tutorials' %}
-                <a role="button" class="btn btn-success mb-3 py-2" href="/tutorials/">Back to all Tutorials</a>
-              {% elsif page.permalink contains 'exercises' %}
-                <a role="button" class="btn btn-success mb-3 py-2" href="/exercises/">Back to all Exercises</a>
-              {% endif %}
-              <nav id="TableOfContents">
-                <p class="h4 mb-2 text-muted">Table of contents</p>
-                <ul>
-                  <li>
-                    <ul id="TOC">
-                      <!-- Links will be appended here-->
+            <div class="col-12 col-md-3 col-xl-3 td-sidebar">
+              <div id="td-sidebar-menu" class="td-sidebar__inner">
+                <button class="btn btn-sm btn-primary btn-block py-2 text-white td-sidebar__toggle d-block d-sm-none m-0 mb-2 font-weight-bold" type="button"
+                  data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav"
+                  aria-expanded="false" aria-label="Toggle section navigation">
+                  <i class="fas fa-bars mr-3"></i>Table Of Contents
+                </button>
+
+                <div class="d-none d-sm-block">
+                  {% include share-page.html %}
+                </div>
+                {% include course/useful-links.html %}
+
+                {% if page.permalink contains 'tutorials' %}
+                  <a role="button" class="btn btn-sm btn-success w-100 mb-3 py-2" href="/tutorials/">Back to all Tutorials</a>
+                {% elsif page.permalink contains 'exercises' %}
+                  <a role="button" class="btn btn-sm btn-success w-100 mb-3 py-2" href="/exercises/">Back to all Exercises</a>
+                {% endif %}
+
+                <nav class="collapse td-sidebar-nav pt-2" id="td-section-nav">
+                  <nav id="TableOfContents">
+                    <p class="h4 mb-2 text-muted">Table of contents</p>
+                    <ul>
+                      <li>
+                        <ul id="TOC">
+                          <!-- Links will be appended here-->
+                        </ul>
+                      </li>
                     </ul>
-                  </li>
-                </ul>
-              </nav>
+                  </nav>
+                </nav>
+              </div>
             </div>
 
             <main class="col-12 col-md-9 col-xl-6" role="main">
