@@ -1,15 +1,18 @@
 ---
 layout: default
-title: UI Developer 101
-permalink: /courses/ui-developer-101/
-page_name: courses
+title: Website Development Bootcamp
+permalink: /bootcamps/website-development/
+page_name: bootcamps
+thumbnail: bootcamps/website-development.jpg
 ---
 
-<section class="courses py-7">
+<section class="courses py-6">
   <div class="container">
     <div class="row">
       <div class="col-md-12 overview">
-        <h1 class="font-weight-bold">UI Developer Course 101</h1>
+        <h1 class="text-center font-weight-bold">Website Development Bootcamp</h1>
+
+        {% include util/lazy-img.html src="bootcamps/website-development.jpg" alt="Website Development Bootcamp" %}
       </div>
       <div class="col-md-12 overview">
         <p>
@@ -67,10 +70,10 @@ page_name: courses
           <li class="list-item"><i class="fas fa-check mr-2"></i>Code management through Git/GitHub</li>
           <li class="list-item"><i class="fas fa-check mr-2"></i>Glimpse of Corporate Culture</li>
         </ul>
-        <h4>We are going to build similar website as below. <a href="https://webdesigns.brgtrainings.com/creative" target="_blank" class="btn btn-secondary px-4">
+        <h4>We are going to build similar website as below. <a href="https://anybodycandevelopwebsite.art/creative" target="_blank" class="btn btn-secondary px-4">
           Click to visit Live Website <i class="fab fa-telegram-plane ml-2"></i>
         </a></h4>
-        <iframe src="https://webdesigns.brgtrainings.com/creative" title="Creative Website bg-white-shadow"></iframe>
+        <iframe src="https://anybodycandevelopwebsite.art/creative" title="Creative Website bg-white-shadow"></iframe>
       </div>
 
       <div class="col-md-12 mt-5">
@@ -142,7 +145,7 @@ page_name: courses
                   </div>
                   <div class="col-md-6">
                     <div class="card" style="width: 18rem;">
-                      <img src="{{ site.image_base_url }}/img/blog/volunteer.jpg" class="card-img-top" alt="...">
+                      <img src="{{ site.image_base_url }}/img/structured-content.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Complex Element: Card</h5>
                         <p class="card-text">
@@ -228,7 +231,7 @@ page_name: courses
                   <div class="col-md-12">
                     <div class="row">
                       <div class="col-md-4">
-                        <img src="{{ site.image_base_url }}/img/blog/volunteer.jpg" class="img-fluid rounded">
+                        <img src="{{ site.image_base_url }}/img/structured-content.jpg" class="img-fluid rounded">
                         <h5 class="mt-2">Image</h5>
                       </div>
                       <div class="col-md-4">
@@ -290,7 +293,7 @@ page_name: courses
                         </p>
                       </div>
                       <div class="col-md-4">
-                        <img src="{{ site.image_base_url }}/img/profile.jpg" class="img-fluid profile-img rounded-circle p-1" alt="loading ..." />
+                        <img src="{{ site.image_base_url }}/img/mentorship.png" class="img-fluid profile-img rounded-circle p-1" alt="loading ..." />
                       </div>
                     </div>
                   </div>
@@ -363,6 +366,12 @@ page_name: courses
         <div class="row features">
           {% include features-embed.html %}
         </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <a href="/bootcamps/" class="btn btn-primary" role="button">All Bootcamps</a>
       </div>
     </div>
   </div>
