@@ -1,5 +1,5 @@
-<div class="alert{% if include.type == 'success' %} alert-success{% else %} alert-primary{% endif %}" role="alert">
-  <span class="{{ include.class }}">
+<div class="alert{% if include.type == 'success' %} alert-success{% else %} alert-primary{% endif %} {{ include.class }}" role="alert">
+  <span>
     {{ include.text }}
   </span>
   {% if include.source %}
