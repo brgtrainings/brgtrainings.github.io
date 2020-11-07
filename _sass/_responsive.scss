@@ -1,6 +1,18 @@
 @media (max-width: 992px) {
 }
 @media (min-width: 992px) {
+  .mw-60 {
+    max-width: 60%;
+  }
+  .mw-70 {
+    max-width: 70%;
+  }
+  .mw-80 {
+    max-width: 80%;
+  }
+  .mw-90 {
+    max-width: 90%;
+  }
   .blog-post-page .container {
     width: 65%;
   }
@@ -153,15 +165,16 @@
     .course-key-points li {
       font-size: 14px;
     }
-
   }
 
+  .bootcamps-page {
+    .container {
+      max-width: 100%;
+    }
+  }
 }
 
 @media (max-width: 500px) {
-  body .container, body .footer-section .container {
-    width: 95%;
-  }
   .display-non-mb {
     display: none;
   }
@@ -237,7 +250,7 @@
   }
   .contact-section, .subscribe-section {
     .container {
-      width: 95%;
+      width: 98%;
     }
   }
   .subscribe-section .contact-info h2 {

@@ -462,3 +462,48 @@ header.default_header {
     height: 10rem;
   }
 }
+
+// Bootcamp
+.bootcamps-page {
+  .container {
+    max-width: 60%;
+  }
+  line-height: 30px;
+  ul li {
+    color: #666;
+  }
+  ul li ul li {
+    font-size: 16px;
+  }
+  .accordion {
+    .fa {
+      margin-right: 0.5rem;
+      font-size: 1.3rem;
+    }
+    .card-header {
+      .btn-link {
+        text-decoration: none;
+        color: #333;
+      }
+      .btn:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    .card-body {
+      padding: 1.5rem 1rem 1.5rem 0;
+
+      ul {
+        margin-bottom: 0;
+      }
+
+      p {
+        margin-left: 1rem;
+        margin-bottom: 0;
+        background: #efefef;
+        margin-top: 1rem;
+        padding: 5px 10px;
+      }
+    }
+  }
+}
