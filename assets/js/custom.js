@@ -38,7 +38,7 @@ $(function(){
 
   // rendering youtube video in the Modal
   var $videoSrc;
-  $(".trainings .video-btn").click(function () {
+  $(".youtube-video-btn").click(function () {
     $videoSrc = $(this).data("src");
   });
   // when the modal is opened autoplay it

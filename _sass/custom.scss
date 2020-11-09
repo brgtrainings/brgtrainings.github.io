@@ -316,6 +316,38 @@ textarea {
   border-radius: 5px;
 }
 
+#youtubeVideoModal {
+  top: 2%;
+  .modal-dialog {
+    max-width: 70%;
+  }
+
+  .modal-content {
+    background-color: transparent;
+    border: none;
+
+    .modal-header {
+      border-bottom: none;
+      padding: 0 1em;
+
+      img {
+        height: 40px;
+        width: auto;
+      }
+
+      .close {
+        color: #fff;
+        padding: 0 0.5em;
+        font-size: 60px;
+      }
+    }
+  }
+}
+
+.youtube-video-btn:focus {
+  box-shadow: none;
+}
+
 @import "docsy-jekyll";
 @import "syntax-highlighting";
 @import "animate.min";
