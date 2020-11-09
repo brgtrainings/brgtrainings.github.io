@@ -510,12 +510,17 @@ header.default_header {
     h4 {
       font-weight: 300;
     }
-    .card {
+    .section-card {
       margin-top: 1.5rem;
 
       ul {
         margin-bottom: 0;
       }
+    }
+  }
+  table {
+    tr:nth-child(even) {
+      background-color: rgba(0,0,0,0.02);
     }
   }
 }
