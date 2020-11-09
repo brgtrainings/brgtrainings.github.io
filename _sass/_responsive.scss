@@ -171,6 +171,13 @@
     .container {
       max-width: 100%;
     }
+    .section-wrapper {
+      .section-card {
+        ul {
+          padding-left: 1.5rem;
+        }
+      }
+    }
   }
 }
 
