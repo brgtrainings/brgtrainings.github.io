@@ -506,4 +506,16 @@ header.default_header {
       }
     }
   }
+  .section-wrapper {
+    h4 {
+      font-weight: 300;
+    }
+    .card {
+      margin-top: 1.5rem;
+
+      ul {
+        margin-bottom: 0;
+      }
+    }
+  }
 }

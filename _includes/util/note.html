@@ -19,7 +19,7 @@
             <i class="fa icon-note" title="Note"></i>
           {% endif %}
         </td>
-        <td class="content {{ include.type }}">
+        <td class="content {{ include.type }} {{ include.class }}">
           {{ include.note }}
           {% if include.source %}
             <a href="{{ include.source }}" target="_blank">{% if include.source_label %}{{ include.source_label }}{% else %}(source){% endif %}</a>
