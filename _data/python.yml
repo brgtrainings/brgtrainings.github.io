@@ -1,0 +1,67 @@
+- title: Python Basics
+  url: python
+  links:
+    - title: Section One
+      url: python/section-one
+      children:
+        - title: Getting Started
+          url: python/section-one/getting-started
+        - title: Introduction
+          url: python/section-one/intro
+        - title: History
+          url: python/section-one/history
+        - title: Features of Python
+          url: python/section-one/features
+        - title: Hello World
+          url: python/section-one/hello-world
+        - title: Interactive Python
+          url: python/section-one/repl
+    - title: Section Two
+      url: python/section-two
+      children:
+        - title: Data Types
+          url: python/section-two/datatypes
+        - title: Variables and Constants
+          url: python/section-two/variables-constants
+        - title: Operators
+          url: python/section-two/operators
+        - title: Control Flow
+          url: python/section-two/control-flow
+        - title: Getting Input
+          url: python/section-two/getting-input
+        - title: Function
+          url: python/section-two/function
+        - title: Function Argument
+          url: python/section-two/function-args
+        - title: Scope
+          url: python/section-two/scope
+        - title: Naming Conventions
+          url: python/section-two/naming-conventions
+        - title: Command Line Arguments
+          url: python/section-two/cmd-args
+    # - title: Section Three
+    #   url: python/section-three
+    #   children:
+    #     - title: Class and Object
+    #       url: python/section-three/class-object
+    #     - title: Module
+    #       url: python/section-three/module
+    #     - title: Package
+    #       url: python/section-three/package
+    #     - title: File Handling
+    #       url: python/section-three/file-handling
+    #     - title: Exceptions
+    #       url: python/section-three/exceptions
+    #     - title: Advanced Data Structures
+    #       url: python/section-three/adv-data-structures
+    # - title: Section Four
+    #   url: python/section-four
+    #   children:
+    #     - title: Style Guide
+    #       url: python/section-four/style-guide
+    #     - title: Standard Library
+    #       url: python/section-four/std-lib
+    #     - title: Python Package Index
+    #       url: python/section-four/package-index
+    #     - title: Popular Python Packages
+    #       url: python/section-four/popular-packages

@@ -2,36 +2,24 @@
 layout: course
 title: Section One
 date: 15th April, 2020 1:00:00
-course: ruby
+course: python
 type: section
-description: Section One - getting familiar with language
-permalink: /ruby/section-one/
+description: Section Two - learning building blocks
+permalink: /python/section-two/
+prev_section: /python/section-one/
 disable_toc: true
 ---
 
-# Welcome to Section One
+### Congratulations on the completion of section one.
 
-{% include util/note.html
-    note="In this phase, we will try to get familiar with the language."
-%}
-
-__Hello!__
-
-Say _Hi_ to Ruby.
-
-In this section, you will be getting yourself familiar with the Ruby language.
-
-Ruby is a dynamic, object-oriented, general-purpose and open-source programming language. It is a very
-simple, developer friendly and easy to use programming language.
-
-#### Have a wonderful journey in learning Ruby.
+# Welcome to Section Two (learning building blocks)
 
 <div class="section-index">
   <hr class="panel-line">
 
   <div class="container-fluid">
     <div class="row">
-    {% for section_hash in site.data.ruby %}
+    {% for section_hash in site.data.python %}
       {% for section in section_hash.links %}
         {% for sub_section in section.children %}
           {% assign section_link = page.permalink | replace_first: "/", "" %}

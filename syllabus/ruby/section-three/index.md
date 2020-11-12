@@ -29,7 +29,7 @@ disable_toc: true
           {% for sub_section in section.children %}
             {% assign section_link = page.permalink | replace_first: "/", "" %}
             {% if sub_section.url contains section_link %}
-              <div class="col-lg-4 col-md-6">
+              <div class="col-md-6">
                 {% include course/topic-card.html
                             topic=sub_section index=forloop.index %}
               </div>
