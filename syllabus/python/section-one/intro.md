@@ -19,7 +19,7 @@ comments: true
 {% include util/quote-with-pic.html
     quote="Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too little and expressiveness is endangered."
     quote_by="Guido van Rossum"
-    pic="profiles/python.png"
+    pic="courses/python/guido.png"
 %}
 
 Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
@@ -53,9 +53,9 @@ domain-specific programming language is one designed to be used within a specifi
 Python is dynamically-typed language. That means the type (for example- int, double, long etc) for a variable is
 decided at run time not in advance. Because of this feature we don’t need to specify the type of variable.
 
-More brief detail can be found in {% include util/rel-link.html title="Feature's section." link="toc/section-one/features#dynamically-typed-language" %}
+More brief detail can be found in [Feature's section.](/python/section-one/features#dynamically-typed-language)
 
-#### Garbage Collected
+### Garbage Collected
 
 In computer science, garbage collection (GC) is a form of automatic memory management. The garbage collector, or
 just collector, attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the

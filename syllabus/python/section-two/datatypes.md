@@ -95,96 +95,96 @@ Python has the following built-in sequence data types:
 
 ### String
 
-  A string value is a collection of one or more characters put in single, double or triple quotes.
+A string value is a collection of one or more characters put in single, double or triple quotes.
 
-  ```shell
-  >>> print("Hello Python")
-  Hello Python
-  >>> print('Hello Python')
-  Hello Python
-  >>> print("""Hello Python""")
-  Hello Python
-  >>> print("""
-  ... This is a multi-line string
-  ... and I can add as many lines.
-  ... It is perfect for writing
-  ... documentation in the file.
-  ... """)
+```shell
+>>> print("Hello Python")
+Hello Python
+>>> print('Hello Python')
+Hello Python
+>>> print("""Hello Python""")
+Hello Python
+>>> print("""
+... This is a multi-line string
+... and I can add as many lines.
+... It is perfect for writing
+... documentation in the file.
+... """)
 
-  This is a multi-line string
-  and I can add as many lines.
-  It is perfect for writing
-  documentation in the file.
+This is a multi-line string
+and I can add as many lines.
+It is perfect for writing
+documentation in the file.
 
-  ```
+```
 
 ### List
 
-  A list object is an __*ordered*__ collection of one or more data items, not necessarily of the same type,
-  put in square brackets. The list is mutable object in Python as we can change its value.
+A list object is an __*ordered*__ collection of one or more data items, not necessarily of the same type,
+put in square brackets. The list is mutable object in Python as we can change its value.
 
-  ```shell
-  >>> languages = ['C', 'C++', 'Python', 'Ruby']
-  >>> print(languages)
-  ['C', 'C++', 'Python', 'Ruby']
-  >>> datatypes = [10, 10.5, 'String', True, [1, 2, 3]]
-  >>> print(datatypes)
-  [10, 10.5, 'String', True, [1, 2, 3]]
+```shell
+>>> languages = ['C', 'C++', 'Python', 'Ruby']
+>>> print(languages)
+['C', 'C++', 'Python', 'Ruby']
+>>> datatypes = [10, 10.5, 'String', True, [1, 2, 3]]
+>>> print(datatypes)
+[10, 10.5, 'String', True, [1, 2, 3]]
 
-  # changing value in languages list
-  >>> languages[0]
-  'C'
-  >>> languages[0] = 'Java'
-  >>> print(languages)
-  ['Java', 'C++', 'Python', 'Ruby']
-  ```
+# changing value in languages list
+>>> languages[0]
+'C'
+>>> languages[0] = 'Java'
+>>> print(languages)
+['Java', 'C++', 'Python', 'Ruby']
+```
 
 ### Tuple
 
-  A Tuple object is an __*ordered*__ collection of one or more data items, not necessarily of the same
-  type, put in parentheses. The tuple is immutable object in Python since we can not change its value once defined.
+A Tuple object is an __*ordered*__ collection of one or more data items, not necessarily of the same
+type, put in parentheses. The tuple is immutable object in Python since we can not change its value once defined.
 
-  ```shell
-  >>> languages = ('C', 'C++', 'Python', 'Ruby')
-  >>> print(languages)
-  ('C', 'C++', 'Python', 'Ruby')
+```shell
+>>> languages = ('C', 'C++', 'Python', 'Ruby')
+>>> print(languages)
+('C', 'C++', 'Python', 'Ruby')
 
-  # changing value in languages tuple
-  >>> languages[0]
-  'C'
-  >>> languages[0] = 'Java'
-  Traceback (most recent call last):
-    File "<stdin>", line 1, in <module>
-  TypeError: 'tuple' object does not support item assignment
-  ```
+# changing value in languages tuple
+>>> languages[0]
+'C'
+>>> languages[0] = 'Java'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+```
 
 ### Set
 
-  A set is an __*unordered*__ collection of objects in Python. Every element in set is unique (no duplicates) and
-  immutable (cannot be changed). However, a set itself is mutable i.e we can add or remove items to or from it.
+A set is an __*unordered*__ collection of objects in Python. Every element in set is unique (no duplicates) and
+immutable (cannot be changed). However, a set itself is mutable i.e we can add or remove items to or from it.
 
-  The Python set is implemented as similar to the set in Mathematics.
-  A set object has suitable methods to perform mathematical set operations like union, intersection, difference, etc.
+The Python set is implemented as similar to the set in Mathematics.
+A set object has suitable methods to perform mathematical set operations like union, intersection, difference, etc.
 
-  A set object contains one or more items, not necessarily of the same type, which are separated by comma and
-  enclosed in curly brackets `{...}`.
+A set object contains one or more items, not necessarily of the same type, which are separated by comma and
+enclosed in curly brackets `{...}`.
 
-  ```shell
-  >>> set = { 'C', 1972, 'Bell Labs', 'Dennis Ritchie' }
-  >>> set
-  {'Dennis Ritchie', 1972, 'C', 'Bell Labs'} # order of items changed
+```shell
+>>> set = { 'C', 1972, 'Bell Labs', 'Dennis Ritchie' }
+>>> set
+{'Dennis Ritchie', 1972, 'C', 'Bell Labs'} # order of items changed
 
-  >>> numbers = { 1, 5, 2, 5, 3, 5, 4, 5 }
-  >>> numbers
-  {1, 2, 3, 4, 5} # no duplicates
+>>> numbers = { 1, 5, 2, 5, 3, 5, 4, 5 }
+>>> numbers
+{1, 2, 3, 4, 5} # no duplicates
 
-  >>> numbers.add('100')
-  >>> numbers
-  {1, 2, 3, 4, 5, '100'}
-  >>> numbers.clear()
-  >>> numbers
-  set()
-  ```
+>>> numbers.add('100')
+>>> numbers
+{1, 2, 3, 4, 5, '100'}
+>>> numbers.clear()
+>>> numbers
+set()
+```
 
 ## Dictionary
 
