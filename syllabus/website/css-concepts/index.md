@@ -4,12 +4,12 @@ course: website
 title: CSS Basics
 date: 12th Nov, 2020 1:00:00
 type: section
-description: Section One - CSS Basics
-permalink: /website/section-two/
+description: CSS Concepts
+permalink: /website/css-concepts/
 disable_toc: true
 ---
 
-# Welcome to CSS Basics
+# Welcome to CSS Concepts
 
 {% include util/note.html
     note="In this section, we will try to get familiar with CSS basics which helps in styling the web pages."

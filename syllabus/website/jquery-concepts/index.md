@@ -1,21 +1,21 @@
 ---
 layout: course
 course: website
-title: JavaScript Basics
+title: jQuery Basics
 date: 12th Nov, 2020 1:00:00
 type: section
-description: Section Two - JavaScript Basics
-permalink: /website/section-three/
+description: jQuery Concepts
+permalink: /website/jquery-concepts/
 disable_toc: true
 ---
 
-# Welcome to JavaScript Basics
+# Welcome to jQuery Concepts
 
 {% include util/note.html
-    note="In this section, we will try to get familiar with JavaScript basics which controls the behavior in the web pages."
+    note="In this section, we will try to get familiar with jQuery basics which assists JavaScript and help us in writing behavior faster and efficiently."
 %}
 
-#### Have a wonderful journey in learning JavaScript.
+#### Have a wonderful journey in learning jQuery.
 
 <div class="section-index">
   <hr class="panel-line">

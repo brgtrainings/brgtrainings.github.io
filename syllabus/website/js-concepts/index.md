@@ -1,21 +1,21 @@
 ---
 layout: course
 course: website
-title: HTML Basics
+title: JavaScript Concepts
 date: 12th Nov, 2020 1:00:00
 type: section
-description: Section One - HTML Concepts
-permalink: /website/section-one/
+description: JavaScript Concepts
+permalink: /website/js-concepts/
 disable_toc: true
 ---
 
-# Welcome to HTML Concepts
+# Welcome to JavaScript Concepts
 
 {% include util/note.html
-    note="In this section, we will try to get familiar with HTML concepts which helps in structuring the web pages."
+    note="In this section, we will try to get familiar with JavaScript basics which controls the behavior in the web pages."
 %}
 
-#### Have a wonderful journey in learning HTML.
+#### Have a wonderful journey in learning JavaScript.
 
 <div class="section-index">
   <hr class="panel-line">

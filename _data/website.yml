@@ -3,27 +3,27 @@
   links:
     - title: HTML Concepts
       description: HTML Concepts
-      url: website/section-one
+      url: website/html-concepts
       children:
         - title: Getting Started
-          url: website/section-one/getting-started
+          url: website/html-concepts/getting-started
         - title: Hello World
-          url: website/section-one/hello-world
+          url: website/html-concepts/hello-world
     - title: CSS Concepts
       description: CSS Concepts
-      url: website/section-two
+      url: website/css-concepts
       children:
         - title: Getting Started
-          url: website/section-two/getting-started
+          url: website/css-concepts/getting-started
     - title: JavaScript Concepts
       description: JavaScript Concepts
-      url: website/section-three
+      url: website/js-concepts
       children:
         - title: Getting Started
-          url: website/section-three/getting-started
+          url: website/js-concepts/getting-started
     - title: jQuery Concepts
       description: jQuery Concepts
-      url: website/section-four
+      url: website/jquery-concepts
       children:
         - title: Getting Started
-          url: website/section-four/getting-started
+          url: website/jquery-concepts/getting-started
