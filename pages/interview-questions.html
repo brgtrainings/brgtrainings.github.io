@@ -1,0 +1,25 @@
+---
+layout: default
+title: Interview Questions
+permalink: /interview-questions/
+page_name: interview-questions
+---
+
+<!-- Interview Question list -->
+<div id="interviews" class="interview-questions py-6">
+  <h1 class="text-center mb-4">Interview Questions</h1>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      {% assign interviews = site.interview-questions | reverse %}
+      {% for interview in interviews %}
+        <div class="card col-md-2 text-center border-0">
+          <img src="/assets/img/{{ interview.thumbnail }}" class="card-img-top mx-auto pt-3" alt="{{ interview.title }}">
+          <div class="card-body">
+            <a href="{{ interview.url }}" class="btn btn-sm btn-primary">View Questions</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

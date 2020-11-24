@@ -18,7 +18,7 @@
         <!-- <li class="nav-item ml-3{% if page.page_name == 'about' %} active{% endif %}">
           <a class="nav-link" href="/about/">About</a>
         </li> -->
-        <li class="nav-item ml-3{% if page.layout == 'tutorial' and page.collection != 'getting_tastes' %} active{% endif %}">
+        <li class="nav-item ml-3{% if page.layout == 'tutorial' and page.page_id == nil %} active{% endif %}">
           {% include tutorials-nav-items.html %}
         </li>
         <li class="nav-item ml-3{% if page.layout == 'course' or page.layout == 'syllabus_page' %} active{% endif %}">
