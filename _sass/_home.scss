@@ -524,3 +524,82 @@ header.default_header {
     }
   }
 }
+
+.mentors-and-teachers {
+  .teacher-area {
+    background-color: ghostwhite;
+  }
+  .teacher-area {
+    padding: 1.5em;
+    margin-bottom: 2em;
+  }
+  .teacher-area .current-role {
+    background: black;
+    color: white;
+    padding: 1em;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+  }
+  .teacher-area .teacher-pic {
+    background: #e6e6e6;
+    text-align: center;
+    padding: 1em;
+
+    .team-img {
+      display: inline-block;
+      border-radius: 50%;
+      text-decoration: none;
+      z-index: 1;
+      transition: .5s all;
+      width: 120px;
+      height: 120px;
+    }
+  }
+  .social-icons {
+    margin-top: 0.5em;
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        margin: 0 0.5em;
+
+        a {
+          color: #333;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .about-right {
+    padding: 0em 0em 2em 1em;
+
+    ul li {
+      list-style: none;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: block;
+      margin-top: 1em;
+      color: #777;
+
+      span {
+        display: inline-block;
+        padding-right: 10px;
+        color: #00b6e3;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .upcoming-teachers {
+    img {
+      width: 150px;
+      height: 150px;
+      margin: auto;
+    }
+  }
+}
