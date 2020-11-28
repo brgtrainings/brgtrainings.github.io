@@ -1,5 +1,6 @@
 ---
 layout: tutorial
+tutorial: true
 title: Getting tastes of HTML5
 date: 25th August, 2020 02:00:00
 tags:
