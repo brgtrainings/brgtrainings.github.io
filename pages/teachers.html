@@ -30,18 +30,26 @@ thumbnail: mentors-and-teachers.png
               </div>
               <div class="card-footer social-icons">
                 <ul class="text-center">
+                  {% if teacher.socials.website %}
                   <li>
                     <a href="{{ teacher.socials.website }}" target="_blank"><span class="fas fa-link"></span></a>
                   </li>
+                  {% endif %}
+                  {% if teacher.socials.twitter %}
                   <li>
                     <a href="https://twitter.com/{{ teacher.socials.twitter }}" target="_blank"><span class="fab fa-twitter"></span></a>
                   </li>
+                  {% endif %}
+                  {% if teacher.socials.facebook %}
                   <li>
                     <a href="https://www.facebook.com/{{ teacher.socials.facebook }}" target="_blank"><span class="fab fa-facebook-f"></span></a>
                   </li>
+                  {% endif %}
+                  {% if teacher.socials.linkedin %}
                   <li>
                     <a href="https://www.linkedin.com/in/{{ teacher.socials.linkedin }}/" target="_blank"><span class="fab fa-linkedin-in"></span></a>
                   </li>
+                  {% endif %}
                 </ul>
               </div>
             </div>
