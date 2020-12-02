@@ -9,6 +9,8 @@
           url: website/intro/bootcamp-arch
         - title: How web works
           url: website/intro/how-web-works
+        - title: Professional website and its features
+          url: website/intro/pro-website
         - title: Intro of HTML, CSS and JavaScript
           url: website/intro/html-css-js
         - title: Setup developer environment
