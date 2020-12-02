@@ -1,37 +1,41 @@
 - title: Website Development
   url: website
   links:
-    - title: Website Building
-      description: Step by step Website Building
-      url: website/building
+    - title: Introduction
+      description: Introduction of Web and dev environment
+      url: website/intro
       children:
-        - title: Setup Developer Environment
-          url: website/building/setup-dev-environment
-        - title: Hello World
-          url: website/building/hello-world
-    - title: HTML Concepts
-      description: HTML Concepts
-      url: website/html-concepts
-      children:
-        - title: Getting Started
-          url: website/html-concepts/getting-started
-        - title: Hello World
-          url: website/html-concepts/hello-world
-    - title: CSS Concepts
-      description: CSS Concepts
-      url: website/css-concepts
-      children:
-        - title: Getting Started
-          url: website/css-concepts/getting-started
-    - title: JavaScript Concepts
-      description: JavaScript Concepts
-      url: website/js-concepts
-      children:
-        - title: Getting Started
-          url: website/js-concepts/getting-started
-    - title: jQuery Concepts
-      description: jQuery Concepts
-      url: website/jquery-concepts
-      children:
-        - title: Getting Started
-          url: website/jquery-concepts/getting-started
+        - title: Bootcamp Architecture
+          url: website/intro/bootcamp-arch
+        - title: How web works
+          url: website/intro/how-web-works
+        - title: Intro of HTML, CSS and JavaScript
+          url: website/intro/html-css-js
+        - title: Setup developer environment
+          url: website/intro/setup-dev-environment
+    # - title: HTML Concepts
+    #   description: HTML Concepts
+    #   url: website/html-concepts
+    #   children:
+    #     - title: Getting Started
+    #       url: website/html-concepts/getting-started
+    #     - title: Internet First web page
+    #       url: website/html-concepts/first-web-page
+    # - title: CSS Concepts
+    #   description: CSS Concepts
+    #   url: website/css-concepts
+    #   children:
+    #     - title: Getting Started
+    #       url: website/css-concepts/getting-started
+    # - title: JavaScript Concepts
+    #   description: JavaScript Concepts
+    #   url: website/js-concepts
+    #   children:
+    #     - title: Getting Started
+    #       url: website/js-concepts/getting-started
+    # - title: jQuery Concepts
+    #   description: jQuery Concepts
+    #   url: website/jquery-concepts
+    #   children:
+    #     - title: Getting Started
+    #       url: website/jquery-concepts/getting-started
