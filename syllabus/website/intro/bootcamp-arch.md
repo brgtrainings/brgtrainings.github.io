@@ -10,13 +10,12 @@ next_link: /website/intro/how-web-works/
 prev_link: /website/intro/
 ---
 
-# Bootcamp Archtiecture
+# Bootcamp Architecture
 
-In this page, you will get the basic knowledge of what happens when you view a web page in a web browser on your computer, phone or any other devices.
+In this page, you will get to know about the bootcamp architecture, its workflow
+and other important details.
 
 {% include util/embed-youtube.html id="tSf6xb2qhXo" %}
-
-
 # Points to remember
 
 - __Duration:__ 2 months, 8 weeks, 2 sessions/week
