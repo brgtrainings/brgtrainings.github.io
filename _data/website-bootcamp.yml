@@ -1,0 +1,46 @@
+week_01:
+  - description: How web or internet works
+    video: IqDF3yvbXeE
+  - description: Professional website and its features
+    video: J7LSFfFud2g
+  - description: Setting up Editor and its extension
+    video: Bow1zSgCp6E
+  - description: HTML page structure
+    video: DVKTTNMHL9s
+  - description: HTML Meta tags
+    video: JRvlHfAukyA
+  - description: Comments and Text formatting
+    video: l50DKtcnshU
+  - description: Headings, para, pre and code
+    video: SJ1NxJvRRe4
+  - description: Style and Colors
+    video: w4RXFRoRUB4
+  - description: Link and image
+    video: -WXyQtliR_A
+  - description: List and Table
+    video: VnhQDwKTwOc
+  - description: Inline and Block
+    video: F0B2t4Jh-3I
+  - description: ID and Class
+    video: YUHls0D2E80
+  - description: HTML5 and Semantic Tags
+    video: ziwJwOzUxqY
+week_01_assignments:
+  - description: HTML to HTML5
+    url: https://codepen.io/coolbrg/pen/dypZOOr
+week_02:
+  - description: Inline and block elements
+    video: lGXsGR9CQ7g
+  - description: CSS Units
+    video: A3fFxHPn6y8
+  - description: HTML Elements Positioning
+    video: WB3zQrvh3qM
+week_02_assignments:
+  - description: Sign Up form styling
+    url: https://codepen.io/coolbrg/pen/MWjObor
+  - description: Contact form
+    url: https://codepen.io/coolbrg/pen/wvzPoqz
+  - description: Bootstrap 4 like buttons
+    url: https://codepen.io/coolbrg/pen/KKgyNvv
+  - description: Navbar and Banner
+    url: https://codepen.io/coolbrg/pen/bGwYgdY
