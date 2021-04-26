@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light{% if page.page_name != 'home' %} fixed-top{% endif %}">
+<nav class="navbar navbar-expand-lg navbar-light shadow fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="/">
-      <span class="title font-weight-bold">{{ site.title }}</span>
-  	</a>
+    <a href="/" class="brand"><img src="{{ site.image_base_url }}/img/logo.png" alt="{{ site.title }}">
+      <span>{{ site.title }}</span>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
@@ -12,26 +12,23 @@
         <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
           <a class="nav-link" href="/">Home</a>
         </li>
-        <li class="nav-item{% if page.page_name == 'bootcamps' %} active{% endif %}">
-          <a class="nav-link" href="/bootcamps/">Coding Bootcamps</a>
-        </li>
         <!-- <li class="nav-item ml-3{% if page.page_name == 'about' %} active{% endif %}">
           <a class="nav-link" href="/about/">About</a>
         </li> -->
-        <li class="nav-item ml-3{% if page.layout == 'tutorial' and page.collection != 'getting_tastes' %} active{% endif %}">
+        <li class="nav-item {% if page.layout == 'tutorial' and page.collection != 'getting_tastes' %} active{% endif %}">
           {% include tutorials-nav-items.html %}
         </li>
-        <li class="nav-item ml-3{% if page.layout == 'course' or page.layout == 'syllabus_page' %} active{% endif %}">
+        <li class="nav-item {% if page.layout == 'course' or page.layout == 'syllabus_page' %} active{% endif %}">
           {% include courses-nav-items.html %}
         </li>
-        <li class="nav-item ml-3{% if page.page_name == 'projects' %} active{% endif %}">
+        <li class="nav-item {% if page.page_name == 'projects' %} active{% endif %}">
           <a class="nav-link" href="/projects/">Learn via Projects</a>
         </li>
-        <!-- <li class="nav-item ml-3{% if page.page_name == 'exercises' %} active{% endif %}">
+        <!-- <li class="nav-item {% if page.page_name == 'exercises' %} active{% endif %}">
           <a class="nav-link" href="/exercises/">Exercises</a>
         </li> -->
 
-        <li class="nav-item ml-3{% if page.page_name == 'others' %} active{% endif %}">
+        <li class="nav-item {% if page.page_name == 'others' %} active{% endif %}">
           <div class="dropdown">
             <a class="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Others
@@ -46,7 +43,7 @@
             </div>
           </div>
         </li>
-        <!-- <li class="nav-item ml-3{% if page.page_name == 'blogs' %} active{% endif %}">
+        <!-- <li class="nav-item{% if page.page_name == 'blogs' %} active{% endif %}">
           <a class="nav-link" href="/blogs/">Blogs</a>
         </li> -->
       </ul>

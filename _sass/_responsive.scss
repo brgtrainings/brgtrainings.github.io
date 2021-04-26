@@ -42,11 +42,12 @@
 }
 
 @media (max-width: 768px) {
-  .navbar-toggler {
-    border-color: #eee !important;
+  .navbar .navbar-toggler {
+    border-color: #333 !important;
+    padding: 0.5rem 0.8rem;
 
     .fa-bars {
-      color: #eee;
+      color: #333;
     }
   }
   .navbar-nav {
@@ -58,6 +59,16 @@
   }
   .navbar-brand {
     font-size: 35px;
+  }
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link, .navbar .navbar-nav .nav-item:hover .nav-link {
+    background-color: transparent;
+    color: #333;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0.8rem 1rem;
   }
 
   .banner-section {
