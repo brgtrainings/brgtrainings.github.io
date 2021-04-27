@@ -1,8 +1,10 @@
 /*Custom JavaScript*/
 $(function(){
   // lazy load images
-  const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-  observer.observe();
+  if(location.pathname != '/workshop-template') {
+    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
+  }
 
   // Activate wow.js
   new WOW().init();
