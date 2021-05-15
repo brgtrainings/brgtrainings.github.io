@@ -3,7 +3,7 @@
 }
 
 header.home_header {
-  margin-top: 60px;
+  margin-top: 55px;
   background: linear-gradient(180deg, $color4, $color3);
   height: 600px;
 }
@@ -49,57 +49,6 @@ header.home_header {
     border: 1px solid #777;
     font-size: 20px;
     padding: 0.125rem 0.25rem;
-  }
-}
-// .navbar {
-//   padding: 0.5rem;
-//   background: transparent;
-
-//   .navbar-nav .active >.nav-link {
-//     color: $color1;
-//     font-weight: 600;
-//   }
-
-//   .navbar-brand {
-//     .title {
-//       color: $color1;
-//       line-height: 1;
-//       font-size: 30px;
-//       font-weight: bold;
-//     }
-//   }
-// }
-// .navbar-nav .nav-item .nav-link {
-//   color: #eee !important;
-// }
-// .navbar-nav .nav-item .nav-link:hover {
-//   font-weight: 600;
-// }
-// .navbar-nav .nav-item.active .nav-link {
-//   border-bottom: 1px solid #fff;
-//   font-weight: 600;
-// }
-// .navbar-nav {
-//   margin-left: 30%;
-// }
-
-.navbar.ruby-course {
-  background-color: #a61717;
-  color: #fff;
-
-  .navbar-brand .title {
-    color: #fff;
-  }
-  .navbar-nav .nav-item .nav-link {
-    color: #eee;
-
-    &:hover {
-      font-weight: 600;
-    }
-  }
-  .navbar-nav .nav-item.active .nav-link {
-    border-bottom: 1px solid #eee;
-    font-weight: 800;
   }
 }
 

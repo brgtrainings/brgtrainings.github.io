@@ -10,12 +10,12 @@ $site-color: #555;
 html, body {
   height: 100%;
 }
-
 body {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 15.5px;
+}
+main {
   line-height: 30px;
-  scroll-behavior: smooth;
 }
 code, kbd, pre, samp {
   font-family: 'Inconsolata', SFMono-Regular,Menlo,Monaco,Consolas,monospace;
