@@ -50,7 +50,7 @@ hello("Ruby")   # output: Hello, Ruby
 
 ## Default parameters
 
-Ruby method can have default parameter. This parameter is used when call the method without passing any argument.
+Ruby method can have default parameter. This parameter is used when we call the method without passing any argument.
 
 ```ruby
 def hello(name='Foo')
@@ -82,7 +82,7 @@ def add(num1, num2)
   num1 + num2     # no need of 'return' keyword
 end
 
-add(10, 5)  # output: 15
+puts add(10, 5)  # output: 15
 ```
 
 ## Multiple Return values
